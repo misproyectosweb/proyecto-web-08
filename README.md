@@ -35,9 +35,9 @@ El menú principal consta de cinco opciones:
 Para el formulario de contacto se programaron validaciones tanto del lado del cliente, implementando mensajes personalizados con clases integradas en Bootstrap, los cuales brindan acceso a las API de validación de formularios en JavaScript como validaciones del lado del servidor programadas con el lenguaje de programación **PHP.**
 
 Para enviar la información del usuario a través del formulario de contacto se utiliza una herramienta  llamada **PHPMailer.** Esta es una biblioteca de código abierto para enviar correos electrónicos de forma segura y sencilla a través de código PHP desde un servidor web. Además está basada en el componente active server ASPMail y permite de una forma sencilla tareas complejas como por ejemplo:
-    - Enviar mensajes de correo con ficheros adjuntos (attachments) 
-    - Enviar mensajes de correo en formato HTML 
-    - Enviar emails vía sendmail, PHP mail(), o con SMTP.
+- Enviar mensajes de correo con ficheros adjuntos (attachments) 
+- Enviar mensajes de correo en formato HTML 
+- Enviar emails vía sendmail, PHP mail(), o con SMTP.
 
 Finalmente, se utiliza una librería JavaScript llamada **SweetAlert2** para mostrar al usuario mensajes personalizados que le van a indicar si los datos digitados por el cliente en el formulario fueron enviados al buzón de correo del taller de forma  correcta o incorrecta.
 
