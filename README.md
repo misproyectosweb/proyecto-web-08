@@ -1,4 +1,4 @@
-# Proyecto-web-08
+# Proyecto Web 08
 Sitio web que muestra y describe información de los servicios de un taller de servicio automotriz
 
 Sitio web creado con las siguientes herramientas a nivel de front-end y back-end:
@@ -14,8 +14,8 @@ Este sitio web fue creado y desarrollado usando la plataforma **NetBeans 12.0.**
 El archivo **index.php** es el que contiene la página de inicio o página principal del sitio web
 
 El sitio web en su totalidad consta de varias secciones: 
-1.	Un encabezado: donde se muestra el logotipo de la organización y algunos datos de referencia para contacto
-2.	Un menú de navegación: el cual contiene el menú de opciones de servicios y otras características de la empresa
+**1.**	Un encabezado: donde se muestra el logotipo de la organización y algunos datos de referencia para contacto
+**2.**	Un menú de navegación: el cual contiene el menú de opciones de servicios y otras características de la empresa
 3.	Una sección principal: el cual consta de cinco partes:
 -	La primera parte consta de una presentación del negocio a través de un carrusel de imágenes
 -	La segunda parte consta de un breve resumen que muestra las cualidades de la empresa
