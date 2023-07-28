@@ -44,7 +44,7 @@ Finalmente, se utiliza una librería JavaScript llamada **SweetAlert2** para mos
 A continuación se presentan algunas imágenes del sitio web brevemente descrito anteriormente:
 
 ![taller_automotriz_01](https://github.com/misproyectosweb/proyecto-web-08/assets/98922137/4af0fc45-0e87-4938-aa0e-8ffe0c56cd08)
-**===============================================================================**
+**====================================================================================**
 ![taller_automotriz_02](https://github.com/misproyectosweb/proyecto-web-08/assets/98922137/2871c4c6-809a-44b3-95e1-7a597d310c5f)
 **==========================================================================**
 ![taller_automotriz_03](https://github.com/misproyectosweb/proyecto-web-08/assets/98922137/8ad95828-9db4-4170-af21-4ff19b9cc2fb)
