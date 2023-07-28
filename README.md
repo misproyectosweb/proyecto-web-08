@@ -3,11 +3,11 @@ Sitio web que muestra y describe información de los servicios de un taller de s
 
 Sitio web creado con las siguientes herramientas a nivel de front-end y back-end:
 
-**HTML:**	permite crear la estructura del sitio web mediante etiquetas
-**CSS:**	para definir y crear la presentación de del sitio web
-**JavaScript:**	añade características que permite establecer acciones interactivas al sitio web
-**Bootstrap:** utilizado para personalizar el sitio web y adaptarlo a la pantalla del dispositivo usado por el usuario
-**PHP:** favorece la conexión entre los servidores y la interfaz de usuario
+- **HTML:**	permite crear la estructura del sitio web mediante etiquetas
+- **CSS:**	para definir y crear la presentación de del sitio web
+- **JavaScript:**	añade características que permite establecer acciones interactivas al sitio web
+- **Bootstrap:** utilizado para personalizar el sitio web y adaptarlo a la pantalla del dispositivo usado por el usuario
+- **PHP:** favorece la conexión entre los servidores y la interfaz de usuario
 
 Este sitio web fue creado y desarrollado usando la plataforma **NetBeans 12.0.** Además está adaptado para ejecutarse en dispositivos móviles, como teléfonos, tablets, portátiles y computadoras de escritorio.
 
