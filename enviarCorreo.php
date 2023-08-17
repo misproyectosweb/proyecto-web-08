@@ -6,8 +6,7 @@
         isset ($_POST['direccion']) && !empty($_POST['direccion']) && isset ($_POST['telcasa']) && !empty($_POST['telcasa']) &&
         isset ($_POST['telcelular']) && !empty($_POST['telcelular']) && isset ($_POST['marca']) && !empty($_POST['marca']) &&
         isset ($_POST['modelo']) && !empty($_POST['modelo']) && isset ($_POST['anio']) && !empty($_POST['anio']) &&
-        isset ($_POST['servicio']) && !empty($_POST['servicio']) && isset ($_POST['fecha_cita']) && !empty($_POST['fecha_cita']) &&
-        isset ($_POST['hora_cita']) && !empty($_POST['hora_cita']) && isset ($_POST['comentario']) && !empty($_POST['comentario']))
+        isset ($_POST['servicio']) && !empty($_POST['servicio']) && isset ($_POST['comentario']) && !empty($_POST['comentario']))
     {        
         // Se reciben los datos enviados desde el formulario
         $nombre = filter_input(INPUT_POST, 'nombre');
@@ -18,19 +17,12 @@
         $marca = filter_input(INPUT_POST, 'marca');
         $modelo = filter_input(INPUT_POST, 'modelo');
         $anio = filter_input(INPUT_POST, 'anio'); 
-        $servicios = filter_input(INPUT_POST, 'servicio');
-        $fecha_cita = filter_input(INPUT_POST, 'fecha_cita');
-        $hora_cita = filter_input(INPUT_POST, 'hora_cita');        
+        $servicios = filter_input(INPUT_POST, 'servicio');        
         $comentario = filter_input(INPUT_POST, 'comentario');
         
-        // Almacenamos en una variable los datos recibidos en el formulario, los cuales serán mostrados
-        // como contenido en el cuerpo del mensaje de correo        
-//        $mensajeCorreo = "Nombre: ".$nombre."<br>Correo: ".$correo."<br>Direccion: ".$direccion."<br>Teléfono casa: ".$telcasa."<br>Teléfono celular: ".$telcelular.
-//                         "<br>Marca: ".$marca."<br>Modelo: ".$modelo."<br>Año: ".$anio."<br>Servicios: ".$servicios."<br>Fecha cita: ".$fecha_cita."<br>Hora cita: ".$hora_cita.
-//                         "<br><br>Comentario: ".$comentario;
-        
-        $mensajeCorreo .= "Nombre: ".$nombre."<br>Correo: ".$correo."<br>Direccion: ".$direccion."<br>Teléfono casa: ".$telcasa."<br>Teléfono celular: ".$telcelular.
-                          "<br>Marca: ".$marca."<br>Modelo: ".$modelo."<br>Año: ".$anio."<br>Fecha cita: ".$fecha_cita."<br>Hora cita: ".$hora_cita."<br>";
+        // Almacenamos en una variable los datos recibidos en el formulario, los cuales serán mostrados en la cuenta de correo                
+        $mensajeCorreo = "Nombre: ".$nombre."<br>Correo: ".$correo."<br>Direccion: ".$direccion."<br>Teléfono casa: ".$telcasa."<br>Teléfono celular: ".$telcelular.
+                          "<br>Marca: ".$marca."<br>Modelo: ".$modelo."<br>Año: ".$anio."<br>";
                                  
         $mensajeCorreo .= "Servicio(s): ";
                                 
@@ -43,7 +35,7 @@
             }                
         }            
                                                 
-        $mensajeCorreo .= "<br><br>Comentario: ".$comentario;
+        $mensajeCorreo .= "<br><br>Comentario: ".$comentario."<br><br><h3><b>** Importante: contactar para programar cita de servicio **</h3></b>";
         
         // Archivo que se utiliza para llamar y cargar la librería
         require 'php/PHPMailerAutoload.php';
@@ -93,11 +85,13 @@
 
             // Se envía el mensaje
             $mail->send();
+            
+//            echo '<script>'.'location.href="index.php"'. '</script>';
 
             // Traduce cualquier elemento codificado en UTF-8 de PHP a un string JSON. Recibe lo que deseamos convertir en notación JSON
             // y devuelve una cadena de texto con el JSON producido
             // Respuesta que se obtiene si el correo se envía satisfactoriamente
-            echo json_encode('exito');
+            echo json_encode('exito');                        
             
             // Cuando el cliente envíe el mensaje, el servidor SMTP debe enviar una respuesta para indicar que se recibió el mensaje.
             // Luego, el cliente debe enviar quit para finalizar la sesión o rset para enviar otro mensaje.
