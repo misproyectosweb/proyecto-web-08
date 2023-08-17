@@ -45,7 +45,7 @@ function email(){
                 imageWidth: 300,
                 imageHeight: 130,
                 title: 'Estado del mensaje de correo',
-                text: 'Su mensaje se envió correctamente'   
+                text: 'Su mensaje se envió correctamente'                
             });                        
         }
         else {

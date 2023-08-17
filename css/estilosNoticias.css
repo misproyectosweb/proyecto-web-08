@@ -27,6 +27,7 @@ footer .py-3 { padding-top: 1rem !important; padding-bottom: 1rem !important; }
 /****************************** Media queries ******************************/
 
 @media screen and (min-width: 1424px) and (max-width: 1647.98px) {
+    
    /* Encabezado */
    header .iconHeader { font-size: 1.5rem; } 
    header p { font-size: 0.75rem; }
