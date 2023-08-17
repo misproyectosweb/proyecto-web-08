@@ -38,9 +38,7 @@
                 $marca = filter_input(INPUT_POST, 'marca');
                 $modelo = filter_input(INPUT_POST, 'modelo');
                 $anio = filter_input(INPUT_POST, 'anio');
-                $servicios = filter_input(INPUT_POST, 'servicio');
-                $fecha_cita = filter_input(INPUT_POST, 'fecha_cita');
-                $hora_cita = filter_input(INPUT_POST, 'hora_cita');        
+                $servicios = filter_input(INPUT_POST, 'servicio');                
                 $comentario = filter_input(INPUT_POST, 'comentario');
             } 
         ?>
@@ -170,11 +168,11 @@
                                     <label for="marca">Marca del vehículo:</label>
                                     <select class="form-control" id="marca" name="marca" required>
                                         <option selected disabled value="">Elija una marca</option>
-                                        <option>Marca 1</option>
-                                        <option>Marca 2</option>
-                                        <option>Marca 3</option>
-                                        <option>Marca 4</option>
-                                        <option>Marca 5</option>
+                                        <option>Toyota</option>
+                                        <option>Nissan</option>
+                                        <option>Honda</option>
+                                        <option>Mitsubishi</option>
+                                        <option>Susuki</option>
                                     </select>
                                     <div class="valid-feedback is-valid">¡OK, válido!</div>
                                     <div class="invalid-feedback is-invalid">Elige la marca de tu automóvil</div>
@@ -223,24 +221,7 @@
                                         <label class="custom-control-label" for="serv_7">Otro servicio</label>
                                     </div>
                                 </div>            
-                            </div>
-                            <div class="form-row border-dark-50 border-top pb-2 pt-3"> 
-                                <div class="col-md-12 pb-2">
-                                    <label><strong>Elija el horario de su cita:</strong></label>
-                                </div>       
-                                <div class="form-group col-md-3">
-                                    <label for="fcita">Fecha cita:</label>
-                                    <input type="date" class="form-control" id="fcita" name="fecha_cita" min="2022-01-01" max="2024-12-31" value="" required>
-                                    <div class="valid-feedback is-valid">¡OK, válido!</div>
-                                    <div class="invalid-feedback is-invalid">Seleccione la fecha de su cita</div>
-                                </div>
-                                <div class="form-group col-md-3">
-                                    <label for="hcita">Hora cita:</label>
-                                    <input type="time" class="form-control" id="hcita" name="hora_cita" min="07:30" max="17:00" value="" required>
-                                    <div class="valid-feedback is-valid">¡OK, válido!</div>
-                                    <div class="invalid-feedback is-invalid">Seleccione la hora de su cita</div>
-                                </div>
-                            </div>          
+                            </div>                                   
                             <div class="form-row border-dark-50 border-top pt-3">
                                 <div class="form-group col-md-12">
                                     <label for="comentario"><strong>Describa su solicitud de servicio o comentario adicional:</strong></label>
@@ -251,29 +232,8 @@
                             </div>
                             
 <!--                            <input type="submit" id="boton" class="btn btn-primary" name="enviar" value="Enviar datos">-->
-                            <button type="submit" id="boton" class="btn btn-primary" data-toggle="modal" data-target="#btnEnviar">Enviar mensaje</button>
-                            
-                            <!-- Mensaje de confirmación de envío de datos -->
-                            <div class="modal fade" id="btnEnviar" tabindex="-1" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
-                                    <div class="modal-content">
-                                        <div class="modal-header align-items-center">
-                                            <img src="imagenes/logotallercorreo.png" class="mr-5" width="100" alt=""/>                                                    
-                                            <h5 class="modal-title ml-3" id="txtMensaje">Estado del mensaje</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true"><i class="bi bi-x-lg"></i></span>
-                                            </button>
-                                        </div>
-                                        <div class="modal-body text-center font-weight-bold">
-                                            Su mensaje fue enviado correctamente
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-primary" data-dismiss="modal">Aceptar</button>                                                    
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
+                            <button type="submit" id="boton" class="btn btn-primary">Enviar mensaje</button>
+                                                                                    
                             <?php
                                 require 'validaciones.php';
                             ?>
@@ -502,7 +462,7 @@
         </script>
                         
         <?php
-        // put your code here
+            // put your code here
         ?>
     </body>
 </html>
