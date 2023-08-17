@@ -75,9 +75,12 @@ A continuación se presentan algunas imágenes del sitio web brevemente descrito
 **==========================================================================**
 ![taller_automotriz_17](https://github.com/misproyectosweb/proyecto-web-08/assets/98922137/b67b46fb-4686-4661-a0d4-b1dc860043a1)
 **==========================================================================**
-![taller_automotriz_18](https://github.com/misproyectosweb/proyecto-web-08/assets/98922137/dcf50b00-009a-4b94-92ae-a2d773d063ab)
+![taller_automotriz_18](https://github.com/misproyectosweb/proyecto-web-08/assets/98922137/dc0c1ddb-5f19-4695-969e-142e20c1df2e)
 **==========================================================================**
-![taller_automotriz_19](https://github.com/misproyectosweb/proyecto-web-08/assets/98922137/681e74fc-215c-471b-88b8-925bfd158846)
+![taller_automotriz_19](https://github.com/misproyectosweb/proyecto-web-08/assets/98922137/3d4e62cd-886a-43af-96f3-5b6660137c61)
 **==========================================================================**
-![taller_automotriz_22](https://github.com/misproyectosweb/proyecto-web-08/assets/98922137/4ba9352a-792a-4b46-878e-0f441e87d051)
-
+![taller_automotriz_20](https://github.com/misproyectosweb/proyecto-web-08/assets/98922137/d15f0935-0dbf-429d-8b6f-6909c6ea8e31)
+**==========================================================================**
+![taller_automotriz_21](https://github.com/misproyectosweb/proyecto-web-08/assets/98922137/e24a06fd-7df0-492e-8410-3caabd785a8b)
+**==========================================================================**
+![taller_automotriz_22](https://github.com/misproyectosweb/proyecto-web-08/assets/98922137/79a7fd22-40fe-4a69-8498-4fb5c3bef250)
