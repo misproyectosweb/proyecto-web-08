@@ -29,37 +29,38 @@
     <body>
         <header>
             <div class="container-fluid">
+                
                 <!-- Encabezado -->
-                <div class="row justify-content-between py-3">      
-                    <div class="col-sm-3 d-flex flex-row justify-content-start align-items-center">
+                <div class="row justify-content-between py-3 my-2">      
+                    <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 d-flex flex-row justify-content-start align-items-center">
                         <img src="imagenes/LogoTaller_3.png" class="img-fluid w-50" alt="Logo taller">
                     </div>                    
-                    <div class="col-sm-3 d-flex flex-row justify-content-center align-items-center">
+                    <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 d-flex flex-row justify-content-center align-items-center">
                         <i class="iconHeader bi bi-envelope" style="color: cornflowerblue"></i>&nbsp;&nbsp;
                         <p class="mb-0">Escríbanos:<br>lorem_ipsum@mail.com</p>
                     </div>
-                    <div class="col-sm-3 d-flex flex-row justify-content-center align-items-center">
+                    <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 d-flex flex-row justify-content-center align-items-center">
                         <i class="iconHeader bi bi-headset" style="color: cornflowerblue"></i>&nbsp;&nbsp;
                         <p class="mb-0">Llámenos:<br>800-1234-5678</p>
                     </div>
-                    <div class="col-sm-3 d-flex flex-row justify-content-center align-items-center">
+                    <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 d-flex flex-row justify-content-center align-items-center">
                         <i class="iconHeader bi-alarm" style="color: cornflowerblue;"></i>&nbsp;&nbsp;
                         <p class="mb-0">Horario de servicio:<br>Lunes a sábado<br>7:30a.m. - 5:30p.m.</p>
                     </div>    
                 </div>
 
                 <!-- Menú de navegación -->
-                <div class="row bg-secondary p-3">                    
-                    <nav class="col-sm-12" id="navbarNav">
+                <div class="row bg-secondary py-3">                    
+                    <nav class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 px-0" id="navbarNav">
                         <ul class="nav nav-fill">
                             <li class="nav-item rounded-pill" id="item_1" onmouseover="ResaltarOpcion('item_1', 'maroon');" onmouseout="noResaltarOpcion('item_1', 'transparent')">
-                                <a class="nav-link text-white" href="index.php"><i class="iconNav bi bi-house-fill text-white mr-2" style="font-size: 1.25rem;"></i>Inicio</a>
+                                <a class="nav-link text-white" href="#"><i class="iconNav bi bi-house-fill text-white mr-2" style="font-size: 1.25rem;"></i>Inicio</a>
                             </li>
                             <li class="nav-item rounded-pill" id="item_2" onmouseover="ResaltarOpcion('item_2', 'maroon');" onmouseout="noResaltarOpcion('item_2', 'transparent')">
                                 <a class="nav-link text-white" href="nosotros.php"><i class="iconNav bi bi-people-fill text-white mr-2" style="font-size: 1.25rem;"></i>Quienes somos</a>
                             </li>
                             <li class="nav-item rounded-pill" id="item_3" onmouseover="ResaltarOpcion('item_3', 'maroon');" onmouseout="noResaltarOpcion('item_3', 'transparent')">
-                                <a class="nav-link text-white" href="#"><i class="iconNav bi bi-tools text-white mr-2" style="font-size: 1.25rem;"></i>Nuestros servicios</a>
+                                <a class="nav-link text-white" href="servicios.php"><i class="iconNav bi bi-tools text-white mr-2" style="font-size: 1.25rem;"></i>Nuestros servicios</a>
                             </li>
                             <li class="nav-item rounded-pill" id="item_4" onmouseover="ResaltarOpcion('item_4', 'maroon');" onmouseout="noResaltarOpcion('item_4', 'transparent')">
                                 <a class="nav-link text-white" href="noticias.php"><i class="iconNav bi bi-pencil-square text-white mr-2" style="font-size: 1.25rem;"></i>Noticias</a>
