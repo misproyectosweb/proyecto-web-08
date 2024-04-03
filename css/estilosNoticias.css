@@ -9,149 +9,222 @@ and open the template in the editor.
 */
 
 /* Encabezado */
-header .iconHeader { font-size: 2rem; }
-header p { font-size: 0.8rem; }
-header .py-3 { padding-top: 0.7rem !important; padding-bottom: 0.7rem !important; }
+header .iconHeader { font-size: 2em; }
+header p { font-size: 1em; }
+header .mr-3 { margin-right: 1em!important; }
+header .py-4 { padding-top: 1.5em !important; padding-bottom: 1.5em !important; }
 
 /* Menu de navegación */
 header .nav .nav-item .nav-link { font-size: 1.25rem !important; }
 header .nav .nav-item .nav-link .iconNav { font-size: 1.5rem !important; }
-header .p-3 { padding: 1rem !important; }
+.navbar-toggler { font-size: 2.25em !important; }
+header h3 { font-size: 1.75em!important; }
+.ml-5 { margin-left: 3em! important; }   
+
+/* Titulo */
+.titulo { font-family: 'Bree Serif', serif; font-weight: 400; font-style: normal; }
+.display-4 { font-size: 3.5em!important; }
+.my-4 { margin-top: 1em!important; margin-bottom: 1em!important; }
 
 /* Pie de página */
-footer { font-size: 1rem !important; }
-footer .row { flex-wrap: nowrap; }      
-footer .py-3 { padding-top: 1rem !important; padding-bottom: 1rem !important; }
+footer a, footer ul li, .copyright { font-size: 0.75em!important; }
+.p-5 { padding: 3em!important; }
+footer h5 { font-size: 1.25em!important; }
 
 /****************************** Media queries ******************************/
 
 @media screen and (min-width: 1424px) and (max-width: 1647.98px) {
     
    /* Encabezado */
-    header .iconHeader { font-size: 1.75rem; }
-    header p { font-size: 0.85rem; }
-    header .py-3 { padding-top: 0.7rem !important; padding-bottom: 0.7rem !important; }   
-
+    header .iconHeader { font-size: 1.65em; }
+    header p { font-size: 1em; }
+    .mr-3 { margin-right: 1em!important; }
+    header .py-4 { padding-top: 1.5em !important; padding-bottom: 1.5em !important; }
+    
     /* Menu de navegación */
-    header .nav .nav-item .nav-link { font-size: 1.15rem !important; }
-    header .nav .nav-item .nav-link .iconNav { font-size: 1.15rem !important; }
-    header .p-3 { padding: 0.65rem !important; }   
-
-   /* Pie de página */
-   footer { font-size: 0.9rem !important; }
-   footer .row { flex-wrap: nowrap; }      
-   footer .py-3 { padding-top: 1rem !important; padding-bottom: 1rem !important; }
+    header .nav .nav-item .nav-link { font-size: 1.25em !important; }
+    header .nav .nav-item .nav-link .iconNav { font-size: 1.5em !important; }
+    header .py-3 { padding: 1rem !important; }    
+    header h3 { font-size: 1.5em!important; }
+    .navbar-toggler { font-size: 1.75em !important; }
+    .ml-3 { margin-left: 1em! important; }
+    header .p-4 { padding: 1em !important; }
+               
+    /* Titulo */
+    .display-4 { font-size: 3.25em!important; }
+    .my-4 { margin-top: 1em!important; margin-bottom: 1em!important; }
+        
+    /* Footer */
+    footer a, footer ul li, .copyright { font-size: 0.75em!important; }
+    .p-5 { padding: 2.5em!important; }
+    footer h5 { font-size: 1.25em!important; }           
  }
  
 @media screen and (min-width: 1200px) and (max-width: 1423.98px) {
     
-   /* Encabezado */
-    header .iconHeader { font-size: 1.5rem; }
-    header p { font-size: 0.75rem; }
-    header .py-3 { padding-top: 0.6rem !important; padding-bottom: 0.6rem !important; }    
-
-    /* Menu de navegación */
-    header .nav .nav-item .nav-link { font-size: 1rem !important; }
-    header .nav .nav-item .nav-link .iconNav { font-size: 1rem !important; }
-    header .p-3 { padding: 0.65rem !important; }
-  
-   /* Sección principal */
-   main .mt-5 { margin-top: 1rem !important; margin-bottom: 0rem !important; }
-   main p { font-size: 0.95rem; }
-   .card-deck .card { margin-right: 0.25rem !important; }
-   h5 { font-size: 1rem; }
-   main .my-5 { margin-top: 2.5rem !important; margin-bottom: 2.5rem !important; }
+    /* Encabezado */
+    header .iconHeader { font-size: 1.5em; }
+    header p { font-size: 0.75em; }
+    .mr-3 { margin-right: 0.75em!important; }
+    header .py-4 { padding-top: 1.25em !important; padding-bottom: 1.25em !important; }
     
-   /* Pie de página */
-   footer { font-size: 0.8rem !important; }
-   footer .row { flex-wrap: nowrap; }      
-   footer .py-3 { padding-top: 1rem !important; padding-bottom: 1rem !important; }
+    /* Menu de navegación */
+    header .nav .nav-item .nav-link { font-size: 1em !important; }
+    header .nav .nav-item .nav-link .iconNav { font-size: 1.5em !important; }
+    header .py-3 { padding: 0.75rem !important; }            
+    header h3 { font-size: 1.25em!important; }
+    .navbar-toggler { font-size: 1.5em !important; }
+    .ml-3 { margin-left: 1em! important; }
+    header .p-4 { padding: 1em !important; }
+                
+    /* Titulo */
+    .display-4 { font-size: 3em!important; }
+    .my-4 { margin-top: 1em!important; margin-bottom: 1em!important; }
+  
+    /* Sección principal */
+    main .my-5 { margin-top: 2.5rem !important; margin-bottom: 2.5rem !important; }
+    .card-deck .card { margin-right: 0.25rem !important; }
+    h5 { font-size: 1rem; }
+    main p { font-size: 0.95rem; }
+                
+    /* Footer */
+    footer a, footer ul li, .copyright { font-size: 0.75em!important; }
+    .p-5 { padding: 2em!important; }
+    footer h5 { font-size: 1.25em!important; }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
     
-   /* Encabezado */
-    header .iconHeader { font-size: 1.25rem; }
-    header p { font-size: 0.65rem; }
-    header .py-3 { padding-top: 0.6rem !important; padding-bottom: 0.6rem !important; }    
-
+    /* Encabezado */
+    header .iconHeader { font-size: 1.5em; }
+    header p { font-size: 0.75em; }
+    .mr-3 { margin-right: 0.75em!important; }
+    header .py-4 { padding-top: 1.25em !important; padding-bottom: 1.25em !important; }
+                   
     /* Menu de navegación */
-    header .nav .nav-item .nav-link { font-size: 1rem !important; }
-    header .nav .nav-item .nav-link .iconNav { font-size: 1rem !important; }
-    header .p-2 { padding: 0 !important; }
+    header .nav .nav-item .nav-link { font-size: 0.75em !important; }
+    header .nav .nav-item .nav-link .iconNav { font-size: 1.5em !important; }
+    header .py-3 { padding: 0.75rem !important; }                     
+    header h3 { font-size: 1em!important; }
+    .navbar-toggler { font-size: 1.25em !important; }
+    .ml-3 { margin-left: 1em! important; }
+    header .p-4 { padding: 0.75em !important; }
+            
+    /* Titulo */
+    .display-4 { font-size: 2.75em!important; }
+    .my-4 { margin-top: 1em!important; margin-bottom: 1em!important; }
            
-   /* Sección principal */
-   main .mt-5 { margin-top: 1rem !important; margin-bottom: 0rem !important; }
-   main h2 { font-size: 1.75rem; }
-   main .mx-3 { margin-left: 0.75rem !important; margin-right: 0.75rem !important; }
-   main .my-5 { margin-top: 2rem !important; margin-bottom: 2rem !important; }
-   .card-deck .card { flex: 1 0 30% !important; }
-   main h5 { font-size: 1.25rem; }
-   main p { font-size: 0.95rem; }
-   button { font-size: 0.85rem !important; }
-   main h6 { font-size: 1rem; }
- 
-   /* Pie de página */
-   footer { font-size: 0.8rem !important; }
-   footer .row { flex-wrap: nowrap; }      
-   footer .py-3 { padding-top: 1rem !important; padding-bottom: 1rem !important; }
+    /* Sección principal */    
+    main .my-5 { margin-top: 2rem !important; margin-bottom: 2rem !important; }
+    .card-deck .card { flex: 1 0 30% !important; }
+    main h5 { font-size: 1.25rem; }
+    main p { font-size: 0.95rem; }    
+    main h6 { font-size: 1rem; }
+
+    /* Footer */
+    footer a, footer ul li, .copyright { font-size: 0.75em!important; }
+    .p-5 { padding: 1.5em!important; }
+    footer h5 { font-size: 1.15em!important; }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
     
-   /* Encabezado */
-    header .iconHeader { font-size: 1.15rem; }
-    header p { font-size: 0.5rem; }
-    header .py-3 { padding-top: 0.5rem !important; padding-bottom: 0.5rem !important; }
+    /* Encabezado */
+    header .iconHeader { font-size: 1.25em; }
+    header p { font-size: 0.75em; }
+    .mr-3 { margin-right: 0.75em!important; }
+    header .py-4 { padding-top: 1em !important; padding-bottom: 1em !important; }            
+                
+    /* Menu de navegación */
+    header .nav .nav-item .nav-link { font-size: 0.75em !important; }
+    header .nav .nav-item .nav-link .iconNav { font-size: 1.25em !important; }
+    header .py-3 { padding: 0.5em !important; }              
+    header h3 { font-size: 1em!important; }
+    .navbar-toggler { font-size: 1em !important; }
+    .ml-3 { margin-left: 1em! important; }
+    header .p-4 { padding: 0.75em !important; }
+        
+    /* Titulo */
+    .display-4 { font-size: 2.5em!important; }
+    .my-4 { margin-top: 0.75em!important; margin-bottom: 0.75em!important; }
 
-    /* Menu de navegación */    
-    header .nav .nav-item .nav-link { font-size: 0.7rem !important; }
-    header .nav .nav-item .nav-link .iconNav { font-size: 0.7rem !important; }
-    header .py-3 { padding: 0.5rem !important; }
- 
-   /* Sección principal */
-   main .mt-5 { margin-top: 1rem !important; margin-bottom: 0rem !important; }
-   main h2 { font-size: 1.5rem; }
-   main .mx-3 { margin-left: 0.5rem !important; margin-right: 0.5rem !important; }
-   main .my-5 { margin-top: 1.5rem !important; margin-bottom: 1.5rem !important; }
-   .card-deck .card { flex: 1 0 50% !important; }
-   main h5 { font-size: 1rem; }
-   main p { font-size: 0.85rem; }
-   button { font-size: 0.65rem !important; }
-   main h6 { font-size: 0.75rem; }
-           
-   /* Pie de página */   
-   footer .row { flex-wrap: nowrap; }
-   footer { font-size: 0.65rem !important; }
-   footer .py-3 { padding-top: 0.5rem !important; padding-bottom: 0.5rem !important; }
+    /* Sección principal */        
+    main .my-5 { margin-top: 1.5rem !important; margin-bottom: 1.5rem !important; }
+    .card-deck .card { flex: 1 0 50% !important; }
+    main h5 { font-size: 1rem; }
+    main p { font-size: 0.85rem; }    
+    main h6 { font-size: 0.75rem; }
+
+    /* Footer */
+    footer a, footer ul li, .copyright { font-size: 0.65em!important; }
+    .p-5 { padding: 1.5em!important; }
+    footer h5 { font-size: 1em!important; }
 }
 
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
     
-   /* Encabezado */
-    header .iconHeader { font-size: 1rem; }
-    header p { font-size: 0.5rem; }
-    header .py-3 { padding-top: 0.5rem !important; padding-bottom: 0.5rem !important; }
-
-    /* Menu de navegación */
-    header .nav .nav-item .nav-link { font-size: 0.6rem !important; }
-    header .nav .nav-item .nav-link .iconNav { font-size: 0.6rem !important; }
-    header .py-3 { padding: 0.25rem !important; }
+    /* Encabezado */
+    header .iconHeader { font-size: 1em; }
+    header p { font-size: 0.5em; }
+    .mr-3 { margin-right: 0.5em!important; }
+    header .py-4 { padding-top: 0.75em !important; padding-bottom: 0.75em !important; }
+                                    
+    /* Menu de navegación */    
+    header .nav .nav-item .nav-link { font-size: 0.75em !important; padding: 0.75em !important; }
+    header .nav .nav-item .nav-link .iconNav { font-size: 1em !important; }    
+    header h3 { font-size: 0.75em!important; }
+    .navbar-toggler { font-size: 0.75em !important; }
+    .ml-3 { margin-left: 0.75em! important; }
+    header .p-4 { padding: 0.75em !important; }
+                    
+    /* Titulo */
+    .display-4 { font-size: 2.25em!important; }
+    .my-4 { margin-top: 0.75em!important; margin-bottom: 0.75em!important; }
   
-   /* Sección principal */
-   main .mt-5 { margin-top: 1rem !important; margin-bottom: 0rem !important; }
-   main h2 { font-size: 1.25rem; }
-   main .mx-3 { margin-left: 0.25rem !important; margin-right: 0.25rem !important; }
-   main .my-5 { margin-top: 1rem !important; margin-bottom: 1rem !important; }
-   .card-deck .card { flex: 1 0 45% !important; }
-   main h5 { font-size: 1rem; }
-   main p { font-size: 0.75rem; }
-   button { font-size: 0.65rem !important; }
-   main h6 { font-size: 0.75rem; }
-             
-   /* Pie de página */ 
-   footer .row { flex-wrap: nowrap; }
-   footer { font-size: 0.5rem; }
-   footer .py-3 { padding-top: 0 !important; padding-bottom: 0 !important; }
-   footer p { margin-top: 0.5rem; margin-bottom: 0.5rem; }
+    /* Sección principal */        
+    main .my-5 { margin-top: 1em !important; margin-bottom: 1em !important; }
+    .card-deck .card { flex: 1 0 45% !important; }
+    main h5 { font-size: 1em; }
+    main p { font-size: 0.75em; }
+    main h6 { font-size: 0.75em; }
+
+    /* Footer */
+    footer a, footer ul li, .copyright { font-size: 0.65em!important; }     
+    footer h5 { font-size: 1em!important; }
+    .p-5 { padding: 1.5em!important; }
+    footer .col-6 { padding-top: 1em!important; }    
+}
+
+@media screen and (max-width: 575.98px) {
+    
+    /* Encabezado */
+    header .iconHeader { font-size: 1em; }
+    header p { font-size: 0.5em; }
+    header .mr-3 { margin-right: 0.5em!important; }
+    header .py-4 { padding-top: 0.75em !important; padding-bottom: 0.75em !important; }
+    
+    /* Menu de navegación */    
+    header .nav .nav-item .nav-link { font-size: 0.75em !important; padding: 0.75em !important; }
+    header .nav .nav-item .nav-link .iconNav { font-size: 1em !important; }    
+    header h3 { font-size: 0.75em!important; }
+    .navbar-toggler { font-size: 0.75em !important; }
+    .ml-3 { margin-left: 0.75em! important; }              
+    .menu { display: flex; flex-direction: column; justify-content: flex-start ; }
+    .nav-fill .nav-item, .nav-fill>.nav-link { text-align: left; }
+    
+    /* Titulo */  
+    .display-4 { font-size: 1.75em!important; }
+    main .my-4 { margin-top: 0.75em!important; margin-bottom: 0.75em!important; }
+    
+    /* Sección principal */  
+    .display-4 { font-size: 1.75em!important; }
+    main .my-4 { margin-top: 0.75em!important; margin-bottom: 0.75em!important; }
+    main h5 {  font-size: 1em; }
+    main p { font-size: 0.75em; }
+    
+    /* Footer */
+    footer a, footer ul li, .copyright { font-size: 0.65em!important; }     
+    footer h5 { font-size: 0.75em!important; }
+    .p-5 { padding: 1.5em!important; }
+    footer .col-6 { padding-top: 1em!important; } 
 }

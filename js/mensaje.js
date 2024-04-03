@@ -40,7 +40,7 @@ function email(){
         if('exito') {
             Swal.fire({
                 icon: 'success',
-                imageUrl: 'imagenes/logotallercorreo.png',        
+                imageUrl: 'imagenes/logoTaller_2.png',        
                 imageAlt: 'logo del taller automotriz',
                 imageWidth: 300,
                 imageHeight: 130,
@@ -51,7 +51,7 @@ function email(){
         else {
             Swal.fire({
                 icon: 'error',
-                imageUrl: 'imagenes/logotallercorreo.png',        
+                imageUrl: 'imagenes/logoTaller_2.png',        
                 imageAlt: 'logo del taller automotriz',
                 imageWidth: 300,
                 imageHeight: 130,

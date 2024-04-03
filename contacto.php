@@ -7,25 +7,26 @@
         <title>Contacto</title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">               
-        <link rel="shortcut icon" type="image/x-icon" href="imagenes/iconotools.png"/> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
         
+        <link rel="shortcut icon" type="image/x-icon" href="imagenes/iconoTools_1.png"/>
+
+        <!-- Utilizando Bootstrap 4 -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">        
+
         <!-- Utilizando google fonts -->        
         <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4&display=swap" rel="stylesheet">
-        
-        <!-- Utilizando Bootstrap 4 -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-        
+        <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+
         <!-- Utilizando Bootstrap icons -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
 
-        <!-- Archivos css -->
-        <link rel="stylesheet" type="text/css" href="css/estilos.css">
-        <link rel="stylesheet" type="text/css" href="css/estilosContacto.css">
-        <link rel="stylesheet" href="librerias/sweetalert2.min.css">
+        <!-- Utilizando estilos css personalizados -->
+        <link href="css/estilosContacto.css" rel="stylesheet" type="text/css"/>
 
-        <!-- Utilizando animaciones para los elementos  -->
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">    
+        <!-- Utilizando animaciones para los elementos -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
     <body>
         <?php
@@ -43,98 +44,106 @@
             } 
         ?>
         <header>
-            <div class="container-fluid">   
-                
-                <!-- Encabezado -->
-                <div class="row justify-content-between py-3 my-2">      
+            <div class="container-fluid px-0">
+                <div class="navbar navbar-dark justify-content-around border-bottom border-secondary py-4">
                     <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 d-flex flex-row justify-content-start align-items-center">
-                        <img src="imagenes/LogoTaller_3.png" class="img-fluid w-50" alt="Logo taller">
-                    </div>                    
-                    <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 d-flex flex-row justify-content-center align-items-center">
-                        <i class="iconHeader bi bi-envelope" style="color: cornflowerblue"></i>&nbsp;&nbsp;
-                        <p class="mb-0">Escríbanos:<br>lorem_ipsum@mail.com</p>
+                        <img src="imagenes/logoTaller_1.png" class="img-fluid w-50" alt="Logo taller">                                                
                     </div>
                     <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 d-flex flex-row justify-content-center align-items-center">
-                        <i class="iconHeader bi bi-headset" style="color: cornflowerblue"></i>&nbsp;&nbsp;
-                        <p class="mb-0">Llámenos:<br>800-1234-5678</p>
+                        <i class="iconHeader bi bi-envelope mr-3" style="color: cornflowerblue"></i>
+                        <p class="mb-0" style="color: cornflowerblue;">Escríbanos:<br>lorem_ipsum@mail.com</p>
                     </div>
                     <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 d-flex flex-row justify-content-center align-items-center">
-                        <i class="iconHeader bi-alarm" style="color: cornflowerblue;"></i>&nbsp;&nbsp;
-                        <p class="mb-0">Horario de servicio:<br>Lunes a sábado<br>7:30a.m. - 5:30p.m.</p>
-                    </div>    
+                        <i class="iconHeader bi bi-headset mr-3" style="color: cornflowerblue"></i>
+                        <p class="mb-0" style="color: cornflowerblue;">Llámenos:<br>800-1234-5678</p>
+                    </div>
+                    <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 d-flex flex-row justify-content-center align-items-center">
+                        <i class="iconHeader bi-alarm mr-3" style="color: cornflowerblue;"></i>
+                        <p class="mb-0" style="color: cornflowerblue;">Horario de servicio:<br>Lunes a sábado<br>7:30a.m. - 5:30p.m.</p>
+                    </div>
                 </div>
-                
-                <!-- Menú de navegación -->
-                <div class="row bg-secondary py-3">                    
-                    <nav class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 px-0" id="navbarNav">
-                        <ul class="nav nav-fill">
+
+                <nav class="navbar navbar-dark bg-secondary py-4">
+                    <div class="col-11 col-sm-11 col-md-11 col-lg-11 col-xl-11 d-flex flex-row justify-content-center align-items-center">
+<!--                        <h3 class="mb-0 text-white">Visítenos y conozca más de cerca nuestra empresa<i class="fa-solid fa-hand-point-right text-white ml-3"></i></h3>-->
+                    </div>                    
+                    <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 d-flex flex-row justify-content-end align-items-center px-0">
+                        <button id="btnMenu" class="btnMenu navbar-toggler text-white border-0" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span><i class="icono fa-solid fa-bars text-white"></i></span>
+                        </button>
+                    </div>
+                </nav>
+
+                <div class="collapse border-top border-dark-50" id="navbarToggleExternalContent">                            
+                    <div class="bg-secondary p-4">
+                        <ul id="menu" class="menu nav nav-fill">
                             <li class="nav-item rounded-pill" id="item_1" onmouseover="ResaltarOpcion('item_1', 'maroon');" onmouseout="noResaltarOpcion('item_1', 'transparent')">
-                                <a class="nav-link text-white" href="#"><i class="iconNav bi bi-house-fill text-white mr-2" style="font-size: 1.25rem;"></i>Inicio</a>
+                                <a class="nav-link text-white" href="index.php"><i class="iconNav bi bi-house-fill text-white mr-3" style="font-size: 1.25rem;"></i>Inicio</a>
                             </li>
                             <li class="nav-item rounded-pill" id="item_2" onmouseover="ResaltarOpcion('item_2', 'maroon');" onmouseout="noResaltarOpcion('item_2', 'transparent')">
-                                <a class="nav-link text-white" href="nosotros.php"><i class="iconNav bi bi-people-fill text-white mr-2" style="font-size: 1.25rem;"></i>Quienes somos</a>
+                                <a class="nav-link text-white" href="nosotros.php"><i class="iconNav bi bi-people-fill text-white mr-3" style="font-size: 1.25rem;"></i>Quienes somos</a>
                             </li>
                             <li class="nav-item rounded-pill" id="item_3" onmouseover="ResaltarOpcion('item_3', 'maroon');" onmouseout="noResaltarOpcion('item_3', 'transparent')">
-                                <a class="nav-link text-white" href="servicios.php"><i class="iconNav bi bi-tools text-white mr-2" style="font-size: 1.25rem;"></i>Nuestros servicios</a>
+                                <a class="nav-link text-white" href="servicios.php"><i class="iconNav bi bi-tools text-white mr-3" style="font-size: 1.25rem;"></i>Nuestros servicios</a>
                             </li>
                             <li class="nav-item rounded-pill" id="item_4" onmouseover="ResaltarOpcion('item_4', 'maroon');" onmouseout="noResaltarOpcion('item_4', 'transparent')">
-                                <a class="nav-link text-white" href="noticias.php"><i class="iconNav bi bi-pencil-square text-white mr-2" style="font-size: 1.25rem;"></i>Noticias</a>
+                                <a class="nav-link text-white" href="noticias.php"><i class="iconNav bi bi-pencil-square text-white mr-3" style="font-size: 1.25rem;"></i>Noticias</a>
                             </li>
                             <li class="nav-item rounded-pill" id="item_5" onmouseover="ResaltarOpcion('item_5', 'maroon');" onmouseout="noResaltarOpcion('item_5', 'transparent')">
-                                <a class="nav-link text-white" href="contacto.php"><i class="iconNav bi bi-envelope-open-fill text-white mr-2" style="font-size: 1.25rem;"></i>Contáctenos</a>
+                                <a class="nav-link text-white" href="contacto.php"><i class="iconNav bi bi-envelope-open-fill text-white mr-3" style="font-size: 1.25rem;"></i>Contáctenos</a>
                             </li>
                         </ul>                        
-                    </nav>                                       
-                </div>
-            </div> 
+                    </div>
+                </div>                                        
+            </div>
         </header>
         
         <main>
-            <!-- Información de contacto con la empresa -->            
-            <div class="container-fluid mt-5">
-                <div class="bg-light">
-                    <h2 class="text-black-50 text-center pt-2 my-3">Contáctenos</h2>
-                    <div class="borde_gr"></div>                            
-                </div>  
+            
+            <!-- Título -->
+            <div class="container-fluid d-flex flex-row justify-content-center px-0">
+                <div class="row col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 justify-content-center">
+                    <h1 class="titulo text-black-50 my-4 display-4 font-weight-bold">Contáctenos</h1>  
+                    <div class="mb-3" style="width: 100%;border-bottom: 0.25rem solid #a41313;"></div>
+                </div>
             </div>
 
             <!-- Mapa de ubicación de la empresa -->
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-6 border-dark-50 border-right border-bottom py-3">
-                        <h4 class="text-black-50 text-center py-3 mb-0">Llámenos y te atenderemos con profesionalismo</h4>
-                        <div>
-                            <img src="imagenes/callCenter_2.jpg" class="img-fluid rounded-lg w-75 mx-auto d-block my-3" style="box-shadow:0 0.75em 0.75em 0.5em rgba(0,0,0,0.5);">
+                <div class="row pb-3">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                        <h2 class="text-black-50 text-center py-3 mb-0">Atención personalizada</h2>
+                        <div class="col-12 col-sm-11 col-md-11 col-lg-11 col-xl-11 mx-auto d-block rounded-lg shadow my-3 px-0">
+                            <img src="imagenes/imgCallCenter_2.jpg" class="imgCallCenter img-fluid img-thumbnail p-2">
                         </div>            
                     </div>
-                    <div class="col-md-6 border-dark-50 border-bottom py-3">
-                        <h4 class="text-black-50 text-center py-3 mb-0">¿Dónde estamos ubicados?</h4>
-                        <div>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15718.176077541753!2d-84.0484498!3d9.9718428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2scr!4v1656800937686!5m2!1ses-419!2scr" class="border border-info rounded-lg p-2 mx-auto d-block my-3" width="690" height="490" style="border:0;box-shadow:0 0.75em 0.75em 0.5em rgba(0,0,0,0.5);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                        <h2 class="text-black-50 text-center py-3 mb-0">¿Dónde estamos ubicados?</h2>
+                        <div class="col-12 col-sm-11 col-md-11 col-lg-11 col-xl-11 mx-auto d-block border border-dark-50 rounded-lg p-2 shadow my-3">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15718.067158972348!2d-84.0479209!3d9.9741007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2scr!4v1709922010937!5m2!1ses-419!2scr" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>            
-                    </div>
+                    </div> 
                 </div>    
             </div>
+                            
+            <div class="container-fluid bg-light p-3 border-top border-dark-50">
                 
-            <div class="container-fluid bg-light pb-5">
-                <div class="row">
-
-                    <!-- Sección cinco: formulario de contacto -->
-                    <div class="col-md-6 px-4 pt-4">                      
-                        <h4 class="text-black-50 my-3">Envíanos un mensaje o concreta un cita:</h4>
-                        <div class="borde_gr mb-3"></div>
+                <!-- Formulario de contacto -->
+                <div class="row">                    
+                    <div class="col-11 col-sm-11 col-md-6 col-lg-6 col-xl-6 px-5">                      
+                        <h3 class="text-black-50 my-3">Envíanos un mensaje o concreta un cita:</h3>
                         <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>" method="POST" class="frmContacto needs-validation" novalidate>
                             <div class="form-row">
-                                <div class="col-md-12 pb-2">
-                                    <label><strong>Ingrese sus datos para contacto:</strong></label>
+                                <div class="col-12 py-3">                                    
+                                    <h6><strong>Ingrese sus datos para contacto:</strong></h6>
                                 </div>       
-                                <div class="form-group col-md-6">
+                                <div class="form-group col-6">
                                     <label for="nombre">Nombre completo:</label>
                                     <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" value="" required>
                                     <div class="valid-feedback is-valid">¡OK, válido!</div>
                                     <div class="invalid-feedback is-invalid">Completa el campo</div>
                                 </div>
-                                <div class="form-group col-md-6">
+                                <div class="form-group col-6">
                                     <label for="correo">Correo electrónico:</label>
                                     <input type="email" class="form-control" id="correo" name="correo" placeholder="Correo electrónico" value="" required>
                                     <div class="valid-feedback is-valid">¡OK, válido!</div>
@@ -142,19 +151,19 @@
                                 </div>
                             </div>
                             <div class="form-row pb-3">
-                                <div class="form-group col-md-6">
+                                <div class="form-group col-6">
                                     <label for="direccion">Dirección:</label>
                                     <input type="text" class="form-control" id="direccion" name="direccion" placeholder="Dirección o domicilio" value="" required>
                                     <div class="valid-feedback is-valid">¡OK, válido!</div>
                                     <div class="invalid-feedback is-invalid">Completa el campo</div>
                                 </div>
-                                <div class="form-group col-md-3">
+                                <div class="form-group col-3">
                                     <label for="telcasa">Teléfono casa:</label>
                                     <input type="tel" class="form-control" id="telcasa" name="telcasa" placeholder="Teléfono de casa" value="" required>
                                     <div class="valid-feedback is-valid">¡OK, válido!</div>
                                     <div class="invalid-feedback is-invalid">Completa el campo</div>
                                 </div>
-                                <div class="form-group col-md-3">
+                                <div class="form-group col-3">
                                     <label for="telcelular">Teléfono celular:</label>
                                     <input type="tel" class="form-control" id="telcelular" name="telcelular" placeholder="Teléfono celular" value="" required>
                                     <div class="valid-feedback is-valid">¡OK, válido!</div>
@@ -162,10 +171,10 @@
                                 </div>
                             </div>
                             <div class="form-row border-dark-50 border-top pt-3">
-                                <div class="col-md-12 pb-2">
-                                    <label><strong>Ingrese los datos de su vehículo y seleccione el servicio que necesita:</strong></label>
+                                <div class="col-12 py-3">                                    
+                                    <h6><strong>Ingrese los datos de su vehículo y seleccione el servicio que necesita:</strong></h6>
                                 </div>            
-                                <div class="form-group col-md-3">
+                                <div class="form-group col-4">
                                     <label for="marca">Marca del vehículo:</label>
                                     <select class="form-control" id="marca" name="marca" required>
                                         <option selected disabled value="">Elija una marca</option>
@@ -178,13 +187,13 @@
                                     <div class="valid-feedback is-valid">¡OK, válido!</div>
                                     <div class="invalid-feedback is-invalid">Elige la marca de tu automóvil</div>
                                 </div>
-                                <div class="form-group col-md-3">
+                                <div class="form-group col-4">
                                     <label for="modelo">Modelo del vehículo:</label>
                                     <input type="text" class="form-control" id="modelo" name="modelo" placeholder="Modelo del vehículo" value="" required>
                                     <div class="valid-feedback is-valid">¡OK, válido!</div>
                                     <div class="invalid-feedback is-invalid">Completa el campo</div>
                                 </div>                
-                                <div class="form-group col-md-3">
+                                <div class="form-group col-4">
                                     <label for="anio">Año del vehículo:</label>
                                     <input type="text" class="form-control" id="anio" name="anio" placeholder="Año del vehículo" value="" required>
                                     <div class="valid-feedback is-valid">¡OK, válido!</div>
@@ -192,7 +201,7 @@
                                 </div>
                             </div>        
                             <div class="form-row py-2">
-                                <div class="form-group col-md-12">                
+                                <div class="form-group col-12">                
                                     <div class="custom-control custom-checkbox custom-control-inline">
                                         <input type="checkbox" class="custom-control-input opcion" id="serv_1" name="servicio[]" value="Llantas">
                                         <label class="custom-control-label" for="serv_1">Llantas</label>                    
@@ -224,182 +233,162 @@
                                 </div>            
                             </div>                                   
                             <div class="form-row border-dark-50 border-top pt-3">
-                                <div class="form-group col-md-12">
-                                    <label for="comentario"><strong>Describa su solicitud de servicio o comentario adicional:</strong></label>
+                                <div class="form-group col-12 py-3">                                    
+                                    <h6><strong>Describa su solicitud de servicio o comentario adicional:</strong></h6>
                                     <textarea class="form-control" cols="30" rows="5" id="comentario" name="comentario" required></textarea>
                                     <div class="valid-feedback is-valid">¡OK, válido!</div>
                                     <div class="invalid-feedback is-invalid">Favor realice una breve descripción del problema de su auto</div>
                                 </div>
                             </div>
                             
-<!--                            <input type="submit" id="boton" class="btn btn-primary" name="enviar" value="Enviar datos">-->
-                            <button type="submit" id="boton" class="btn btn-primary">Enviar mensaje</button>
+                            <button type="submit" id="boton" class="btn btn-primary mb-3">Enviar mensaje</button>
                                                                                     
                             <?php
                                 require 'validaciones.php';
                             ?>
                             
-                        </form>
+                        </form>  
                     </div>
                     
-                    <div class="col-md-6 d-flex flex-row justify-content-center">
-                                                
-                        <!-- Horario de servicio -->
-                        <div class="col-md-5 pt-4 mr-3">
-                            <h4 class="text-black-50 my-3">Horario de servicio:</h4>
-                            <div class="borde_gr mb-4"></div>
-
+                    <!-- Horario de servicios -->
+                    <div class="horario col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-row justify-content-center pb-3">
+                        <div class="col-9 col-sm-9 col-md-8 col-lg-8 col-xl-8 d-flex flex-column">
+                            <h3 class="text-black-50 my-3">Horario de servicio:</h3>
                             <ul class="list-group list-group-horizontal justify-content-between">
-                                <li class="list-group-item"><small>Lunes</small></li>
-                                <li class="list-group-item"><small>7:30 a.m. - 5:30 p.m.</small></li>
+                                <li class="list-group-item bg-light border-0 p-0 pb-1">Lunes</li>
+                                <li class="list-group-item bg-light border-0 p-0 pb-1">7:30 a.m. - 5:30 p.m.</li>
                             </ul>
                             <ul class="list-group list-group-horizontal justify-content-between">
-                                <li class="list-group-item"><small>Martes</small></li>
-                                <li class="list-group-item"><small>7:30 a.m. - 5:30 p.m.</small></li>
+                                <li class="list-group-item bg-light border-0 p-0 pb-1">Martes</li>
+                                <li class="list-group-item bg-light border-0 p-0 pb-1">7:30 a.m. - 5:30 p.m.</li>
                             </ul>
                             <ul class="list-group list-group-horizontal justify-content-between">
-                                <li class="list-group-item"><small>Miércoles</small></li>
-                                <li class="list-group-item"><small>7:30 a.m. - 5:30 p.m.</small></li>
+                                <li class="list-group-item bg-light border-0 p-0 pb-1">Miércoles</li>
+                                <li class="list-group-item bg-light border-0 p-0 pb-1">7:30 a.m. - 5:30 p.m.</li>
                             </ul>
                             <ul class="list-group list-group-horizontal justify-content-between">
-                                <li class="list-group-item"><small>Jueves</small></li>
-                                <li class="list-group-item"><small>7:30 a.m. - 5:30 p.m.</small></li>
+                                <li class="list-group-item bg-light border-0 p-0 pb-1">Jueves</li>
+                                <li class="list-group-item bg-light border-0 p-0 pb-1">7:30 a.m. - 5:30 p.m.</li>
                             </ul>
                             <ul class="list-group list-group-horizontal justify-content-between">
-                                <li class="list-group-item"><small>Viernes</small></li>
-                                <li class="list-group-item"><small>7:30 a.m. - 5:30 p.m.</small></li>
+                                <li class="list-group-item bg-light border-0 p-0 pb-1">Viernes</li>
+                                <li class="list-group-item bg-light border-0 p-0 pb-1">7:30 a.m. - 5:30 p.m.</li>
                             </ul>
                             <ul class="list-group list-group-horizontal justify-content-between">
-                                <li class="list-group-item"><small>Sábado</small></li>
-                                <li class="list-group-item"><small>7:30 a.m. - 1:00 p.m.</small></li>
+                                <li class="list-group-item bg-light border-0 p-0 pb-1">Sábado</li>
+                                <li class="list-group-item bg-light border-0 p-0 pb-1">7:30 a.m. - 5:30 p.m.</li>
                             </ul>
                             <ul class="list-group list-group-horizontal justify-content-between">
-                                <li class="list-group-item"><small>Domingo</small></li>
-                                <li class="list-group-item"><small>Cerrado</small></li>
+                                <li class="list-group-item bg-light border-0 p-0 pb-1">Domingo</li>
+                                <li class="list-group-item bg-light border-0 p-0 pb-1">Cerrado</li>
                             </ul>
+                            <div class="d-none d-md-block pt-5">
+                                <img src="imagenes/imgContacto_1.png" class="img-fluid" alt=""/>
+                            </div>
+                        </div>                        
+                    </div>                                        
+                </div> 
+                
+                <!-- Lista de servicios -->
+                <div class="row border-dark-50 border-top">                                        
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 p-5 my-3"> 
+                        <h3 class="mb-4 text-black-50 mx-3">Además le ofrecemos:</h3>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex flex-row align-items-start px-0">                            
+                            <div class="d-flex flex-column align-items-center">                        
+                                <img src="imagenes/iconoContacto_1.png" class="img-fluid icono pb-3">
+                                <div class="mx-3">
+                                    <h6 class="mb-0 text-uppercase"><small class="font-weight-bold">Servicio de asistencia:</small></h6>
+                                    <p class="mb-2 text-secondary text-justify">Consectetur adipiscing elit. Morbi luctus malesuada faucibus. Cras feugiat aliquet quam, sit amet efficitur metus pellentesque vitae.</p>
+                                </div>                                
+                            </div>
+                            <div class="d-flex flex-column align-items-center">
+                                <img src="imagenes/iconoContacto_2.png" class="img-fluid icono pb-3">
+                                <div class="mx-3">
+                                    <h6 class="mb-0 text-uppercase"><small class="font-weight-bold">Trámites con su aseguradora:</small></h6>
+                                    <p class="mb-2 text-secondary text-justify">Consectetur adipiscing elit. Morbi luctus malesuada faucibus. Cras feugiat aliquet quam, sit amet efficitur metus pellentesque vitae.</p>
+                                </div>                                 
+                            </div>
+                            <div class="d-flex flex-column align-items-center">
+                                <img src="imagenes/iconoContacto_3.png" class="img-fluid icono pb-3">
+                                <div class="mx-3">
+                                    <h6 class="mb-0 text-uppercase"><small class="font-weight-bold">Calidad en cada trabajo:</small></h6>
+                                    <p class="mb-2 text-secondary text-justify">Consectetur adipiscing elit. Morbi luctus malesuada faucibus. Cras feugiat aliquet quam, sit amet efficitur metus pellentesque vitae.</p>
+                                </div> 
+                            </div>
+                            <div class="d-flex flex-column align-items-center">
+                                <img src="imagenes/iconoContacto_4.png" class="img-fluid icono pb-3">
+                                <div class="mx-3">
+                                    <h6 class="mb-0 text-uppercase"><small class="font-weight-bold">Personal especializado:</small></h6>
+                                    <p class="mb-2 text-secondary text-justify">Consectetur adipiscing elit. Morbi luctus malesuada faucibus. Cras feugiat aliquet quam, sit amet efficitur metus pellentesque vitae.</p>
+                                </div>                                
+                            </div>
                         </div>
-                        
-                        <!-- Lista de servicios -->
-                        <div class="col-md-6 pt-4 ml-3">
-                            <h4 class="text-black-50 my-3">Además le ofrecemos:</h4>
-                            <div class="borde_gr mb-4"></div>
-                            
-                            <div class="d-flex flex-row align-items-center">                        
-                                <img src="imagenes/towTruckAzul48x48.png" class="iconServ">&nbsp;&nbsp;&nbsp;&nbsp;
-                                <p class="text-secondary"><small class="font-weight-bold">Servicio de asistencia:</small><br><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi luctus malesuada faucibus. Cras feugiat aliquet quam, sit amet efficitur metus pellentesque vitae.</small></p>
-                            </div>
-                            <div class="d-flex flex-row align-items-center">
-                                <img src="imagenes/paperAzul48x48.png" class="iconServ">&nbsp;&nbsp;&nbsp;&nbsp;
-                                <p class="text-secondary"><small class="font-weight-bold">Trámites con su aseguradora:</small><br><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi luctus malesuada faucibus. Cras feugiat aliquet quam, sit amet efficitur metus pellentesque vitae.</small></p>
-                            </div>
-                            <div class="d-flex flex-row align-items-center">
-                                <img src="imagenes/qualityAzul48x48.png" class="iconServ">&nbsp;&nbsp;&nbsp;&nbsp;
-                                <p class="text-secondary"><small class="font-weight-bold">Calidad en cada trabajo:</small><br><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi luctus malesuada faucibus. Cras feugiat aliquet quam, sit amet efficitur metus pellentesque vitae.</small></p>
-                            </div>
-                            <div class="d-flex flex-row align-items-center">
-                                <img src="imagenes/workerAzul48x48.png" class="iconServ">&nbsp;&nbsp;&nbsp;&nbsp;
-                                <p class="text-secondary"><small class="font-weight-bold">Personal especializado:</small><br><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi luctus malesuada faucibus. Cras feugiat aliquet quam, sit amet efficitur metus pellentesque vitae.</small></p>
-                            </div>
-                        </div>                    
-                    </div>
-                </div>
-            </div>
+
+                    </div>                                        
+                </div>                                                                
+            </div>                                                                                                               
         </main>
         
-        <footer>
-            <div class="container-fluid d-flex justify-content-center bg-secondary">                
-                <div class="row py-3">
-                    <div class="col-md-3 d-flex flex-column"> 
-                        <p class="text-white text-left font-weight-bold">Nuestra empresa:</p>            
-                        <div class="d-flex flex-row pb-2">
-                            <i class="bi bi-house-fill text-white"></i>&nbsp;&nbsp;&nbsp;
-                            <a href="index.php" class="nav-link text-white p-0">Inicio</a>         
-                        </div>
-                        <div class="d-flex flex-row pb-2">
-                            <i class="bi bi-people-fill text-white"></i>&nbsp;&nbsp;&nbsp;
-                            <a href="nosotros.php" class="nav-link text-white p-0">Quienes somos</a>
-                        </div>                
-                        <div class="d-flex flex-row pb-2">
-                            <i class="bi bi-tools text-white"></i>&nbsp;&nbsp;&nbsp;
-                            <a href="servicios.php" class="nav-link text-white p-0">Nuestros servicios</a>
-                        </div>
-                        <div class="d-flex flex-row pb-2">                                        
-                            <i class="bi bi-pencil-square text-white"></i>&nbsp;&nbsp;&nbsp;
-                            <a href="noticias.php" class="nav-link text-white p-0">Noticias</a>
-                        </div>
-                        <div class="d-flex flex-row pb-2">
-                            <i class="bi bi-envelope-open-fill text-white"></i>&nbsp;&nbsp;&nbsp;
-                            <a href="#" class="nav-link text-white p-0">Contáctenos</a>
-                        </div>                 
-                    </div>        
-                    <div class="col-md-3 d-flex flex-column"> 
-                        <p class="text-white text-left font-weight-bold">Siganos en redes sociales:</p>
-                        <div class="d-flex flex-row pb-2">
-                            <i class="bi bi-facebook text-white"></i>&nbsp;&nbsp;&nbsp;
-                            <a href="#" target="_blank" class="text-white">taller_enterprise</a>
-                        </div>
-                        <div class="d-flex flex-row pb-2">                    
-                            <i class="bi bi-twitter text-white"></i>&nbsp;&nbsp;&nbsp;
-                            <a href="#" target="_blank" class="text-white">taller_enterprise</a>
-                        </div>                
-                        <div class="d-flex flex-row pb-2">
-                            <i class="bi bi-instagram text-white"></i>&nbsp;&nbsp;&nbsp;
-                            <a href="#" target="_blank" class="text-white">taller_enterprise</a>
-                        </div>
-                        <div class="d-flex flex-row pb-2">
-                            <i class="bi bi-youtube text-white"></i>&nbsp;&nbsp;&nbsp;
-                            <a href="#" target="_blank" class="text-white">taller_enterprise</a>
-                        </div>
-                    </div>         
-                    <div class="col-md-3 d-flex flex-column"> 
-                        <p class="text-white text-left font-weight-bold">Nuestros servicios:</p>
-                        <div class="d-flex flex-row pb-2">
-                            <i class="bi bi-check-circle-fill text-white"></i>&nbsp;&nbsp;&nbsp;
-                            <p class="text-white text-left m-0">Lorem ipsum dolor sit amet</p>
-                        </div>
-                        <div class="d-flex flex-row pb-2">
-                            <i class="bi bi-check-circle-fill text-white"></i>&nbsp;&nbsp;&nbsp;
-                            <p class="text-white m-0">consectetur adipiscing elit</p>
-                        </div>                
-                        <div class="d-flex flex-row pb-2">
-                            <i class="bi bi-check-circle-fill text-white"></i>&nbsp;&nbsp;&nbsp;
-                            <p class="text-white m-0">Morbi luctus malesuada</p>
-                        </div>
-                        <div class="d-flex flex-row pb-2">
-                            <i class="bi bi-check-circle-fill text-white"></i>&nbsp;&nbsp;&nbsp;
-                            <p class="text-white m-0">Cras feugiat aliquet quam</p>
-                        </div> 
-                        <div class="d-flex flex-row pb-2">
-                            <i class="bi bi-check-circle-fill text-white"></i>&nbsp;&nbsp;&nbsp;
-                            <p class="text-white m-0">Fusce pulvinar lobortis</p>
+        <!-- Pie de página -->
+        <footer class="bg-secondary">
+            <div class="container-fluid">
+                <div class="row p-5">
+                    
+                    <!-- Enlaces a las secciones -->
+                    <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                        <h5 class="h5 mb-3 text-white text-left font-weight-bold">Nuestra empresa:</h5>
+                        <div class="list-group list-group-flush">
+                            <a href="index.php" class="list-group-item text-white text-decoration-none bg-secondary border-0 py-1 px-0"><i class="bi bi-house-fill text-white mr-3"></i>Inicio</a>
+                            <a href="nosotros.php" class="list-group-item text-white text-decoration-none bg-secondary border-0 py-1 px-0"><i class="bi bi-people-fill text-white mr-3"></i>Quienes somos</a>
+                            <a href="servicios.php" class="list-group-item text-white text-decoration-none bg-secondary border-0 py-1 px-0"><i class="bi bi-tools text-white mr-3"></i>Nuestros servicios</a>
+                            <a href="noticias.php" class="list-group-item text-white text-decoration-none bg-secondary border-0 py-1 px-0"><i class="bi bi-pencil-square text-white mr-3"></i>Noticias</a>
+                            <a href="contacto.php" class="list-group-item text-white text-decoration-none bg-secondary border-0 py-1 px-0"><i class="bi bi-envelope-open-fill text-white mr-3"></i>Contáctenos</a>
                         </div>
                     </div>
-                    <div class="col-md-3 d-flex flex-column"> 
-                        <p class="text-white text-left font-weight-bold">Información para contacto:</p>
-                        <div class="d-flex flex-row pb-2">
-                            <i class="bi bi-geo-alt-fill text-white"></i>&nbsp;&nbsp;&nbsp;
-                            <p class="text-white text-left m-0">Av. 1, st. 1, Lorem ipsum dolor, consectetur elit adipiscing</p>
+                    
+                    <!-- Redes sociales -->
+                    <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                        <h5 class="h5 mb-3 text-white text-left font-weight-bold">Síganos en redes:</h5>
+                        <div class="list-group list-group-flush">
+                            <a href="https://www.facebook.com/" target="_blank" class="list-group-item text-white text-decoration-none bg-secondary border-0 py-1 px-0"><i class="bi bi-facebook text-white mr-3"></i>Taller Enterprice</a>  
+                            <a href="https://web.telegram.org/k/" target="_blank" class="list-group-item text-white text-decoration-none bg-secondary border-0 py-1 px-0"><i class="bi bi-telegram mr-3"></i>(+000) 1234-5678</a>  
+                            <a href="https://twitter.com/" target="_blank" class="list-group-item text-white text-decoration-none bg-secondary border-0 py-1 px-0"><i class="fa-brands fa-x-twitter mr-3"></i>Taller Enterprice</a>                            
+                            <a href="http://instagram.com/" target="_blank" class="list-group-item text-white text-decoration-none bg-secondary border-0 py-1 px-0"><i class="bi bi-instagram text-white mr-3"></i>Taller Enterprice</a>
+                            <a href="http://www.youtube.com/" target="_blank" class="list-group-item text-white text-decoration-none bg-secondary border-0 py-1 px-0"><i class="bi bi-youtube text-white mr-3"></i>Taller Enterprice</a>                            
                         </div>
-                        <div class="d-flex flex-row pb-2">                    
-                            <i class="bi bi-headset text-white"></i>&nbsp;&nbsp;&nbsp;
-                            <p class="text-white m-0">800-123-enterprise</p>
-                        </div>                
-                        <div class="d-flex flex-row pb-2">
-                            <i class="bi bi-whatsapp text-white"></i>&nbsp;&nbsp;&nbsp;
-                            <p class="text-white m-0">(+000) 1234-5678</p>
+                    </div>
+                    
+                    <!-- Servicios -->
+                    <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                        <h5 class="h5 mb-3 text-white text-left font-weight-bold">Nuestros servicios:</h5>
+                        <div class="list-group list-group-flush">
+                            <a href="#" class="list-group-item text-white text-decoration-none bg-secondary border-0 py-1 px-0"><i class="bi bi-check-circle-fill text-white mr-3"></i>Lorem ipsum dolor sit</a>
+                            <a href="#" class="list-group-item text-white text-decoration-none bg-secondary border-0 py-1 px-0"><i class="bi bi-check-circle-fill text-white mr-3"></i>Consectetur adipiscing</a>
+                            <a href="#" class="list-group-item text-white text-decoration-none bg-secondary border-0 py-1 px-0"><i class="bi bi-check-circle-fill text-white mr-3"></i>Morbi luctus malesuada</a>
+                            <a href="#" class="list-group-item text-white text-decoration-none bg-secondary border-0 py-1 px-0"><i class="bi bi-check-circle-fill text-white mr-3"></i>Cras feugiat aliquet</a>
+                            <a href="#" class="list-group-item text-white text-decoration-none bg-secondary border-0 py-1 px-0"><i class="bi bi-check-circle-fill text-white mr-3"></i>Fusce pulvinar lobortis</a>
                         </div>
-                        <div class="d-flex flex-row pb-2">
-                            <i class="bi bi-envelope-fill text-white"></i>&nbsp;&nbsp;&nbsp;
-                            <p class="text-white m-0">lorem_ipsum@mail.com</p>
-                        </div>                                
-                    </div>                                             
+                    </div>                    
+                    
+                    <!-- Localización -->
+                    <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                        <h5 class="h5 mb-3 text-white text-left font-weight-bold">Contáctenos:</h5>
+                        <div class="list-group list-group-flush">
+                            <a href="https://www.waze.com/es" target="_blank" class="list-group-item text-white text-decoration-none bg-secondary border-0 py-1 px-0"><i class="fa-brands fa-waze mr-3"></i>Av. 1, st. 1, Lorem ipsum dolor</a>
+                            <a href="#" class="list-group-item text-white text-decoration-none bg-secondary border-0 py-1 px-0"><i class="bi bi-geo-alt-fill text-white mr-3"></i>Lorem ipsum dolor, consectetur elit adipiscing</a>
+                            <a href="#" class="list-group-item text-white text-decoration-none bg-secondary border-0 py-1 px-0"><i class="bi bi-headset text-white mr-3"></i>800-123-enterprise</a>
+                            <a href="https://web.whatsapp.com/" target="_blank" class="list-group-item text-white text-decoration-none bg-secondary border-0 py-1 px-0"><i class="bi bi-whatsapp text-white mr-3"></i>(+000) 1234-7890</a>  
+                            <a href="#" class="list-group-item text-white text-decoration-none bg-secondary border-0 py-1 px-0"><i class="bi bi-envelope-fill text-white mr-3"></i>lorem_ipsum@mail.com</a>                            
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="container-fluid bg-secondary">
-                <div class="row d-flex flex-row justify-content-center border-white border-top text-center py-3">        
-                    <p class="text-white mb-0">&copy;&nbsp;Lorem ipsum dolor sit amet 2022 - consectetur elit adipiscing</p>
-                </div>
-            </div>
+            
+            <div>
+                <div class="row col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 justify-content-center border-white border-top text-center py-3 mx-0">        
+                    <div class="copyright text-white mb-0"><i class="far fa-copyright text-white mr-2"></i>Lorem ipsum dolor sit amet 2022 - consectetur elit adipiscing</div>
+                </div>   
+            </div>                                                                               
         </footer>
         
         <!-- Archivos JavaScript utilizados por Bootstrap -->
@@ -458,12 +447,13 @@
                                                 
         <!-- Enlace y método JavaScript para utilizar las animaciones -->
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        
         <script>
             AOS.init();
         </script>
                         
         <?php
-        // put your code here
+            // put your code here
         ?>
     </body>
 </html>
