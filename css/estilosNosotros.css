@@ -39,6 +39,10 @@ main h6 { font-size: 1em; }
 .card-footer i { font-size: 0.75em; }
 .col-xl-4 { max-width: 15%; }
 
+/* Personalización del tooltip */
+.tooltip_custom .tooltip-inner { background-color: #26428b !important; }
+.bs-tooltip-top .arrow::before, .bs-tooltip-auto[x-placement^="top"] .arrow::before { border-top-color: #26428b; border-radius: 1em; }
+
 /* Pie de página */
 footer a, footer ul li, .copyright { font-size: 0.85em!important; }
 .p-5 { padding: 3em!important; }
