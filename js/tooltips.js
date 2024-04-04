@@ -10,11 +10,9 @@ $(function () {
         boundary:'window',
         template:'<div class="tooltip tooltip_custom" role="tooltip"><div class="arrow"></div><div class="tooltip-inner"></div></div>'
     });
-    
-    
-
+        
     $('#wtpp').tooltip({
-        placement: 'bottom',        
+        placement: 'top',        
         animation: true,
         delay: {
             'show': 500,
@@ -23,7 +21,7 @@ $(function () {
     });
     
     $('#fb').tooltip({
-        placement: 'bottom',        
+        placement: 'top',        
         animation: true,
         delay: {
             'show': 500,
@@ -32,7 +30,7 @@ $(function () {
     });
     
     $('#xtw').tooltip({
-        placement: 'bottom',        
+        placement: 'top',        
         animation: true,
         delay: {
             'show': 500,
@@ -41,7 +39,7 @@ $(function () {
     });
     
     $('#mail').tooltip({
-        placement: 'bottom',        
+        placement: 'top',        
         animation: true,
         delay: {
             'show': 500,
