@@ -12,23 +12,24 @@ Sitio web creado con las siguientes herramientas a nivel de front-end y back-end
 Este sitio web fue creado y desarrollado usando la plataforma **NetBeans 12.0.** Además está adaptado para ejecutarse en dispositivos móviles, como teléfonos, tablets, portátiles y computadoras de escritorio. El archivo **index.php** es el que contiene la página de inicio o página principal del sitio web
 
 El sitio web en su totalidad consta de varias secciones: 
-**1.	Un encabezado:** donde se muestra el logotipo de la organización y algunos datos de referencia para contacto
-**2.	Un menú de navegación:** el cual contiene el menú de opciones de servicios y otras características de la empresa
-**3.	Una sección principal:** el cual consta de cinco partes:
+- **Un encabezado:** donde se muestra el logotipo de la organización y algunos datos de referencia para contacto
+- **Un menú de navegación:** el cual contiene el menú de opciones de servicios y otras características de la empresa
+- **Una sección principal:** el cual consta de cinco partes:
+
   -	**La primera parte** consta de una presentación del negocio a través de un carrusel de imágenes
   -	**La segunda parte** consta de un breve resumen que muestra las cualidades de la empresa
   -	**La tercera parte** consta de breves referencias a los servicios que ofrece la empresa
   -	**La cuarta parte** consta de un enlace que envía al usuario a un formulario donde él puede realizar sus comentarios y/o concretar una cita para un servicio a su automóvil
   -	**La quinta parte** consta de referencias breves a noticias del mundo automotriz y un enlace que envía al usuario a explorar y leer el resto de su contenido
 
-**4.	Un pie de página:** muestra la información de contacto del negocio
+- **Un pie de página:** muestra la información de contacto del negocio
 
 El menú principal consta de cinco opciones:
-  **1.	Inicio:** es la página principal del sitio web.
-  **2.	Quienes somos:** muestra información acerca de la organización, tal como la visión, la misión y muestra además breves datos acerca del personal que trabaja en la empresa y el área de servicio donde labora
-  **3.	Nuestros servicios:** muestra de manera más descriptiva y amplia los servicios que ofrece la empresa
-  **4.	Noticias:** muestra noticias actualizadas del mundo automotriz con el fin de que el usuario conozca las últimas tendencias en este tipo de servicio
-  **5.	Contáctenos:** presenta información variada que le permitirá al usuario conocer aspectos tales como la ubicación la empresa, el horario de servicio, servicios adicionales y un formulario que le permitirá al usuario realizar sus comentarios acerca del servicio recibido; así como la posibilidad de concretar citas para servicios al automóvil
+  - **Inicio:** es la página principal del sitio web.
+  - **Quienes somos:** muestra información acerca de la organización, tal como la visión, la misión y muestra además breves datos acerca del personal que trabaja en la empresa y el área de servicio donde labora
+  - **Nuestros servicios:** muestra de manera más descriptiva y amplia los servicios que ofrece la empresa
+  - **Noticias:** muestra noticias actualizadas del mundo automotriz con el fin de que el usuario conozca las últimas tendencias en este tipo de servicio
+  - **Contáctenos:** presenta información variada que le permitirá al usuario conocer aspectos tales como la ubicación la empresa, el horario de servicio, servicios adicionales y un formulario que le permitirá al usuario realizar sus comentarios acerca del servicio recibido; así como la posibilidad de concretar citas para servicios al automóvil
 
 Para el formulario de contacto se programaron validaciones tanto del lado del cliente, implementando mensajes personalizados con clases integradas en Bootstrap, los cuales brindan acceso a las API de validación de formularios en JavaScript como validaciones del lado del servidor programadas con el lenguaje de programación PHP.
 
