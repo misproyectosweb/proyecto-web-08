@@ -46,7 +46,7 @@ A continuación se presentan algunas imágenes del sitio web brevemente descrito
 **==========================================================================**
 ![01  inicio_01](https://github.com/user-attachments/assets/802ae9f7-359c-40ca-98ee-1f5e65aead93)
 **==========================================================================**
-![01  inicio_02](https://github.com/user-attachments/assets/80a3bd01-b331-4556-9412-d645afdd5265)
+![01  inicio_02](https://github.com/user-attachments/assets/89c07918-550d-45a8-aa6a-d079adb1f20f)
 **==========================================================================**
 ![01  inicio_03](https://github.com/user-attachments/assets/c6dcd170-b933-45c2-8672-4e137996cf3d)
 **==========================================================================**
