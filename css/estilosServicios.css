@@ -8,228 +8,277 @@ and open the template in the editor.
     Author     : pcgc7
 */
 
-/* Encabezado */
-header .iconHeader { font-size: 2em; }
-header p { font-size: 1em; }
-header .mr-3 { margin-right: 1em!important; }
-header .py-4 { padding-top: 1.5em !important; padding-bottom: 1.5em !important; }
+/* Encabezado y menú de navegación */
+header .iconHeader { font-size: 1.5em; }
+header p { font-size: 1em; }    
+header h3 { font-size: 1.75em !important; }
+header .w-50 { width: 35% !important; }
+header .nav .nav-item .nav-link { font-size: 1em !important; padding: 1em 3em !important; }
+.navbar-toggler { font-size: 2em !important; padding: 0.5em !important; }
 
-/* Menu de navegación */
-header .nav .nav-item .nav-link { font-size: 1.25rem !important; }
-header .nav .nav-item .nav-link .iconNav { font-size: 1.5rem !important; }
-.navbar-toggler { font-size: 2.25em !important; }
-header h3 { font-size: 1.75em!important; }
-.ml-5 { margin-left: 3em! important; }   
+/* Sección principal - estilos globales */
+h3 { font-size: 1.75em; }                                                       /* header */
+p { font-size: 0.85em; }                                                        /* header */
+.mr-3 { margin-right: 1em !important; }                                         /* header */
+.p-3 { padding: 1em !important; }                                               /* header */
+.my-3 { margin-top: 1em !important; margin-bottom: 1em !important; }            /* titulo */
+.py-4 { padding-top: 1.25em !important; padding-bottom: 1.25em !important; }    /* servicios */
+.mt-3 { margin-top: 1em !important; }                                           /* servicios */
+.py-3 { padding-top: 1em !important; padding-bottom: 1em !important; }          /* footer */
 
-/* Titulo */
-.titulo { font-family: 'Bree Serif', serif; font-weight: 400; font-style: normal; }
-.display-4 { font-size: 3.5em!important; }
-.my-4 { margin-top: 1em!important; margin-bottom: 1em!important; }
+/* Sección principal - titulo */
+.display-4 { font-family: 'Bree Serif', serif; font-weight: 400; font-style: normal; font-size: 3.25em !important; }
 
-/* Sección principal */
-main h3 { font-size: 1.75em; padding-top: 0.75em; }
-main p { font-size: 1em; } 
-main ul li { font-size: 1em; }
-main .img-fluid { width: 90% !important; height: 90% !important; }
+/* Sección principal - descripción de servicios */
+main ul li { font-size: 0.85em; }
+.w-100 { width: 70% !important; }
 
-/* Pie de página */
-footer a, footer ul li, .copyright { font-size: 0.75em!important; }
-footer a { padding-top: 0.5em!important; padding-bottom: 0.5em!important; }
-.p-5 { padding: 3em!important; }
+/* Footer */
+footer a, footer ul li, .copyright { font-size: 0.7em !important; }     
+footer h5 { font-size: 1em !important; }
+.p-5 { padding: 1em !important; }
+footer .col-6 { padding-top: 1em !important; }
 
 /****************************** Media queries ******************************/
 
 @media screen and (min-width: 1424px) and (max-width: 1647.98px) {
 
-    /* Encabezado */
-    header .iconHeader { font-size: 1.65em; }
-    header p { font-size: 1em; }
-    .mr-3 { margin-right: 1em!important; }
-    header .py-4 { padding-top: 1.5em !important; padding-bottom: 1.5em !important; }
+    /* Encabezado y menú de navegación */
+    header .iconHeader { font-size: 1.5em; }
+    header p { font-size: 0.85em; }    
+    header h3 { font-size: 1.5em !important; }
+    header .w-50 { width: 35% !important; }
+    header .nav .nav-item .nav-link { font-size: 1em !important; padding: 1em 3em !important; } 
+    .navbar-toggler { font-size: 1.5em !important; padding: 0.5em !important; }
     
-    /* Menu de navegación */
-    header .nav .nav-item .nav-link { font-size: 1.25em !important; }
-    header .nav .nav-item .nav-link .iconNav { font-size: 1.5em !important; }
-    header .py-3 { padding: 1rem !important; }    
-    header h3 { font-size: 1.5em!important; }
-    .navbar-toggler { font-size: 1.75em !important; }
-    .ml-3 { margin-left: 1em! important; }
-    header .p-4 { padding: 1em !important; }
-               
-    /* Titulo */
-    .display-4 { font-size: 3.25em!important; }
-    .my-4 { margin-top: 1em!important; margin-bottom: 1em!important; }
-
-    /* Sección principal */
-    main h3 { font-size: 1.5em; padding-top: 0.75em; }
-    main p { font-size: 1em; } 
-    main ul li { font-size: 1em; }
-
+    /* Sección principal - estilos globales */
+    h3 { font-size: 1.75em; }                                                       /* header */
+    p { font-size: 0.85em; }                                                        /* header */
+    .mr-3 { margin-right: 1em !important; }                                         /* header */    
+    .p-3 { padding: 1em !important; }                                               /* header */
+    .my-3 { margin-top: 1em !important; margin-bottom: 1em !important; }            /* titulo */
+    .py-4 { padding-top: 1.25em !important; padding-bottom: 1.25em !important; }    /* servicios */
+    .mt-3 { margin-top: 1em !important; }                                           /* servicios */
+    .py-3 { padding-top: 1em !important; padding-bottom: 1em !important; }          /* footer */
+    
+    /* Sección principal - titulo */
+    .display-4 { font-size: 3em !important; }
+    
+    /* Sección principal - descripción de servicios */
+    main ul li { font-size: 0.85em; }
+    .w-100 { width: 80% !important; }
+    
     /* Footer */
-    footer a, footer ul li, .copyright { font-size: 0.75em!important; }
-    footer h5 { font-size: 1.25em!important; }           
-    .p-5 { padding: 2.5em!important; }    
+    footer a, footer ul li, .copyright { font-size: 0.7em !important; }     
+    footer h5 { font-size: 1em !important; }
+    .p-5 { padding: 1em !important; }
+    footer .col-6 { padding-top: 1em !important; }
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1423.98px) {
 
-    /* Encabezado */
+    /* Encabezado y menú de navegación */
     header .iconHeader { font-size: 1.5em; }
-    header p { font-size: 0.75em; }
-    .mr-3 { margin-right: 0.75em!important; }
-    header .py-4 { padding-top: 1.25em !important; padding-bottom: 1.25em !important; }
+    header p { font-size: 0.85em; }    
+    header h3 { font-size: 1.5em !important; }
+    header .w-50 { width: 40% !important; }
+    header .nav .nav-item .nav-link { font-size: 1em !important; padding: 0.75em 3em !important; } 
+    .navbar-toggler { font-size: 1.5em !important; padding: 0.5em !important; }
     
-    /* Menu de navegación */
-    header .nav .nav-item .nav-link { font-size: 1em !important; }
-    header .nav .nav-item .nav-link .iconNav { font-size: 1.5em !important; }
-    header .py-3 { padding: 0.75rem !important; }            
-    header h3 { font-size: 1.25em!important; }
-    .navbar-toggler { font-size: 1.5em !important; }
-    .ml-3 { margin-left: 1em! important; }
-    header .p-4 { padding: 1em !important; }
-                
-    /* Titulo */
-    .display-4 { font-size: 3em!important; }
-    .my-4 { margin-top: 1em!important; margin-bottom: 1em!important; }
+    /* Sección principal - estilos globales */
+    h3 { font-size: 1.5em; }                                                        /* header */
+    p { font-size: 0.85em; }                                                        /* header */
+    .mr-3 { margin-right: 0.75em !important; }                                      /* header */    
+    .p-3 { padding: 0.75em !important; }                                            /* header */
+    .my-3 { margin-top: 0.75em !important; margin-bottom: 0.75em !important; }      /* titulo */
+    .py-4 { padding-top: 1em !important; padding-bottom: 1em !important; }          /* servicios */
+    .mt-3 { margin-top: 0.75em !important; }                                        /* servicios */
+    .py-3 { padding-top: 0.75em !important; padding-bottom: 0.75em !important; }    /* footer */
+    
+    /* Sección principal - titulo */
+    .display-4 { font-size: 2.75em !important; }
 
-    /* Sección principal */
-    main h3 { font-size: 1.5em; padding-top: 0.75em; }
-    main p { font-size: 0.85em; } 
+    /* Sección principal - descripción de servicios */
     main ul li { font-size: 0.85em; }
+    .w-100 { width: 80% !important; }
 
     /* Footer */
-    footer a, footer ul li, .copyright { font-size: 0.75em!important; }
-    footer h5 { font-size: 1.25em!important; }
-    .p-5 { padding: 2em!important; }    
+    footer a, footer ul li, .copyright { font-size: 0.7em !important; }     
+    footer h5 { font-size: 1em !important; }
+    .p-5 { padding: 1em !important; }
+    footer .col-6 { padding-top: 1em !important; }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
 
-    /* Encabezado */
+    /* Encabezado y menú de navegación */
     header .iconHeader { font-size: 1.5em; }
-    header p { font-size: 0.75em; }
-    .mr-3 { margin-right: 0.75em!important; }
-    header .py-4 { padding-top: 1.25em !important; padding-bottom: 1.25em !important; }
-                   
-    /* Menu de navegación */
-    header .nav .nav-item .nav-link { font-size: 0.75em !important; }
-    header .nav .nav-item .nav-link .iconNav { font-size: 1.5em !important; }
-    header .py-3 { padding: 0.75rem !important; }                     
-    header h3 { font-size: 1em!important; }
-    .navbar-toggler { font-size: 1.25em !important; }
-    .ml-3 { margin-left: 1em! important; }
-    header .p-4 { padding: 0.75em !important; }
-            
-    /* Titulo */
-    .display-4 { font-size: 2.75em!important; }
-    .my-4 { margin-top: 1em!important; margin-bottom: 1em!important; }
-
-    /* Sección principal */
-    main h3 { font-size: 1.25em; padding-top: 0.75em; }
-    main p { font-size: 0.75em; } 
-    main ul li { font-size: 0.75em; }
-
+    header p { font-size: 0.85em; }    
+    header h3 { font-size: 1.25em !important; }
+    header .w-50 { width: 40% !important; }
+    header .nav .nav-item .nav-link { font-size: 0.75em !important; padding: 0.75em 3em !important; } 
+    .navbar-toggler { font-size: 1.25em !important; padding: 0.5em !important; }
+    
+    /* Sección principal - estilos globales */
+    h3 { font-size: 1.5em; }                                                        /* header */
+    p { font-size: 0.8em; }                                                         /* header */
+    .mr-3 { margin-right: 0.75em !important; }                                      /* header */    
+    .p-3 { padding: 0.75em !important; }                                            /* header */
+    .my-3 { margin-top: 0.75em !important; margin-bottom: 0.75em !important; }      /* titulo */
+    .py-4 { padding-top: 1em !important; padding-bottom: 1em !important; }          /* servicios */
+    .mt-3 { margin-top: 0.75em !important; }                                        /* servicios */
+    .py-3 { padding-top: 0.75em !important; padding-bottom: 0.75em !important; }    /* footer */
+        
+    /* Sección principal - titulo */
+    .display-4 { font-size: 2.5em !important; }
+    
+    /* Sección principal - descripción de servicios */
+    main ul li { font-size: 0.8em; }
+    .w-100 { width: 80% !important; }
+    
     /* Footer */
-    footer a, footer ul li, .copyright { font-size: 0.75em!important; }
-    footer h5 { font-size: 1.15em!important; }
-    .p-5 { padding: 1.5em!important; }    
+    footer a, footer ul li, .copyright { font-size: 0.7em !important; }     
+    footer h5 { font-size: 1em !important; }
+    .p-5 { padding: 1em !important; }
+    footer .col-6 { padding-top: 1em !important; }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
 
-    /* Encabezado */
-    header .iconHeader { font-size: 1.25em; }
-    header p { font-size: 0.75em; }
-    .mr-3 { margin-right: 0.75em!important; }
-    header .py-4 { padding-top: 1em !important; padding-bottom: 1em !important; }            
-                
-    /* Menu de navegación */
-    header .nav .nav-item .nav-link { font-size: 0.75em !important; }
-    header .nav .nav-item .nav-link .iconNav { font-size: 1.25em !important; }
-    header .py-3 { padding: 0.5em !important; }              
-    header h3 { font-size: 1em!important; }
-    .navbar-toggler { font-size: 1em !important; }
-    .ml-3 { margin-left: 1em! important; }
-    header .p-4 { padding: 0.75em !important; }
+    /* Encabezado y menú de navegación */
+    header .iconHeader { font-size: 1em; }
+    header p { font-size: 0.7em; }    
+    header h3 { font-size: 1.25em !important; }
+    header .w-50 { width: 45% !important; }
+    header .nav .nav-item .nav-link { font-size: 0.75em !important; padding: 0.75em !important; } 
+    .navbar-toggler { font-size: 1.25em !important; padding: 0.25em !important; }
+    .menu { display: flex !important; flex-direction: column !important; justify-content: flex-start !important; }
+    
+    /* Sección principal - estilos globales */
+    h3 { font-size: 1.5em; }                                                        /* header */
+    p { font-size: 0.7em; }                                                         /* header */
+    .mr-3 { margin-right: 0.75em !important; }                                      /* header */    
+    .p-3 { padding: 0.75em !important; }                                            /* header */
+    .my-3 { margin-top: 0.75em !important; margin-bottom: 0.75em !important; }      /* titulo */
+    .py-4 { padding-top: 0.75em !important; padding-bottom: 0.75em !important; }    /* servicios */
+    .mt-3 { margin-top: 0.5em !important; }                                         /* servicios */        
+    .py-3 { padding-top: 0.75em !important; padding-bottom: 0.75em !important; }    /* footer */
         
-    /* Titulo */
-    .display-4 { font-size: 2.5em!important; }
-    .my-4 { margin-top: 0.75em!important; margin-bottom: 0.75em!important; }
+    /* Sección principal - titulo */
+    .display-4 { font-size: 2.25em !important; }
 
-    /* Sección principal */
-    main h3 { font-size: 1em; padding-top: 0.25em; }
-    main p { font-size: 0.75em; }
-    main ul li { font-size: 0.75em; }
+    /* Sección principal - descripción de servicios */
+    main ul li { font-size: 0.7em; }
+    .w-100 { width: 100% !important; }
 
     /* Footer */
-    footer a, footer ul li, .copyright { font-size: 0.65em!important; }
-    footer h5 { font-size: 1em!important; }
-    .p-5 { padding: 1.5em!important; }    
+    footer a, footer ul li, .copyright { font-size: 0.7em !important; }     
+    footer h5 { font-size: 1em !important; }
+    .p-5 { padding: 0.75em !important; }
+    footer .col-6 { padding-top: 1em !important; }   
 }
 
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
     
-    /* Encabezado */
+    /* Encabezado y menú de navegación */
     header .iconHeader { font-size: 1em; }
-    header p { font-size: 0.5em; }
-    .mr-3 { margin-right: 0.5em!important; }
-    header .py-4 { padding-top: 0.75em !important; padding-bottom: 0.75em !important; }
-                                    
-    /* Menu de navegación */    
-    header .nav .nav-item .nav-link { font-size: 0.75em !important; padding: 0.75em !important; }
-    header .nav .nav-item .nav-link .iconNav { font-size: 1em !important; }    
-    header h3 { font-size: 0.75em!important; }
-    .navbar-toggler { font-size: 0.75em !important; }
-    .ml-3 { margin-left: 0.75em! important; }
-    header .p-4 { padding: 0.75em !important; }
-                    
-    /* Titulo */
-    .display-4 { font-size: 2.25em!important; }
-    .my-4 { margin-top: 0.75em!important; margin-bottom: 0.75em!important; }
-
-    /* Sección principal */
-    main h3 { font-size: 1em; padding-top: 0.25em; }
-    main p { font-size: 0.75em; }
-    main ul li { font-size: 0.75em; }
-
+    header p { font-size: 0.6em; }    
+    header h3 { font-size: 1em !important; }
+    header .w-50 { width: 45% !important; }
+    header .nav .nav-item .nav-link { font-size: 0.7em !important; padding: 0.75em !important; } 
+    .navbar-toggler { font-size: 1em !important; padding: 0.25em !important; }
+    .menu { display: flex !important; flex-direction: column !important; justify-content: flex-start !important; }
+    
+    /* Sección principal - estilos globales */
+    h3 { font-size: 1.25em; }                                                     /* header */
+    p { font-size: 0.6em; }                                                       /* header */
+    .mr-3 { margin-right: 0.5em !important; }                                     /* header */    
+    .p-3 { padding: 0.5em !important; }                                           /* header */
+    .my-3 { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }      /* titulo */
+    .py-4 { padding-top: 0.75em !important; padding-bottom: 0.75em !important; }  /* servicios */
+    .mt-3 { margin-top: 0.5em !important; }                                       /* servicios */    
+    .py-3 { padding-top: 0.5em !important; padding-bottom: 0.5em !important; }    /* footer */
+        
+    /* Sección principal - titulo */
+    .display-4 { font-size: 2em !important; }
+    
+    /* Sección principal - descripción de servicios */
+    main ul li { font-size: 0.6em; }
+    .w-100 { width: 100% !important; }
+    
     /* Footer */
-    footer a, footer ul li, .copyright { font-size: 0.65em!important; }     
-    footer h5 { font-size: 1em!important; }
-    .p-5 { padding: 1.5em!important; }  
-    footer .col-6 { padding-top: 1em!important; }
+    footer a, footer ul li, .copyright { font-size: 0.6em !important; }     
+    footer h5 { font-size: 0.75em !important; }
+    .p-5 { padding: 0.75em !important; }
+    footer .col-6 { padding-top: 1em !important; } 
 }
 
-@media screen and (max-width: 575.98px) {
+@media screen and (min-width: 481px) and (max-width: 575.98px) {
     
-    /* Encabezado */
+    /* Encabezado y menú de navegación */
     header .iconHeader { font-size: 1em; }
-    header p { font-size: 0.5em; }
-    header .mr-3 { margin-right: 0.5em!important; }
-    header .py-4 { padding-top: 0.75em !important; padding-bottom: 0.75em !important; }
+    header p { font-size: 0.5em; }    
+    header h3 { font-size: 1em !important; }
+    header .w-50 { width: 50% !important; }
+    header .nav .nav-item .nav-link { font-size: 0.65em !important; padding: 0.75em !important; } 
+    .navbar-toggler { font-size: 1em !important; padding: 0.25em !important; }
+    .menu { display: flex !important; flex-direction: column !important; justify-content: flex-start !important; }
     
-    /* Menu de navegación */    
-    header .nav .nav-item .nav-link { font-size: 0.75em !important; padding: 0.75em !important; }
-    header .nav .nav-item .nav-link .iconNav { font-size: 1em !important; }    
-    header h3 { font-size: 0.75em!important; }
-    .navbar-toggler { font-size: 0.75em !important; }
-    .ml-3 { margin-left: 0.75em! important; }              
-    .menu { display: flex; flex-direction: column; justify-content: flex-start ; }
-    .nav-fill .nav-item, .nav-fill>.nav-link { text-align: left; }
+    /* Sección principal - estilos globales */
+    h3 { font-size: 1.25em; }                                                     /* header */
+    p { font-size: 0.6em; }                                                       /* header */
+    .mr-3 { margin-right: 0.5em !important; }                                     /* header */    
+    .p-3 { padding: 0.5em !important; }                                           /* header */
+    .my-3 { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }      /* titulo */
+    .py-4 { padding-top: 0.5em !important; padding-bottom: 0.5em !important; }    /* servicios */
+    .mt-3 { margin-top: 0 !important; }                                           /* servicios */
+    .py-3 { padding-top: 0.5em !important; padding-bottom: 0.5em !important; }    /* footer */
     
-    /* Titulo */  
-    .display-4 { font-size: 1.75em!important; }
-    main .my-4 { margin-top: 0.75em!important; margin-bottom: 0.75em!important; }
+    /* Sección principal - titulo */
+    .display-4 { font-size: 1.75em !important; }
     
-    /* Sección principal */  
-    .display-4 { font-size: 1.75em!important; }
-    main .my-4 { margin-top: 0.75em!important; margin-bottom: 0.75em!important; }
-    main h3 {  font-size: 1em; }
-    main p { font-size: 0.75em; }
-    main ul li { font-size: 0.75em; }    
-    
+    /* Sección principal - descripción de servicios */
+    main ul li { font-size: 0.6em; }
+    .w-100 { width: 100% !important; }
+        
     /* Footer */
-    footer a, footer ul li, .copyright { font-size: 0.65em!important; }     
-    footer h5 { font-size: 0.75em!important; }
-    .p-5 { padding: 1.5em!important; }
-    footer .col-6 { padding-top: 1em!important; } 
+    footer a, footer ul li, .copyright { font-size: 0.6em !important; }     
+    footer h5 { font-size: 0.75em !important; }
+    .p-5 { padding: 0.5em !important; }
+    footer .col-6 { padding-top: 1em !important; }
+}
+
+@media screen and (max-width: 480.98px) {
+    
+    /* Encabezado y menú de navegación */
+    header .iconHeader { font-size: 1em; }
+    header p { font-size: 0.5em; }    
+    header h3 { font-size: 0.75em !important; }
+    header .w-50 { width: 50% !important; }
+    header .nav .nav-item .nav-link { font-size: 0.65em !important; padding: 0.75em !important; } 
+    .navbar-toggler { font-size: 0.75em !important; padding: 0.25em !important; }
+    .menu { display: flex !important; flex-direction: column !important; justify-content: flex-start !important; }
+    
+    /* Sección principal - estilos globales */
+    h3 { font-size: 1.25em; }                                                     /* header */
+    p { font-size: 0.6em; }                                                       /* header */
+    .mr-3 { margin-right: 0.5em !important; }                                     /* header */    
+    .p-3 { padding: 0.5em !important; }                                           /* header */
+    .my-3 { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }      /* titulo */
+    .py-4 { padding-top: 0.5em !important; padding-bottom: 0.5em !important; }    /* servicios */
+    .mt-3 { margin-top: 0 !important; }                                           /* servicios */
+    .py-3 { padding-top: 0.5em !important; padding-bottom: 0.5em !important; }    /* footer */
+    
+    /* Sección principal - titulo */
+    .display-4 { font-size: 1.5em !important; }
+    
+    /* Sección principal - descripción de servicios */
+    main ul li { font-size: 0.6em; }
+    .w-100 { width: 100% !important; }
+            
+    /* Footer */
+    footer a, footer ul li, .copyright { font-size: 0.6em !important; }     
+    footer h5 { font-size: 0.75em !important; }
+    .p-5 { padding: 0.5em !important; }
+    footer .col-6 { padding-top: 1em !important; } 
 }

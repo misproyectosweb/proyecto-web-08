@@ -10,7 +10,7 @@ $(function () {
         boundary:'window',
         template:'<div class="tooltip tooltip_custom" role="tooltip"><div class="arrow"></div><div class="tooltip-inner"></div></div>'
     });
-        
+    
     $('#wtpp').tooltip({
         placement: 'top',        
         animation: true,
@@ -46,4 +46,4 @@ $(function () {
             'hide': 100
         }
     });
-}); 
+});

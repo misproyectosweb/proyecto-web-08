@@ -8,312 +8,484 @@ and open the template in the editor.
     Author     : pcgc7
 */
 
-
-/* Encabezado */
-header .iconHeader { font-size: 2em; }
+/* Encabezado y menú de navegación */
+header .iconHeader { font-size: 1.5em; }
 header p { font-size: 1em; }
-header .mr-3 { margin-right: 1em!important; }
-header .py-4 { padding-top: 1.5em !important; padding-bottom: 1.5em !important; }
+header h3 { font-size: 1.75em !important; }
+header .w-50 { width: 35% !important; }
+header .nav .nav-item .nav-link { font-size: 1em !important; padding: 1em 3em !important; }
+.navbar-toggler { font-size: 2em !important; padding: 0.5em !important; }
 
-/* Menu de navegación */
-header .nav .nav-item .nav-link { font-size: 1.25rem !important; }
-header .nav .nav-item .nav-link .iconNav { font-size: 1.5rem !important; }
-.navbar-toggler { font-size: 2.25em !important; }
-header h3 { font-size: 1.75em!important; }
-.ml-5 { margin-left: 3em! important; }   
+/* Sección principal - estilos globales */
+h3 { font-size: 1.75em; }                                                       /* header, carrusel, cualidades, servicios, citas, noticias */
+p { font-size: 1em; }                                                           /* header, cualidades, servicios, citas, noticias */
+.mr-3 { margin-right: 1em !important; }                                         /* header, servicios */
+.p-3 { padding: 1em !important; }                                               /* header, servicios, noticias */
+.mb-5 { margin-bottom: 2.5em !important; }                                      /* carrusel */
+.my-5 { margin-top: 2.5em !important; margin-bottom: 2.5em !important; }        /* carrusel */
+h2 { font-size: 2em; }                                                          /* cualidades, servicios, citas, noticias */
+.mb-4 { padding-bottom: 1.25em !important; }                                    /* cualidades, servicios, citas, noticias */
+.pb-4 { padding-bottom: 1.25em !important; }                                    /* cualidades, servicios, citas, noticias */
+.py-5 { padding-top: 2.5em !important; padding-bottom: 2.5em !important; }      /* cualidades, servicios, citas, noticias */
+.btn { font-size: 1em !important; }                                             /* cualidades, servicios, citas, noticias */
+.ml-3 { margin-left: 1em !important; }                                          /* cualidades, servicios, citas, noticias */
+.pb-5 { padding-bottom: 2.5em !important; }                                     /* noticias */
+.my-3 { margin-top: 1em !important; margin-bottom: 1em !important; }            /* servicios */
+.py-3 { padding-top: 1em !important; padding-bottom: 1em !important; }          /* footer */
 
-/* Titulo */
-.titulo { font-family: 'Bree Serif', serif; font-weight: 400; font-style: normal; }
-.display-4 { font-size: 3.5em!important; }
-.my-4 { margin-top: 1em!important; margin-bottom: 1em!important; }
+/* Sección principal - titulo */
+.display-4 { font-family: 'Bree Serif', serif; font-weight: 400; font-style: normal; font-size: 3.25em !important; }
 
-/* Carrusel de imágemes */
-.carousel-indicators { bottom: 4%!important; } 
-.control-prev, .control-next { font-size: 3rem; color: #fff; }
+/* Sección principal - carrusel de imágemes */
+.carousel-indicators { bottom: 4% !important; } 
+.control-prev, .control-next { font-size: 3em; color: #fff; }
 .fondoCaption { right: 0.5%; bottom: 2%; left: 0.5%; padding-top: 3em; padding-bottom: 3em; background-color: rgba(0,0,0,0.4);}
 
-/* Sección de información de la empresa */
-main p { font-size: 1.25rem; }
-.icono { width: 15%!important; }
-.iconos { width: 30%!important; }
+/* Sección principal - cualidades */ 
+.cualidades .icono { width: 30% !important; }
 
-/* Pie de página */
-footer a, footer ul li, .copyright { font-size: 0.75em!important; }
-.p-5 { padding: 3em!important; }
-footer h5 { font-size: 1.25em!important; }
+/* Sección principal - servicios */
+.servicios .icono { width: 15% !important; }
+.servicios h6 { font-size: 1em; }
+
+/* Sección principal - citas */
+.cita .w-75 { width: 65% !important; }
+
+/* Sección principal - noticias */
+.card { width: 32% !important; }
+.card-body { padding: 1em !important; }
+.card-title { font-size: 1.25em !important; }
+.card-text { font-size: 1em !important; }
+
+/* Footer */
+footer a, footer ul li, .copyright { font-size: 0.7em !important; }     
+footer h5 { font-size: 1em !important; }
+.p-5 { padding: 1em !important; }
+footer .col-6 { padding-top: 1em !important; }
 
 /****************************** Media queries ******************************/
 
 @media screen and (min-width: 1424px) and (max-width: 1647.98px) {
     
-    /* Encabezado */
-    header .iconHeader { font-size: 1.65em; }
-    header p { font-size: 1em; }
-    .mr-3 { margin-right: 1em!important; }
-    header .py-4 { padding-top: 1.5em !important; padding-bottom: 1.5em !important; }
-    
-    /* Menu de navegación */
-    header .nav .nav-item .nav-link { font-size: 1.25em !important; }
-    header .nav .nav-item .nav-link .iconNav { font-size: 1.5em !important; }
-    header .py-3 { padding: 1rem !important; }    
-    header h3 { font-size: 1.5em!important; }
-    .navbar-toggler { font-size: 1.75em !important; }
-    .ml-3 { margin-left: 1em! important; }
-    header .p-4 { padding: 1em !important; }
-               
-    /* Titulo */
-    .display-4 { font-size: 3.25em!important; }
-    .my-4 { margin-top: 1em!important; margin-bottom: 1em!important; }
-    
-    /* Carrusel de imagenes */
-    .h2 { font-size: 1.75em!important; }
-    .h3 { font-size: 1.5em!important; }
-    .mb-5 { margin-bottom: 2em!important; }
-    .control-prev, .control-next { font-size: 2.75em; }
-    .fondoCaption { right: 0.75%!important; left: 0.75%!important; bottom: 2%!important; padding-top: 2.5em!important; padding-bottom: 2.5em!important; }
-    .carousel-indicators { bottom: 3%!important; }
+    /* Encabezado y menú de navegación */
+    header .iconHeader { font-size: 1.5em; }
+    header p { font-size: 0.85em; }    
+    header h3 { font-size: 1.5em !important; }
+    header .w-50 { width: 35% !important; }
+    header .nav .nav-item .nav-link { font-size: 1em !important; padding: 1em 3em !important; } 
+    .navbar-toggler { font-size: 1.5em !important; padding: 0.5em !important; }
         
+    /* Sección principal - estilos globales */
+    h3 { font-size: 1.75em; }                                                       /* header, carrusel, cualidades, servicios, citas, noticias */
+    p { font-size: 0.9em; }                                                         /* header, cualidades, servicios, citas, noticias */
+    .mr-3 { margin-right: 1em !important; }                                         /* header, servicios */
+    .p-3 { padding: 1em !important; }                                               /* header, servicios, noticias */    
+    .mb-5 { margin-bottom: 2.25em !important; }                                     /* carrusel */
+    .my-5 { margin-top: 2.25em !important; margin-bottom: 2.25em !important; }      /* carrusel */
+    h2 { font-size: 2em; }                                                          /* cualidades, servicios, citas, noticias */
+    .mb-4 { padding-bottom: 1.25em !important; }                                    /* cualidades, servicios, citas, noticias */
+    .pb-4 { padding-bottom: 1.25em !important; }                                    /* cualidades, servicios, citas, noticias */
+    .py-5 { padding-top: 2.25em !important; padding-bottom: 2.25em !important; }    /* cualidades, servicios, citas, noticias */
+    .btn { font-size: 1em !important; }                                             /* cualidades, servicios, citas, noticias */
+    .ml-3 { margin-left: 1em !important; }                                          /* cualidades, servicios, citas, noticias */
+    .pb-5 { padding-bottom: 2.25em !important; }                                    /* noticias */
+    .my-3 { margin-top: 1em !important; margin-bottom: 1em !important; }            /* servicios */
+    .py-3 { padding-top: 1em !important; padding-bottom: 1em !important; }          /* footer */
+            
+    /* Sección principal - titulo */
+    .display-4 { font-size: 3em !important; }
+
+    /* Sección principal - carrusel de imagenes */
+    .carrusel h2 { font-size: 1.5em !important; }
+    .carrusel h3 { font-size: 1.25em !important; }
+    .control-prev, .control-next { font-size: 2.5em; }
+    .fondoCaption { right: 0.7% !important; left: 0.7% !important; bottom: 2% !important; padding-top: 2.5% !important; padding-bottom: 4% !important; }
+    .carousel-indicators { bottom: 2% !important; }
+    
+    /* Sección principal - cualidades */            
+    .cualidades .icono { width: 30% !important; }
+    
+    /* Sección principal - servicios */
+    .servicios .icono { width: 15% !important; }
+    .servicios h6 { font-size: 1em; }
+    
+    /* Sección principal - citas */
+    .cita .w-75 { width: 55% !important; }
+    
+    /* Sección principal - Noticias */
+    .card { width: 32% !important; }
+    .card-body { padding: 1em !important; }
+    .card-title { font-size: 1.25em !important; }
+    .card-text { font-size: 0.9em !important; }
+    
     /* Footer */
-    footer a, footer ul li, .copyright { font-size: 0.75em!important; }
-    .p-5 { padding: 2.5em!important; }
-    footer h5 { font-size: 1.25em!important; }           
+    footer a, footer ul li, .copyright { font-size: 0.7em !important; }     
+    footer h5 { font-size: 1em !important; }
+    .p-5 { padding: 1em !important; }
+    footer .col-6 { padding-top: 1em !important; }
+    
 }
       
 @media screen and (min-width: 1200px) and (max-width: 1423.98px) {
 
-    /* Encabezado */
+    /* Encabezado y menú de navegación */
     header .iconHeader { font-size: 1.5em; }
-    header p { font-size: 0.75em; }
-    .mr-3 { margin-right: 0.75em!important; }
-    header .py-4 { padding-top: 1.25em !important; padding-bottom: 1.25em !important; }
+    header p { font-size: 0.85em; }    
+    header h3 { font-size: 1.5em !important; }
+    header .w-50 { width: 40% !important; }
+    header .nav .nav-item .nav-link { font-size: 1em !important; padding: 0.75em 3em !important; } 
+    .navbar-toggler { font-size: 1.5em !important; padding: 0.5em !important; }
     
-    /* Menu de navegación */
-    header .nav .nav-item .nav-link { font-size: 1em !important; }
-    header .nav .nav-item .nav-link .iconNav { font-size: 1.5em !important; }
-    header .py-3 { padding: 0.75rem !important; }            
-    header h3 { font-size: 1.25em!important; }
-    .navbar-toggler { font-size: 1.5em !important; }
-    .ml-3 { margin-left: 1em! important; }
-    header .p-4 { padding: 1em !important; }
+    /* Sección principal - estilos globales */
+    h3 { font-size: 1.5em; }                                                        /* header, carrusel, cualidades, servicios, citas, noticias */
+    p { font-size: 0.9em; }                                                         /* header, cualidades, servicios, citas, noticias */
+    .mr-3 { margin-right: 0.75em !important; }                                      /* header, servicios */
+    .p-3 { padding: 0.75em !important; }                                            /* header, servicios, noticias */    
+    .mb-5 { margin-bottom: 2em !important; }                                        /* carrusel */
+    .my-5 { margin-top: 2em !important; margin-bottom: 2em !important; }            /* carrusel */
+    h2 { font-size: 1.75em; }                                                       /* cualidades, servicios, citas, noticias */
+    .mb-4 { padding-bottom: 1em !important; }                                       /* cualidades, servicios, citas, noticias */
+    .pb-4 { padding-bottom: 1em !important; }                                       /* cualidades, servicios, citas, noticias */
+    .py-5 { padding-top: 2em !important; padding-bottom: 2em !important; }          /* cualidades, servicios, citas, noticias */
+    .btn { font-size: 0.75em !important; }                                          /* cualidades, servicios, citas, noticias */
+    .ml-3 { margin-left: 0.75em !important; }                                       /* cualidades, servicios, citas, noticias */
+    .pb-5 { padding-bottom: 2em !important; }                                       /* noticias */
+    .my-3 { margin-top: 0.75em !important; margin-bottom: 0.75em !important; }      /* servicios */
+    .py-3 { padding-top: 0.75em !important; padding-bottom: 0.75em !important; }    /* footer */
                 
-    /* Titulo */
-    .display-4 { font-size: 3em!important; }
-    .my-4 { margin-top: 1em!important; margin-bottom: 1em!important; }
+    /* Sección principal - titulo */
+    .display-4 { font-size: 2.75em !important; }
     
-    /* Carrusel de imagenes */
-    .h2 { font-size: 1.5em!important; }
-    .h3 { font-size: 1.25em!important; }
-    .mb-5 { margin-bottom: 1.5em!important; }
+    /* Sección principal - carrusel de imagenes */
+    .carrusel h2 { font-size: 1.5em !important; }
+    .carrusel h3 { font-size: 1.25em !important; }
     .control-prev, .control-next { font-size: 2.5em; }
-    .fondoCaption { right: 0.75%!important; left: 0.75%!important; bottom: 2%!important; padding-top: 2em!important; padding-bottom: 2em!important; }
-    .carousel-indicators { bottom: 2%!important; }
+    .fondoCaption { right: 1% !important; left: 1% !important; bottom: 2% !important; padding-top: 2.5% !important; padding-bottom: 4% !important; }
+    .carousel-indicators { bottom: 2% !important; }
     
-    .py-5 { padding-top: 2.5em!important; padding-bottom: 2.5em!important; }
-    .w-75 { width: 65% !important; }
+    /* Sección principal - cualidades */            
+    .cualidades .icono { width: 35% !important; }
     
-    /* Noticias */
-    .card-deck .card { margin-left: 0.5em!important; margin-right: 0.5em!important; }
-    .card-body { padding: 1em!important; }    
+    /* Sección principal - servicios */
+    .servicios .icono { width: 15% !important; }
+    .servicios h6 { font-size: 1em; }
+    
+    /* Sección principal - citas */
+    .cita .w-75 { width: 55% !important; }
+    
+    /* Sección principal - Noticias */
+    .card { width: 32% !important; }
+    .card-body { padding: 1em !important; }
+    .card-title { font-size: 1.25em !important; }
+    .card-text { font-size: 0.9em !important; }
     
     /* Footer */
-    footer a, footer ul li, .copyright { font-size: 0.75em!important; }
-    .p-5 { padding: 2em!important; }
-    footer h5 { font-size: 1.25em!important; }
+    footer a, footer ul li, .copyright { font-size: 0.7em !important; }     
+    footer h5 { font-size: 1em !important; }
+    .p-5 { padding: 1em !important; }
+    footer .col-6 { padding-top: 1em !important; }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
     
-    /* Encabezado */
+    /* Encabezado y menú de navegación */
     header .iconHeader { font-size: 1.5em; }
-    header p { font-size: 0.75em; }
-    .mr-3 { margin-right: 0.75em!important; }
-    header .py-4 { padding-top: 1.25em !important; padding-bottom: 1.25em !important; }
-                   
-    /* Menu de navegación */
-    header .nav .nav-item .nav-link { font-size: 0.75em !important; }
-    header .nav .nav-item .nav-link .iconNav { font-size: 1.5em !important; }
-    header .py-3 { padding: 0.75rem !important; }                     
-    header h3 { font-size: 1em!important; }
-    .navbar-toggler { font-size: 1.25em !important; }
-    .ml-3 { margin-left: 1em! important; }
-    header .p-4 { padding: 0.75em !important; }
-            
-    /* Titulo */
-    .display-4 { font-size: 2.75em!important; }
-    .my-4 { margin-top: 1em!important; margin-bottom: 1em!important; }
+    header p { font-size: 0.85em; }    
+    header h3 { font-size: 1.25em !important; }
+    header .w-50 { width: 40% !important; }
+    header .nav .nav-item .nav-link { font-size: 0.75em !important; padding: 0.75em 3em !important; } 
+    .navbar-toggler { font-size: 1.25em !important; padding: 0.5em !important; }
     
-    /* Carrusel de imagenes */
-    .h2 { font-size: 1.25em!important; }
-    .h3 { font-size: 1em!important; }
-    .mb-5 { margin-bottom: 1.5em!important; }
-    .control-prev, .control-next { font-size: 2.5em; }
-    .fondoCaption { right: 1%!important; left: 1%!important; bottom: 3%!important; padding-top: 1.5em!important; padding-bottom: 1.5em!important; }
-    .carousel-indicators { bottom: 0%!important; } 
+    /* Sección principal - estilos globales */
+    h3 { font-size: 1.5em; }                                                        /* header, carrusel, cualidades, servicios, citas, noticias */
+    p { font-size: 0.8em; }                                                         /* header, cualidades, servicios, citas, noticias */
+    .mr-3 { margin-right: 0.75em !important; }                                      /* header, servicios */
+    .p-3 { padding: 0.75em !important; }                                            /* header, servicios, noticias */    
+    .mb-5 { margin-bottom: 1.75em !important; }                                     /* carrusel */
+    .my-5 { margin-top: 1.75em !important; margin-bottom: 1.75em !important; }      /* carrusel */
+    h2 { font-size: 1.75em; }                                                       /* cualidades, servicios, citas, noticias */
+    .mb-4 { padding-bottom: 1em !important; }                                       /* cualidades, servicios, citas, noticias */
+    .pb-4 { padding-bottom: 1em !important; }                                       /* cualidades, servicios, citas, noticias */
+    .py-5 { padding-top: 1.75em !important; padding-bottom: 1.75em !important; }    /* cualidades, servicios, citas, noticias */
+    .btn { font-size: 0.75em !important; }                                          /* cualidades, servicios, citas, noticias */
+    .ml-3 { margin-left: 0.75em !important; }                                       /* cualidades, servicios, citas, noticias */
+    .pb-5 { padding-bottom: 1.75em !important; }                                    /* noticias */
+    .my-3 { margin-top: 0.75em !important; margin-bottom: 0.75em !important; }      /* servicios */
+    .py-3 { padding-top: 0.75em !important; padding-bottom: 0.75em !important; }    /* footer */
+                        
+    /* Sección principal - titulo */
+    .display-4 { font-size: 2.5em !important; }
     
-    main p { font-size: 1em; }
-    .icono { width: 20%!important; }
-    .iconos { width: 40%!important; }
-    .btn-lg { font-size: 1em!important; }    
-    .py-5 { padding-top: 2em!important; padding-bottom: 2em!important; }
-    .w-75 { width: 60% !important; }
+    /* Sección principal - carrusel de imagenes */
+    .carrusel h2 { font-size: 1.25em !important; }
+    .carrusel h3 { font-size: 1em !important; }
+    .control-prev, .control-next { font-size: 2em; }
+    .fondoCaption { right: 1% !important; left: 1% !important; bottom: 2% !important; padding-top: 2.5% !important; padding-bottom: 4% !important; }
+    .carousel-indicators { bottom: 2% !important; }
     
-    /* Noticias */
-    .card-deck .card { margin-left: 0.25em!important; margin-right: 0.25em!important; }
-    .card-body { padding: 0.75em!important; }    
-    .card-body h5 { font-size: 1em!important; }
-    .card-body .btn { font-size: 0.75em!important; }
+    /* Sección principal - cualidades */            
+    .cualidades .icono { width: 35% !important; }
+    
+    /* Sección principal - servicios */
+    .servicios .icono { width: 15% !important; }
+    .servicios h6 { font-size: 1em; }
+    
+    /* Sección principal - citas */
+    .cita .w-75 { width: 45% !important; }
+    
+    /* Sección principal - Noticias */
+    .card { width: 32% !important; }
+    .card-body { padding: 1em !important; }
+    .card-title { font-size: 1em !important; }
+    .card-text { font-size: 0.8em !important; }
     
     /* Footer */
-    footer a, footer ul li, .copyright { font-size: 0.75em!important; }
-    .p-5 { padding: 1.5em!important; }
-    footer h5 { font-size: 1.15em!important; }
+    footer a, footer ul li, .copyright { font-size: 0.7em !important; }     
+    footer h5 { font-size: 1em !important; }
+    .p-5 { padding: 1em !important; }
+    footer .col-6 { padding-top: 1em !important; }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
     
-    /* Encabezado */
-    header .iconHeader { font-size: 1.25em; }
-    header p { font-size: 0.75em; }
-    .mr-3 { margin-right: 0.75em!important; }
-    header .py-4 { padding-top: 1em !important; padding-bottom: 1em !important; }            
-                
-    /* Menu de navegación */
-    header .nav .nav-item .nav-link { font-size: 0.75em !important; }
-    header .nav .nav-item .nav-link .iconNav { font-size: 1.25em !important; }
-    header .py-3 { padding: 0.5em !important; }              
-    header h3 { font-size: 1em!important; }
-    .navbar-toggler { font-size: 1em !important; }
-    .ml-3 { margin-left: 1em! important; }
-    header .p-4 { padding: 0.75em !important; }
-        
-    /* Titulo */
-    .display-4 { font-size: 2.5em!important; }
-    .my-4 { margin-top: 0.75em!important; margin-bottom: 0.75em!important; }
+    /* Encabezado y menú de navegación */
+    header .iconHeader { font-size: 1em; }
+    header p { font-size: 0.7em; }    
+    header h3 { font-size: 1.25em !important; }
+    header .w-50 { width: 45% !important; }
+    header .nav .nav-item .nav-link { font-size: 0.75em !important; padding: 0.75em !important; } 
+    .navbar-toggler { font-size: 1.25em !important; padding: 0.25em !important; }
+    .menu { display: flex !important; flex-direction: column !important; justify-content: flex-start !important; }
     
-    /* Carrusel de imagenes */
-    .h2 { font-size: 1em!important; }
-    .h3 { font-size: 0.75em!important; }
-    .mb-5 { margin-bottom: 1.5em!important; }
-    .control-prev, .control-next { font-size: 2.25em; }
-    .fondoCaption { right: 1.5%!important; left: 1.5%!important; bottom: 3%!important; padding-top: 1.25em!important; padding-bottom: 1.25em!important; }
-    .carousel-indicators { bottom: -2%!important; } 
+    /* Sección principal - estilos globales */
+    h3 { font-size: 1.5em; }                                                        /* header, carrusel, cualidades, servicios, citas, noticias */
+    p { font-size: 0.7em; }                                                         /* header, cualidades, servicios, citas, noticias */
+    .mr-3 { margin-right: 0.75em !important; }                                      /* header, servicios */
+    .p-3 { padding: 0.75em !important; }                                            /* header, servicios, noticias */    
+    .mb-5 { margin-bottom: 1.5em !important; }                                      /* carrusel */
+    .my-5 { margin-top: 1.5em !important; margin-bottom: 1.5em !important; }        /* carrusel */
+    h2 { font-size: 1.5em; }                                                        /* cualidades, servicios, citas, noticias */
+    .mb-4 { padding-bottom: 1em !important; }                                       /* cualidades, servicios, citas, noticias */
+    .pb-4 { padding-bottom: 1em !important; }                                       /* cualidades, servicios, citas, noticias */
+    .py-5 { padding-top: 1.5em !important; padding-bottom: 1.5em !important; }      /* cualidades, servicios, citas, noticias */
+    .btn { font-size: 0.75em !important; }                                          /* cualidades, servicios, citas, noticias */
+    .ml-3 { margin-left: 0.75em !important; }                                       /* cualidades, servicios, citas, noticias */
+    .pb-5 { padding-bottom: 1.5em !important; }                                     /* noticias */
+    .my-3 { margin-top: 0.75em !important; margin-bottom: 0.75em !important; }      /* servicios */
+    .py-3 { padding-top: 0.75em !important; padding-bottom: 0.75em !important; }    /* footer */
+                    
+    /* Sección principal - titulo */
+    .display-4 { font-size: 2.25em !important; }
     
-    main p { font-size: 1em; }
-    .icono { width: 20%!important; }
-    .iconos { width: 40%!important; }
-    .btn-lg { font-size: 1em!important; }    
-    .py-5 { padding-top: 1.5em!important; padding-bottom: 1.5em!important; }
-    .w-75 { width: 60% !important; }
+    /* Sección principal - carrusel de imagenes */
+    .carrusel h2 { font-size: 1.25em !important; }
+    .carrusel h3 { font-size: 1em !important; }
+    .control-prev, .control-next { font-size: 2em; }
+    .fondoCaption { right: 1% !important; left: 1% !important; bottom: 2% !important; padding-top: 19.5% !important; padding-bottom: 4% !important; }
+    .carousel-indicators { bottom: 0% !important; }
     
-    /* Noticias */
-    .card-deck .card { margin-left: 0.125em!important; margin-right: 0.125em!important; }
-    .card-body { padding: 0.75em!important; }    
-    .card-body h5 { font-size: 1em!important; }
-    .card-body .btn { font-size: 0.75em!important; }
+    /* Sección principal - cualidades */            
+    .cualidades .icono { width: 30% !important; }
+    
+    /* Sección principal - servicios */
+    .servicios .icono { width: 15% !important; }
+    .servicios h6 { font-size: 0.75em; }
+    
+    /* Sección principal - citas */
+    .cita .w-75 { width: 40% !important; }
+    
+    /* Sección principal - Noticias */
+    .card { width: 80% !important; }
+    .card-body { padding: 1em !important; }
+    .card-title { font-size: 1.25em !important; }
+    .card-text { font-size: 0.7em !important; }
     
     /* Footer */
-    footer a, footer ul li, .copyright { font-size: 0.65em!important; }
-    .p-5 { padding: 1.5em!important; }
-    footer h5 { font-size: 1em!important; }
+    footer a, footer ul li, .copyright { font-size: 0.7em !important; }     
+    footer h5 { font-size: 1em !important; }
+    .p-5 { padding: 0.75em !important; }
+    footer .col-6 { padding-top: 1em !important; }        
 }
 
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
-
-    /* Encabezado */
+    
+    /* Encabezado y menú de navegación */
     header .iconHeader { font-size: 1em; }
-    header p { font-size: 0.5em; }
-    .mr-3 { margin-right: 0.5em!important; }
-    header .py-4 { padding-top: 0.75em !important; padding-bottom: 0.75em !important; }
-                                    
-    /* Menu de navegación */    
-    header .nav .nav-item .nav-link { font-size: 0.75em !important; padding: 0.75em !important; }
-    header .nav .nav-item .nav-link .iconNav { font-size: 1em !important; }    
-    header h3 { font-size: 0.75em!important; }
-    .navbar-toggler { font-size: 0.75em !important; }
-    .ml-3 { margin-left: 0.75em! important; }
-    header .p-4 { padding: 0.75em !important; }
-                    
-    /* Titulo */
-    .display-4 { font-size: 2.25em!important; }
-    .my-4 { margin-top: 0.75em!important; margin-bottom: 0.75em!important; }
+    header p { font-size: 0.6em; }    
+    header h3 { font-size: 1em !important; }
+    header .w-50 { width: 45% !important; }
+    header .nav .nav-item .nav-link { font-size: 0.7em !important; padding: 0.75em !important; } 
+    .navbar-toggler { font-size: 1em !important; padding: 0.25em !important; }
+    .menu { display: flex !important; flex-direction: column !important; justify-content: flex-start !important; }
     
-    /* Carrusel de imagenes */
-    .h2 { font-size: 0.75em!important; }
-    .h3 { font-size: 0.5em!important; }
-    .mb-5 { margin-bottom: 1em!important; }
+    /* Sección principal - estilos globales */
+    h3 { font-size: 1.25em; }                                                       /* header, carrusel, cualidades, servicios, citas, noticias */
+    p { font-size: 0.7em; }                                                         /* header, cualidades, servicios, citas, noticias */
+    .mr-3 { margin-right: 0.5em !important; }                                       /* header, servicios */
+    .p-3 { padding: 0.5em !important; }                                             /* header, servicios, noticias */    
+    .mb-5 { margin-bottom: 1.25em !important; }                                     /* carrusel */
+    .my-5 { margin-top: 1.25em !important; margin-bottom: 1.25em !important; }      /* carrusel */
+    h2 { font-size: 1.5em; }                                                        /* cualidades, servicios, citas, noticias */
+    .mb-4 { padding-bottom: 0.75em !important; }                                    /* cualidades, servicios, citas, noticias */
+    .pb-4 { padding-bottom: 0.75em !important; }                                    /* cualidades, servicios, citas, noticias */
+    .py-5 { padding-top: 1.25em !important; padding-bottom: 1.25em !important; }    /* cualidades, servicios, citas, noticias */
+    .btn { font-size: 0.5em !important; }                                           /* cualidades, servicios, citas, noticias */
+    .ml-3 { margin-left: 0.5em !important; }                                        /* cualidades, servicios, citas, noticias */
+    .pb-5 { padding-bottom: 1.25em !important; }                                    /* noticias */
+    .my-3 { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }        /* servicios */
+    .py-3 { padding-top: 0.5em !important; padding-bottom: 0.5em !important; }      /* footer */
+                
+    /* Sección principal - titulo */
+    .display-4 { font-size: 2em !important; }
+    
+    /* Sección principal - carrusel de imagenes */
+    .carrusel h2 { font-size: 1em !important; }
+    .carrusel h3 { font-size: 0.75em !important; }
     .control-prev, .control-next { font-size: 2em; }
-    .fondoCaption { right: 1.5%!important; left: 1.5%!important; bottom: 4%!important; padding-top: 1em!important; padding-bottom: 1em!important; }
-    .carousel-indicators { bottom: -4%!important; }  
+    .fondoCaption { right: 1.1% !important; left: 1.1% !important; bottom: 3% !important; padding-top: 19.5% !important; padding-bottom: 4% !important; }
+    .carousel-indicators { bottom: -6% !important; }
     
-    main p { font-size: 0.9em; }
-    .icono { width: 10%!important; }
-    .iconos { width: 30%!important; }
-    .btn-lg { font-size: 1em!important; }    
-    .py-5 { padding-top: 1em!important; padding-bottom: 1em!important; }
-    .w-75 { width: 60% !important; }
+    /* Sección principal - cualidades */            
+    .cualidades .icono { width: 30% !important; }
     
-    /* Noticias */
-    .card-deck .card { margin-left: 0.125em!important; margin-right: 0.125em!important; }
-    .card-deck .card { flex: 1 0 45% !important; }
-    .card-body { padding: 0.5em!important; }    
-    .card-body h5 { font-size: 1em!important; }
-    .card-body .btn { font-size: 0.75em!important; }
-    .card-text { font-size: 0.75em !important; }
-     
+    /* Sección principal - servicios */
+    .servicios .icono { width: 10% !important; }
+    .servicios h6 { font-size: 0.75em; }
+    
+    /* Sección principal - citas */
+    .cita .w-75 { width: 40% !important; }
+    
+    /* Sección principal - Noticias */
+    .card { width: 85% !important; }
+    .card-body { padding: 0.75em !important; }
+    .card-title { font-size: 1em !important; }
+    .card-text { font-size: 0.7em !important; }
+    
     /* Footer */
-    footer a, footer ul li, .copyright { font-size: 0.65em!important; } 
-    footer h5 { font-size: 1em!important; }
-    .p-5 { padding: 1.5em!important; }
-    footer .col-6 { padding-top: 1em!important; } 
+    footer a, footer ul li, .copyright { font-size: 0.6em !important; }     
+    footer h5 { font-size: 0.75em !important; }
+    .p-5 { padding: 0.75em !important; }
+    footer .col-6 { padding-top: 1em !important; }    
 }
 
-@media screen and (max-width: 575.98px) {
+@media screen and (min-width: 481px) and (max-width: 575.98px) {
     
-    /* Encabezado */
+    /* Encabezado y menú de navegación */
     header .iconHeader { font-size: 1em; }
-    header p { font-size: 0.5em; }
-    header .mr-3 { margin-right: 0.5em!important; }
-    header .py-4 { padding-top: 0.75em !important; padding-bottom: 0.75em !important; }
+    header p { font-size: 0.5em; }    
+    header h3 { font-size: 1em !important; }
+    header .w-50 { width: 50% !important; }
+    header .nav .nav-item .nav-link { font-size: 0.65em !important; padding: 0.75em !important; } 
+    .navbar-toggler { font-size: 1em !important; padding: 0.25em !important; }
+    .menu { display: flex !important; flex-direction: column !important; justify-content: flex-start !important; }
     
-    /* Menu de navegación */    
-    header .nav .nav-item .nav-link { font-size: 0.75em !important; padding: 0.75em !important; }
-    header .nav .nav-item .nav-link .iconNav { font-size: 1em !important; }    
-    header h3 { font-size: 0.75em!important; }
-    .navbar-toggler { font-size: 0.75em !important; }
-    .ml-3 { margin-left: 0.75em! important; }              
-    .menu { display: flex; flex-direction: column; justify-content: flex-start ; }
-    .nav-fill .nav-item, .nav-fill>.nav-link { text-align: left; }
+    /* Sección principal - estilos globales */
+    h3 { font-size: 1.25em; }                                                       /* header, carrusel, cualidades, servicios, citas, noticias */
+    p { font-size: 0.6em; }                                                           /* header, cualidades, servicios, citas, noticias */
+    .mr-3 { margin-right: 0.5em !important; }                                       /* header, servicios */
+    .p-3 { padding: 0.5em !important; }                                             /* header, servicios, noticias */    
+    .mb-5 { margin-bottom: 1em !important; }                                        /* carrusel */
+    .my-5 { margin-top: 1em !important; margin-bottom: 1em !important; }            /* carrusel */
+    h2 { font-size: 1.25em; }                                                       /* cualidades, servicios, citas, noticias */
+    .mb-4 { padding-bottom: 0.75em !important; }                                    /* cualidades, servicios, citas, noticias */
+    .pb-4 { padding-bottom: 0.75em !important; }                                    /* cualidades, servicios, citas, noticias */
+    .py-5 { padding-top: 1em !important; padding-bottom: 1em !important; }          /* cualidades, servicios, citas, noticias */
+    .btn { font-size: 0.5em !important; }                                           /* cualidades, servicios, citas, noticias */
+    .ml-3 { margin-left: 0.5em !important; }                                        /* cualidades, servicios, citas, noticias */
+    .pb-5 { padding-bottom: 1em !important; }                                       /* noticias */
+    .my-3 { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }        /* servicios */
+    .py-3 { padding-top: 0.5em !important; padding-bottom: 0.5em !important; }      /* footer */
     
-    /* Titulo */  
-    .display-4 { font-size: 1.75em!important; }
-    main .my-4 { margin-top: 0.75em!important; margin-bottom: 0.75em!important; }
+    /* Sección principal - titulo */
+    .display-4 { font-size: 1.75em !important; }
     
-    /* Carrusel de imagenes */
-    .h2 { font-size: 0.75em!important; }
-    .h3 { font-size: 0.5em!important; }
-    .mb-5 { margin-bottom: 1em!important; }
+    /* Sección principal - carrusel de imagenes */
+    .carrusel h2 { font-size: 0.75em !important; }
+    .carrusel h3 { font-size: 0.5em !important; }
     .control-prev, .control-next { font-size: 2em; }
-    .fondoCaption { right: 1.5%!important; left: 1.5%!important; bottom: 4%!important; padding-top: 1em!important; padding-bottom: 1em!important; }
-    .carousel-indicators { bottom: -4%!important; }  
+    .fondoCaption { right: 1.1% !important; left: 1.1% !important; bottom: 3% !important; padding-top: 21% !important; padding-bottom: 4% !important; }
+    .carousel-indicators { bottom: -6% !important; }
     
-    main p { font-size: 0.75em; }
-    .icono { width: 10%!important; }
-    .iconos { width: 30%!important; }
-    .btn-lg { font-size: 1em!important; }    
-    .py-5 { padding-top: 1em!important; padding-bottom: 1em!important; }
-    .w-75 { width: 60% !important; }
+    /* Sección principal - cualidades */            
+    .cualidades .icono { width: 30% !important; }
     
-    /* Noticias */
-    .card-deck .card { margin-left: 0.125em!important; margin-right: 0.125em!important; }
-    .card-deck .card { flex: 1 0 45% !important; }
-    .card-body { padding: 0.5em!important; }    
-    .card-body h5 { font-size: 1em!important; }
-    .card-body .btn { font-size: 0.75em!important; }  
-    .card-text { font-size: 0.75em !important; }
+    /* Sección principal - servicios */
+    .servicios .icono { width: 10% !important; }
+    .servicios h6 { font-size: 0.75em; }
+    
+    /* Sección principal - citas */
+    .cita .w-75 { width: 40% !important; }
+    
+    /* Sección principal - Noticias */
+    .card { width: 90% !important; }
+    .card-body { padding: 0.75em !important; }
+    .card-title { font-size: 1em !important; }
+    .card-text { font-size: 0.6em !important; }
     
     /* Footer */
-    footer a, footer ul li, .copyright { font-size: 0.65em!important; }     
-    footer h5 { font-size: 0.75em!important; }
-    .p-5 { padding: 1.5em!important; }
-    footer .col-6 { padding-top: 1em!important; } 
+    footer a, footer ul li, .copyright { font-size: 0.6em !important; }     
+    footer h5 { font-size: 0.75em !important; }
+    .p-5 { padding: 0.5em !important; }
+    footer .col-6 { padding-top: 1em !important; }
+}
+
+@media screen and (max-width: 480.98px) {
+            
+    /* Encabezado y menú de navegación */
+    header .iconHeader { font-size: 1em; }
+    header p { font-size: 0.5em; }    
+    header h3 { font-size: 0.75em !important; }
+    header .w-50 { width: 50% !important; }
+    header .nav .nav-item .nav-link { font-size: 0.65em !important; padding: 0.75em !important; } 
+    .navbar-toggler { font-size: 0.75em !important; padding: 0.25em !important; }
+    .menu { display: flex !important; flex-direction: column !important; justify-content: flex-start !important; }
+    
+    /* Sección principal - estilos globales */
+    h3 { font-size: 1.25em; }                                                       /* header, carrusel, cualidades, servicios, citas, noticias */
+    p { font-size: 0.6em; }                                                         /* header, cualidades, servicios, citas, noticias */
+    .mr-3 { margin-right: 0.5em !important; }                                       /* header, servicios */
+    .p-3 { padding: 0.5em !important; }                                             /* header, servicios, noticias */    
+    .mb-5 { margin-bottom: 1em !important; }                                        /* carrusel */
+    .my-5 { margin-top: 1em !important; margin-bottom: 1em !important; }            /* carrusel */
+    h2 { font-size: 1.25em; }                                                       /* cualidades, servicios, citas, noticias */
+    .mb-4 { margin-bottom: 0.75em !important; }                                     /* cualidades, servicios, citas, noticias */
+    .pb-4 { padding-bottom: 0.75em !important; }                                    /* cualidades, servicios, citas, noticias */
+    .py-5 { padding-top: 1em !important; padding-bottom: 1em !important; }          /* cualidades, servicios, citas, noticias */
+    .btn { font-size: 0.5em !important; }                                           /* cualidades, servicios, citas, noticias */
+    .ml-3 { margin-left: 0.5em !important; }                                        /* cualidades, servicios, citas, noticias */
+    .pb-5 { padding-bottom: 1em !important; }                                       /* noticias */
+    .my-3 { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }        /* servicios */
+    .py-3 { padding-top: 0.5em !important; padding-bottom: 0.5em !important; }      /* footer */    
+                    
+    /* Sección principal - titulo */
+    .display-4 { font-size: 1.5em !important; }    
+        
+    /* Sección principal - carrusel de imagenes */
+    .carrusel h2 { font-size: 0.75em !important; }
+    .carrusel h3 { font-size: 0.5em !important; }
+    .control-prev, .control-next { font-size: 2em; }
+    .fondoCaption { right: 1.5% !important; left: 1.5% !important; bottom: 4.75% !important; padding-top: 17% !important; padding-bottom: 4% !important; }
+    .carousel-indicators { bottom: -8% !important; } 
+        
+    /* Sección principal - cualidades */            
+    .cualidades .icono { width: 35% !important; }    
+   
+    /* Sección principal - servicios */
+    .servicios .icono { width: 15% !important; }
+    .servicios h6 { font-size: 0.75em; }
+    
+    /* Sección principal - citas */
+    .cita .w-75 { width: 40% !important; }
+      
+    /* Sección principal - noticias */
+    .card { width: 95% !important; }
+    .card-body { padding: 0.75em !important; }
+    .card-title { font-size: 1em !important; }
+    .card-text { font-size: 0.6em !important; }
+    
+    /* Footer */
+    footer a, footer ul li, .copyright { font-size: 0.6em !important; }     
+    footer h5 { font-size: 0.75em !important; }
+    .p-5 { padding: 0.5em !important; }
+    footer .col-6 { padding-top: 1em !important; } 
 }

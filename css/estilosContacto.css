@@ -8,44 +8,54 @@ and open the template in the editor.
     Author     : pcgc7
 */
 
-/* Encabezado */
-header .iconHeader { font-size: 2em; }
-header p { font-size: 1em; }
-header .mr-3 { margin-right: 1em!important; }
-header .py-4 { padding-top: 1.5em !important; padding-bottom: 1.5em !important; }
+/* Encabezado y menú de navegación */
+header .iconHeader { font-size: 1.5em; }
+header p { font-size: 1em; }    
+header h3 { font-size: 1.75em !important; }
+header .w-50 { width: 35% !important; }
+header .nav .nav-item .nav-link { font-size: 1em !important; padding: 1em 3em !important; }
+.navbar-toggler { font-size: 1.75em !important; padding: 0.5em !important; }
 
-/* Menu de navegación */
-header .nav .nav-item .nav-link { font-size: 1.25rem !important; }
-header .nav .nav-item .nav-link .iconNav { font-size: 1.5rem !important; }
-.navbar-toggler { font-size: 2.25em !important; }
-header h3 { font-size: 1.75em!important; }
-.ml-5 { margin-left: 3em! important; }   
+/* Sección principal - estilos globales */
+h3 { font-size: 1.75em; }                                                       /* header */
+.mr-3 { margin-right: 1em !important; }                                         /* header */
+.p-3 { padding: 1em !important; }                                               /* header */        
+.my-3 { margin-top: 1em !important; margin-bottom: 1em !important; }            /* formulario */
+.py-4 { padding-top: 1.25em !important; padding-bottom: 1.25em !important; }    /* formulario */
+.py-3 { padding-top: 1em !important; padding-bottom: 1em !important; }          /* formulario, footer */
 
-/* Titulo */
-.titulo { font-family: 'Bree Serif', serif; font-weight: 400; font-style: normal; }
-.display-4 { font-size: 3.5em!important; }
-.my-4 { margin-top: 1em!important; margin-bottom: 1em!important; }
+/* Sección principal - titulo */
+.display-4 { font-family: 'Bree Serif', serif; font-weight: 400; font-style: normal; font-size: 3.25em !important; }
 
-/* Mapa */
-iframe { width: 100%; height: 475px; }
-.imgCallCenter { width: 100%; height: 500px; }
+/* Sección principal - imagen y mapa */
+h2 { font-size: 2em; }
+.w-100 { width: 95% !important; }
+iframe { width: 95%; height: 84%;  }
 
-/* Formulario de contacto */
-.form-control { font-size: 1em; }
-main label { font-size: 1em; }
-main .btn { font-size: 1em !important; }
+/* Sección principal - formulario de contacto */    
+h4 { font-size: 1.5em; }
+h5 { font-size: 1.25em; }
+main label { font-size: 0.85em; }
+.form-control { font-size: 0.75em; }
+main .btn { font-size: 1em !important; }    
+.px-5 { padding-left: 2em !important; padding-right: 2em !important; }
+.p-5 { padding: 2em !important; }
+.pt-1 { padding-top: 0 !important; }
 
 /* Horario de servicios */
-main ul li { font-size: 1em; }
-main p { font-size: 1em; }
+main ul li { font-size: 0.85em; }
+main p { font-size: 0.85em; }
 
 /* Lista de servicios */
-.icono { width: 15%!important; }
+.w-25 { width: 25% !important; }
+h6 { font-size: 1em; }
+.p-4 { padding: 1.25em !important; }
 
-/* Pie de página */
-footer a, footer ul li, .copyright { font-size: 0.75em!important; }
-footer a { padding-top: 0.5em!important; padding-bottom: 0.5em!important; }
-.p-5 { padding: 3em!important; }
+/* Footer */
+footer a, footer ul li, .copyright { font-size: 0.7em !important; }     
+footer h5 { font-size: 1em !important; }
+.p-5 { padding: 1em !important; }
+footer .col-6 { padding-top: 1em !important; }
 
 /* Estilos para las validaciones en PHP */
 .error { background-color: var(--colorRojo2); }
@@ -56,289 +66,370 @@ footer a { padding-top: 0.5em!important; padding-bottom: 0.5em!important; }
 
 @media screen and (min-width: 1424px) and (max-width: 1647.98px) {
     
-     /* Encabezado */
-    header .iconHeader { font-size: 1.65em; }
-    header p { font-size: 1em; }
-    .mr-3 { margin-right: 1em!important; }
-    header .py-4 { padding-top: 1.5em !important; padding-bottom: 1.5em !important; }
+    /* Encabezado y menú de navegación */
+    header .iconHeader { font-size: 1.5em; }
+    header p { font-size: 0.85em; }    
+    header h3 { font-size: 1.5em !important; }
+    header .w-50 { width: 35% !important; }
+    header .nav .nav-item .nav-link { font-size: 1em !important; padding: 1em 3em !important; } 
+    .navbar-toggler { font-size: 1.5em !important; padding: 0.5em !important; }
+        
+    /* Sección principal - estilos globales */
+    h3 { font-size: 1.75em; }                                                       /* header */
+    .mr-3 { margin-right: 1em !important; }                                         /* header */
+    .p-3 { padding: 1em !important; }                                               /* header */            
+    .my-3 { margin-top: 1em !important; margin-bottom: 1em !important; }            /* formulario */
+    .py-4 { padding-top: 1.25em !important; padding-bottom: 1.25em !important; }    /* formulario */
+    .py-3 { padding-top: 1em !important; padding-bottom: 1em !important; }          /* formulario, footer */
+        
+    /* Sección principal - titulo */
+    .display-4 { font-size: 3em !important; }
     
-    /* Menu de navegación */
-    header .nav .nav-item .nav-link { font-size: 1.25em !important; }
-    header .nav .nav-item .nav-link .iconNav { font-size: 1.5em !important; }
-    header .py-3 { padding: 1rem !important; }    
-    header h3 { font-size: 1.5em!important; }
-    .navbar-toggler { font-size: 1.75em !important; }
-    .ml-3 { margin-left: 1em! important; }
-    header .p-4 { padding: 1em !important; }
-               
-    /* Titulo */
-    .display-4 { font-size: 3.25em!important; }
-    .my-4 { margin-top: 1em!important; margin-bottom: 1em!important; }
+    /* Sección principal - imagen y mapa */
+    h2 { font-size: 2em; }
+    .w-100 { width: 95% !important; }
+    iframe { width: 95%; height: 81%; }
     
-    /* Mapa */
-    iframe { width: 100%; height: 405px; }
-    .imgCallCenter { width: 100%; height: 430px; }
-    
-    /* Formulario de contacto */
-    .form-control { font-size: 1em; }
-    main label { font-size: 1em; }
-    main .btn { font-size: 1em !important; }  
-    main .px-5 { padding-left: 3em !important; padding-right: 3em !important; }
-    main .p-5 { padding: 3em !important; }
+    /* Sección principal - formulario de contacto */    
+    h4 { font-size: 1.5em; }
+    h5 { font-size: 1.25em; }
+    main label { font-size: 0.85em; }
+    .form-control { font-size: 0.75em; }
+    main .btn { font-size: 1em !important; }    
+    .px-5 { padding-left: 2em !important; padding-right: 2em !important; }
+    .p-5 { padding: 2em !important; }
+    .pt-1 { padding-top: 0 !important; }
     
     /* Horario de servicios */
-    main ul li { font-size: 1em; }
-    main p { font-size: 1em; }
+    main ul li { font-size: 0.85em; }
+    main p { font-size: 0.85em; }
     
-     /* Lista de servicios */
-    .icono { width: 15%!important; }
+    /* Lista de servicios */
+    .w-25 { width: 20% !important; }
+    h6 { font-size: 1em; }
+    .p-4 { padding: 1.25em !important; }
     
     /* Footer */
-    footer a, footer ul li, .copyright { font-size: 0.75em!important; }
-    footer a { padding-top: 0.5em!important; padding-bottom: 0.5em!important; }    
-    .p-5 { padding: 2.75em!important; }    
+    footer a, footer ul li, .copyright { font-size: 0.7em !important; }     
+    footer h5 { font-size: 1em !important; }
+    .p-5 { padding: 1em !important; }
+    footer .col-6 { padding-top: 1em !important; }
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1423.98px) {
     
-    /* Encabezado */
+    /* Encabezado y menú de navegación */
     header .iconHeader { font-size: 1.5em; }
-    header p { font-size: 0.75em; }
-    .mr-3 { margin-right: 0.75em!important; }
-    header .py-4 { padding-top: 1.25em !important; padding-bottom: 1.25em !important; }
+    header p { font-size: 0.85em; }    
+    header h3 { font-size: 1.5em !important; }
+    header .w-50 { width: 40% !important; }
+    header .nav .nav-item .nav-link { font-size: 1em !important; padding: 0.75em 3em !important; } 
+    .navbar-toggler { font-size: 1.5em !important; padding: 0.5em !important; }
     
-    /* Menu de navegación */
-    header .nav .nav-item .nav-link { font-size: 1em !important; }
-    header .nav .nav-item .nav-link .iconNav { font-size: 1.5em !important; }
-    header .py-3 { padding: 0.75rem !important; }            
-    header h3 { font-size: 1.25em!important; }
-    .navbar-toggler { font-size: 1.5em !important; }
-    .ml-3 { margin-left: 1em! important; }
-    header .p-4 { padding: 1em !important; }
-                
-    /* Titulo */
-    .display-4 { font-size: 3em!important; }
-    .my-4 { margin-top: 1em!important; margin-bottom: 1em!important; }
+    /* Sección principal - estilos globales */
+    h3 { font-size: 1.5em; }                                                        /* header */
+    .mr-3 { margin-right: 0.75em !important; }                                      /* header */
+    .p-3 { padding: 0.75em !important; }                                            /* header */            
+    .my-3 { margin-top: 0.75em !important; margin-bottom: 0.75em !important; }      /* formulario */
+    .py-4 { padding-top: 1em !important; padding-bottom: 1em !important; }          /* formulario */
+    .py-3 { padding-top: 0.75em !important; padding-bottom: 0.75em !important; }    /* formulario, footer */
+        
+    /* Sección principal - titulo */
+    .display-4 { font-size: 2.75em !important; }
     
-    /* Mapa */
-    iframe { width: 100%; height: 360px; }
-    .imgCallCenter { width: 100%; height: 385px; }
+    /* Sección principal - imagen y mapa */
+    h2 { font-size: 1.75em; }
+    .w-100 { width: 95% !important; }
+    iframe { width: 95%; height: 83%;  }
     
-    /* Formulario de contacto */
-    .form-control { font-size: 0.85em; }
-    main label { font-size: 0.85em; }
-    main .btn { font-size: 0.85em !important; }
-    main h3 { font-size: 1.5em; }
-    main .px-5 { padding-left: 2.5em !important; padding-right: 2.5em !important; }
-    main .p-5 { padding: 2em !important; }
+    /* Sección principal - formulario de contacto */    
+    h4 { font-size: 1.5em; }
+    h5 { font-size: 1em; }
+    main label { font-size: 0.8em; }
+    .form-control { font-size: 0.7em; }
+    main .btn { font-size: 0.75em !important; }    
+    .px-5 { padding-left: 2em !important; padding-right: 2em !important; }
+    .p-5 { padding: 2.25em !important; }
+    .pt-1 { padding-top: 0 !important; }
     
     /* Horario de servicios */
-    main ul li { font-size: 0.85em; }
-    main p { font-size: 0.85em; }
+    main ul li { font-size: 0.8em; }
+    main p { font-size: 0.8em; }
     
-     /* Lista de servicios */
-    .icono { width: 20%!important; }
-    .mr-5 { margin-right: 3em !important; }
+    /* Lista de servicios */
+    .w-25 { width: 15% !important; }
+    h6 { font-size: 1em; }
+    .p-4 { padding: 1em !important; }
    
     /* Footer */
-    footer a, footer ul li, .copyright { font-size: 0.75em!important; }
-    footer a { padding-top: 0.5em!important; padding-bottom: 0.5em!important; }    
-    .p-5 { padding: 2em!important; }    
+    footer a, footer ul li, .copyright { font-size: 0.7em !important; }     
+    footer h5 { font-size: 1em !important; }
+    .p-5 { padding: 1em !important; }
+    footer .col-6 { padding-top: 1em !important; }
  }
 
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
     
-    /* Encabezado */
+    /* Encabezado y menú de navegación */
     header .iconHeader { font-size: 1.5em; }
-    header p { font-size: 0.75em; }
-    .mr-3 { margin-right: 0.75em!important; }
-    header .py-4 { padding-top: 1.25em !important; padding-bottom: 1.25em !important; }
-                   
-    /* Menu de navegación */
-    header .nav .nav-item .nav-link { font-size: 0.75em !important; }
-    header .nav .nav-item .nav-link .iconNav { font-size: 1.5em !important; }
-    header .py-3 { padding: 0.75rem !important; }                     
-    header h3 { font-size: 1em!important; }
-    .navbar-toggler { font-size: 1.25em !important; }
-    .ml-3 { margin-left: 1em! important; }
-    header .p-4 { padding: 0.75em !important; }
-            
-    /* Titulo */
-    .display-4 { font-size: 2.75em!important; }
-    .my-4 { margin-top: 1em!important; margin-bottom: 1em!important; }
+    header p { font-size: 0.85em; }    
+    header h3 { font-size: 1.25em !important; }
+    header .w-50 { width: 40% !important; }
+    header .nav .nav-item .nav-link { font-size: 0.75em !important; padding: 0.75em 3em !important; } 
+    .navbar-toggler { font-size: 1.25em !important; padding: 0.5em !important; }
     
-    /* Mapa */
-    main h2 { font-size: 1.5em;}
-    iframe { width: 100%; height: 360px; }
-    .imgCallCenter { width: 100%; height: 385px; }
+    /* Sección principal - estilos globales */
+    h3 { font-size: 1.5em; }                                                        /* header */
+    .mr-3 { margin-right: 0.75em !important; }                                      /* header */
+    .p-3 { padding: 0.75em !important; }                                            /* header */            
+    .my-3 { margin-top: 0.75em !important; margin-bottom: 0.75em !important; }      /* formulario */
+    .py-4 { padding-top: 1em !important; padding-bottom: 1em !important; }          /* formulario */
+    .py-3 { padding-top: 0.75em !important; padding-bottom: 0.75em !important; }    /* formulario, footer */
+        
+    /* Sección principal - titulo */
+    .display-4 { font-size: 2.5em !important; }
     
-    /* Formulario de contacto */
+    /* Sección principal - imagen y mapa */
+    h2 { font-size: 1.75em; }
+    .w-100 { width: 95% !important; }
+    iframe { width: 95%; height: 79%; }
+    
+    /* Sección principal - formulario de contacto */    
+    h4 { font-size: 1.5em; }
+    h5 { font-size: 1em; }
+    main label { font-size: 0.8em; }
     .form-control { font-size: 0.7em; }
-    main label { font-size: 0.85em; }
-    main .btn { font-size: 0.85em !important; }
-    main h3 { font-size: 1.25em; }
-    main .px-5 { padding-left: 2em !important; padding-right: 2em !important; }
-    main .p-5 { padding: 1.75em !important; }
-    main h6 { font-size: 0.85em; }
+    main .btn { font-size: 0.75em !important; }    
+    .px-5 { padding-left: 2em !important; padding-right: 2em !important; }
+    .p-5 { padding: 2em !important; }
+    .pt-1 { padding-top: 0 !important; }
     
     /* Horario de servicios */
-    main ul li { font-size: 0.85em; }
-    main p { font-size: 0.85em; }
-           
+    main ul li { font-size: 0.8em; }
+    main p { font-size: 0.8em; }
+    
     /* Lista de servicios */
-    .icono { width: 25%!important; }   
-    .mr-5 { margin-right: 2em !important; }
-   
+    .w-25 { width: 15% !important; }
+    h6 { font-size: 1em; }
+    .mt-2 { margin-top: 0 !important; }
+    .p-4 { padding: 1em !important; }
+       
     /* Footer */
-    footer a, footer ul li, .copyright { font-size: 0.75em!important; }
-    footer a { padding-top: 0.5em!important; padding-bottom: 0.5em!important; }    
-    .p-5 { padding: 1.5em!important; }    
+    footer a, footer ul li, .copyright { font-size: 0.7em !important; }     
+    footer h5 { font-size: 1em !important; }
+    .p-5 { padding: 1em !important; }
+    footer .col-6 { padding-top: 1em !important; }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
     
-    /* Encabezado */
-    header .iconHeader { font-size: 1.25em; }
-    header p { font-size: 0.75em; }
-    .mr-3 { margin-right: 0.75em!important; }
-    header .py-4 { padding-top: 1em !important; padding-bottom: 1em !important; }            
-                
-    /* Menu de navegación */
-    header .nav .nav-item .nav-link { font-size: 0.75em !important; }
-    header .nav .nav-item .nav-link .iconNav { font-size: 1.25em !important; }
-    header .py-3 { padding: 0.5em !important; }              
-    header h3 { font-size: 1em!important; }
-    .navbar-toggler { font-size: 1em !important; }
-    .ml-3 { margin-left: 1em! important; }
-    header .p-4 { padding: 0.75em !important; }
+    /* Encabezado y menú de navegación */
+    header .iconHeader { font-size: 1em; }
+    header p { font-size: 0.7em; }    
+    header h3 { font-size: 1.25em !important; }
+    header .w-50 { width: 45% !important; }
+    header .nav .nav-item .nav-link { font-size: 0.75em !important; padding: 0.75em !important; } 
+    .navbar-toggler { font-size: 1.25em !important; padding: 0.25em !important; }
+    .menu { display: flex !important; flex-direction: column !important; justify-content: flex-start !important; }
+    
+    /* Sección principal - estilos globales */
+    h3 { font-size: 1.5em; }                                                        /* header */
+    .mr-3 { margin-right: 0.75em !important; }                                      /* header */
+    .p-3 { padding: 0.75em !important; }                                            /* header */            
+    .my-3 { margin-top: 0.75em !important; margin-bottom: 0.75em !important; }      /* formulario */
+    .py-4 { padding-top: 1em !important; padding-bottom: 1em !important; }          /* formulario */
+    .py-3 { padding-top: 0.75em !important; padding-bottom: 0.75em !important; }    /* formulario, footer */
         
-    /* Titulo */
-    .display-4 { font-size: 2.5em!important; }
-    .my-4 { margin-top: 0.75em!important; margin-bottom: 0.75em!important; }
+    /* Sección principal - titulo */
+    .display-4 { font-size: 2.25em !important; }
     
-    /* Mapa */
-    main h2 { font-size: 1.5em;}
-    iframe { width: 100%; height: 400px; }
-    .imgCallCenter { width: 100%; height: 450px; }
+    /* Sección principal - imagen y mapa */
+    h2 { font-size: 1.5em; }
+    .w-100 { width: 80% !important; }
+    iframe { width: 80%; height: 400px;  }
     
-    /* Formulario de contacto */
+    /* Sección principal - formulario de contacto */    
+    h4 { font-size: 1.25em; }
+    h5 { font-size: 1em; }
+    main label { font-size: 0.8em; }
     .form-control { font-size: 0.7em; }
-    main label { font-size: 0.75em; }
-    main .btn { font-size: 0.85em !important; }
-    main h3 { font-size: 1em; }
-    main h6 { font-size: 0.75em; }
-    main .px-5 { padding-left: 1em !important; padding-right: 1em !important; }
-    main .p-5 { padding: 1.5em !important; }
+    main .btn { font-size: 0.75em !important; }    
+    .px-5 { padding-left: 1.75em !important; padding-right: 1.75em !important; }
+    .p-5 { padding: 1.75em !important; }
+    .pt-1 { padding-top: 0 !important; }
     
     /* Horario de servicios */
-    main ul li { font-size: 0.75em; }
-    main p { font-size: 0.75em; }
+    main ul li { font-size: 0.8em; }
+    main p { font-size: 0.8em; }
     
     /* Lista de servicios */
-    .icono { width: 25%!important; } 
-    .mr-5 { margin-right: 1em !important; }
+    .w-25 { width: 15% !important; }
+    h6 { font-size: 0.75em; }
+    .mt-2 { margin-top: 0.5em !important; }
+    .p-4 { padding: 0.75em !important; }
         
     /* Footer */
-    footer a, footer ul li, .copyright { font-size: 0.65em!important; }    
-    footer h5 { font-size: 1em!important; }
-    footer a { padding-top: 0.5em!important; padding-bottom: 0.5em!important; }
-    .p-5 { padding: 1.5em!important; }
+    footer a, footer ul li, .copyright { font-size: 0.7em !important; }     
+    footer h5 { font-size: 1em !important; }
+    .p-5 { padding: 0.75em !important; }
+    footer .col-6 { padding-top: 1em !important; }
 }
 
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
     
-    /* Encabezado */
+    /* Encabezado y menú de navegación */
     header .iconHeader { font-size: 1em; }
-    header p { font-size: 0.5em; }
-    .mr-3 { margin-right: 0.5em!important; }
-    header .py-4 { padding-top: 0.75em !important; padding-bottom: 0.75em !important; }
-                                    
-    /* Menu de navegación */    
-    header .nav .nav-item .nav-link { font-size: 0.75em !important; padding: 0.75em !important; }
-    header .nav .nav-item .nav-link .iconNav { font-size: 1em !important; }    
-    header h3 { font-size: 0.75em!important; }
-    .navbar-toggler { font-size: 0.75em !important; }
-    .ml-3 { margin-left: 0.75em! important; }
-    header .p-4 { padding: 0.75em !important; }
-                    
-    /* Titulo */
-    .display-4 { font-size: 2.25em!important; }
-    .my-4 { margin-top: 0.75em!important; margin-bottom: 0.75em!important; }
-                
-    /* Mapa */
-    main h2 { font-size: 1.35em;}     
-    .imgCallCenter, iframe { width: 100%; height: 350px; }
-              
-    /* Formulario de contacto */
-    .form-control { font-size: 0.7em; }
+    header p { font-size: 0.6em; }    
+    header h3 { font-size: 1em !important; }
+    header .w-50 { width: 45% !important; }
+    header .nav .nav-item .nav-link { font-size: 0.7em !important; padding: 0.75em !important; } 
+    .navbar-toggler { font-size: 1em !important; padding: 0.25em !important; }
+    .menu { display: flex !important; flex-direction: column !important; justify-content: flex-start !important; }
+    
+    /* Sección principal - estilos globales */
+    h3 { font-size: 1.25em; }                                                     /* header */
+    .mr-3 { margin-right: 0.5em !important; }                                     /* header */
+    .p-3 { padding: 0.5em !important; }                                           /* header */            
+    .my-3 { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }      /* formulario */
+    .py-4 { padding-top: 1em !important; padding-bottom: 1em !important; }        /* formulario */
+    .py-3 { padding-top: 0.5em !important; padding-bottom: 0.5em !important; }    /* formulario, footer */
+        
+    /* Sección principal - titulo */
+    .display-4 { font-size: 2em !important; }
+    
+    /* Sección principal - imagen y mapa */
+    h2 { font-size: 1.5em; }
+    .w-100 { width: 80% !important; }
+    iframe { width: 80%; height: 300px; }
+   
+    /* Sección principal - formulario de contacto */    
+    h4 { font-size: 1.25em; }
+    h5 { font-size: 0.75em; }
     main label { font-size: 0.75em; }
-    main .btn { font-size: 0.85em !important; }
-    main h3 { font-size: 1em; }
-    main h6 { font-size: 0.75em; }
-    main .px-5 { padding-left: 1em !important; padding-right: 1em !important; }
-    main .p-5 { padding: 1.5em !important; }
+    .form-control { font-size: 0.65em; }
+    main .btn { font-size: 0.5em !important; }    
+    .px-5 { padding-left: 1.5em !important; padding-right: 1.5em !important; }
+    .p-5 { padding: 1.5em !important; }
     
     /* Horario de servicios */
-    main ul li { font-size: 0.75em; }
-    main p { font-size: 0.75em; }    
-    .horario { justify-content: flex-start!important; }
+    main ul li { font-size: 0.7em; }
+    main p { font-size: 0.7em; }
     
     /* Lista de servicios */
-    .icono { width: 25%!important; }   
-    .mr-5 { margin-right: 0 !important; }
+    .w-25 { width: 10% !important; }
+    h6 { font-size: 0.75em; }
+    .mt-2 { margin-top: 0.5em !important; }
+    .p-4 { padding: 0.75em !important; }
     
     /* Footer */
-    footer a, footer ul li, .copyright { font-size: 0.65em!important; }    
-    footer h5 { font-size: 1em!important; }
-    .p-5 { padding: 1.5em!important; }
-    footer .col-6 { padding-top: 1em!important; }    
+    footer a, footer ul li, .copyright { font-size: 0.6em !important; }     
+    footer h5 { font-size: 0.75em !important; }
+    .p-5 { padding: 0.75em !important; }
+    footer .col-6 { padding-top: 1em !important; }
 }
 
-@media screen and (max-width: 575.98px) {
+@media screen and (min-width: 481px) and (max-width: 575.98px) {
     
-    /* Encabezado */
+    /* Encabezado y menú de navegación */
     header .iconHeader { font-size: 1em; }
-    header p { font-size: 0.5em; }
-    header .mr-3 { margin-right: 0.5em!important; }
-    header .py-4 { padding-top: 0.75em !important; padding-bottom: 0.75em !important; }
+    header p { font-size: 0.5em; }    
+    header h3 { font-size: 1em !important; }
+    header .w-50 { width: 50% !important; }
+    header .nav .nav-item .nav-link { font-size: 0.65em !important; padding: 0.75em !important; } 
+    .navbar-toggler { font-size: 1em !important; padding: 0.25em !important; }
+    .menu { display: flex !important; flex-direction: column !important; justify-content: flex-start !important; }
     
-    /* Menu de navegación */    
-    header .nav .nav-item .nav-link { font-size: 0.75em !important; padding: 0.75em !important; }
-    header .nav .nav-item .nav-link .iconNav { font-size: 1em !important; }    
-    header h3 { font-size: 0.75em!important; }
-    .navbar-toggler { font-size: 0.75em !important; }
-    .ml-3 { margin-left: 0.75em! important; }              
-    .menu { display: flex; flex-direction: column; justify-content: flex-start ; }
-    .nav-fill .nav-item, .nav-fill>.nav-link { text-align: left; }
+    /* Sección principal - estilos globales */
+    h3 { font-size: 1.25em; }                                                     /* header */
+    .mr-3 { margin-right: 0.5em !important; }                                     /* header */
+    .p-3 { padding: 0.5em !important; }                                           /* header */            
+    .my-3 { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }      /* formulario */
+    .py-4 { padding-top: 1em !important; padding-bottom: 1em !important; }        /* formulario */
+    .py-3 { padding-top: 0.5em !important; padding-bottom: 0.5em !important; }    /* formulario, footer */    
+        
+    /* Sección principal - titulo */
+    .display-4 { font-size: 1.75em !important; }
     
-    /* Titulo */  
-    .display-4 { font-size: 1.75em!important; }
-    main .my-4 { margin-top: 0.75em!important; margin-bottom: 0.75em!important; }
+    /* Sección principal - imagen y mapa */
+    h2 { font-size: 1.25em; }
+    .w-100 { width: 80% !important; }
+    iframe { width: 80%; height: 300px;  }
     
-    /* Mapa */
-    main h2 { font-size: 1.35em;}     
-    .imgCallCenter, iframe { width: 100%; height: 350px; }
-    
-    /* Formulario de contacto */
-    .form-control { font-size: 0.7em; }
+    /* Sección principal - formulario de contacto */    
+    h4 { font-size: 1em; }
+    h5 { font-size: 0.75em; }
     main label { font-size: 0.75em; }
-    main .btn { font-size: 0.85em !important; }
-    main h3 { font-size: 1em; }
-    main h6 { font-size: 0.75em; }
-    main .px-5 { padding-left: 1em !important; padding-right: 1em !important; }
-    main .p-5 { padding: 1.5em !important; }
+    .form-control { font-size: 0.65em; }
+    main .btn { font-size: 0.5em !important; }    
+    .px-5 { padding-left: 1.25em !important; padding-right: 1.25em !important; }
+    .p-5 { padding: 1.5em !important; }
     
     /* Horario de servicios */
-    main ul li { font-size: 0.75em; }
-    main p { font-size: 0.75em; }
+    main ul li { font-size: 0.7em; }
+    main p { font-size: 0.7em; }
     
     /* Lista de servicios */
-    .icono { width: 25%!important; }   
-    .mr-5 { margin-right: 0 !important; }
+    .w-25 { width: 10% !important; }
+    h6 { font-size: 0.75em; }
+    .mt-2 { margin-top: 0.5em !important; }
+    .p-4 { padding: 0.5em !important; }
     
     /* Footer */
-    footer a, footer ul li, .copyright { font-size: 0.65em!important; }     
-    footer h5 { font-size: 0.75em!important; }
-    .p-5 { padding: 1.5em!important; }
-    footer .col-6 { padding-top: 1em!important; } 
+    footer a, footer ul li, .copyright { font-size: 0.6em !important; }     
+    footer h5 { font-size: 0.75em !important; }
+    .p-5 { padding: 0.5em !important; }
+    footer .col-6 { padding-top: 1em !important; }
+}
+
+@media screen and (max-width: 480.98px) {
+            
+    /* Encabezado y menú de navegación */
+    header .iconHeader { font-size: 1em; }
+    header p { font-size: 0.5em; }    
+    header h3 { font-size: 0.75em !important; }
+    header .w-50 { width: 50% !important; }
+    header .nav .nav-item .nav-link { font-size: 0.65em !important; padding: 0.75em !important; } 
+    .navbar-toggler { font-size: 0.75em !important; padding: 0.25em !important; }
+    .menu { display: flex !important; flex-direction: column !important; justify-content: flex-start !important; }
+    
+    /* Sección principal - estilos globales */
+    h3 { font-size: 1.25em; }                                                     /* header */
+    .p-3 { padding: 0.5em !important; }                                           /* header */    
+    .mr-3 { margin-right: 0.5em !important; }                                     /* header */           
+    .my-3 { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }      /* formulario */
+    .py-3 { padding-top: 0.5em !important; padding-bottom: 0.5em !important; }    /* formulario, footer */
+    .py-4 { padding-top: 1em !important; padding-bottom: 1em !important; }        /* formulario */
+                    
+    /* Sección principal - titulo */
+    .display-4 { font-size: 1.5em !important; }
+    
+    /* Sección principal - imagen y mapa */
+    h2 { font-size: 1.25em; }
+    .w-100 { width: 80% !important; }
+    iframe { width: 80%; height: 225px; }
+    
+    /* Sección principal - formulario de contacto */    
+    h4 { font-size: 1em; }
+    h5 { font-size: 0.75em; }
+    main label { font-size: 0.65em; }
+    .form-control { font-size: 0.6em; }
+    main .btn { font-size: 0.5em !important; }    
+    .px-5 { padding-left: 1.25em !important; padding-right: 1.25em !important; }
+    .p-5 { padding: 1.5em !important; }
+    
+    /* Horario de servicios */
+    main ul li { font-size: 0.6em; }
+    main p { font-size: 0.6em; }
+    .mt-2 { margin-top: 0.5em !important; }
+    .p-4 { padding: 0.5em !important; }
+    
+    /* Lista de servicios */
+    .w-25 { width: 10% !important; }
+    h6 { font-size: 0.75em; }
+    
+    /* Footer */
+    footer a, footer ul li, .copyright { font-size: 0.6em !important; }     
+    footer h5 { font-size: 0.75em !important; }
+    .p-5 { padding: 0.5em !important; }
+    footer .col-6 { padding-top: 1em !important; }
 }

@@ -8,282 +8,381 @@ and open the template in the editor.
     Author     : pcgc7
 */
 
-/* Encabezado */
-header .iconHeader { font-size: 2em; }
-header p { font-size: 1em; }
-header .mr-3 { margin-right: 1em!important; }
-header .py-4 { padding-top: 1.5em !important; padding-bottom: 1.5em !important; }
+/* Encabezado y menú de navegación */
+header .iconHeader { font-size: 1.5em; }
+header p { font-size: 1em; }    
+header h3 { font-size: 1.75em !important; }
+header .w-50 { width: 35% !important; }
+header .nav .nav-item .nav-link { font-size: 1em !important; padding: 1em 3em !important; }
+.navbar-toggler { font-size: 2em !important; padding: 0.5em !important; }
 
-/* Menu de navegación */
-header .nav .nav-item .nav-link { font-size: 1.25rem !important; }
-header .nav .nav-item .nav-link .iconNav { font-size: 1.5rem !important; }
-.navbar-toggler { font-size: 2.25em !important; }
-header h3 { font-size: 1.75em!important; }
-.ml-5 { margin-left: 3em! important; }   
+/* Sección principal - estilos globales */
+h3 { font-size: 1.75em; }                                                   /* header */
+p { font-size: 0.85em; }                                                    /* header */
+.mr-3 { margin-right: 1em !important; }                                     /* header */
+.p-3 { padding: 1em !important; }                                           /* header */
+.my-3 { margin-top: 1em !important; margin-bottom: 1em !important; }        /* titulo */
+.my-4 { margin-top: 1.25em !important; margin-bottom: 1.25em !important; }  /* Información de la empresa, equipo de trabajo */
+.p-4 { padding: 1.25em !important; }                                        /* Información de la empresa */
+.mr-4 { margin-right: 1.25em !important; }                                  /* Información de la empresa */
+h2 { font-size: 2em; }                                                      /* Información de la empresa, equipo de trabajo */
+h6 { font-size: 1em; }                                                      /* Información de la empresa, equipo de trabajo */
+h5 { font-size: 1.25em; }                                                   /* Equipo de trabajo */
+.py-3 { padding-top: 1em !important; padding-bottom: 1em !important; }      /* footer */
 
-/* Titulo */
-.titulo { font-family: 'Bree Serif', serif; font-weight: 400; font-style: normal; }
-.display-4 { font-size: 3.5em!important; }
-.my-4 { margin-top: 1em!important; margin-bottom: 1em!important; }
+/* Sección principal - titulo */
+.display-4 { font-family: 'Bree Serif', serif; font-weight: 400; font-style: normal; font-size: 3.25em !important; }
 
-/* Sección principal */
-main h2 { font-size: 2em; }
-main .my-4 { margin-top: 1.5em !important; margin-bottom: 1.5em !important; }
-main .p-4 { padding: 1.25em !important; }    
-main p { font-size: 1em; }    
-.icono { width: 10%!important; }
-main .card-deck .card { flex: 1 0 0%; }
-main h5 { font-size: 1.25em; }
-main h6 { font-size: 1em; } 
-.card-footer small { font-size: 85%; }
-.card-footer i { font-size: 0.75em; }
-.col-xl-4 { max-width: 15%; }
+/* Sección principal - galería de imágenes */
+.m-3 { margin: 1em !important; }
+.mb-3 { margin-bottom: 1em !important; }
+
+/* Sección principal - información de la empresa */
+.icono { width: 5% !important; }
+
+/* Sección principal - equipo de trabajo */
+.card { width: 15% !important; }
+.card-body { padding: 1em !important; }
+.card-footer { padding: 0.75em 1.25em !important; }
+.card-footer i { font-size: 0.7em !important; }
 
 /* Personalización del tooltip */
 .tooltip_custom .tooltip-inner { background-color: #26428b !important; }
 .bs-tooltip-top .arrow::before, .bs-tooltip-auto[x-placement^="top"] .arrow::before { border-top-color: #26428b; border-radius: 1em; }
 
-/* Pie de página */
-footer a, footer ul li, .copyright { font-size: 0.85em!important; }
-.p-5 { padding: 3em!important; }
-footer h5 { font-size: 1.25em!important; }
+/* Footer */
+footer a, footer ul li, .copyright { font-size: 0.7em !important; }     
+footer h5 { font-size: 1em !important; }
+.p-5 { padding: 1em !important; }
+footer .col-6 { padding-top: 1em !important; }
 
 /****************************** Media queries ******************************/
 
 @media screen and (min-width: 1424px) and (max-width: 1647.98px) {
     
-    /* Encabezado */
-    header .iconHeader { font-size: 1.65em; }
-    header p { font-size: 1em; }
-    .mr-3 { margin-right: 1em!important; }
-    header .py-4 { padding-top: 1.5em !important; padding-bottom: 1.5em !important; }
+    /* Encabezado y menú de navegación */
+    header .iconHeader { font-size: 1.5em; }
+    header p { font-size: 0.85em; }    
+    header h3 { font-size: 1.25em !important; }
+    header .w-50 { width: 35% !important; }
+    header .nav .nav-item .nav-link { font-size: 1em !important; padding: 1em 3em !important; } 
+    .navbar-toggler { font-size: 1.5em !important; padding: 0.5em !important; }
+        
+    /* Sección principal - estilos globales */
+    h3 { font-size: 1.75em; }                                                   /* header */
+    p { font-size: 0.85em; }                                                    /* header */
+    .mr-3 { margin-right: 1em !important; }                                     /* header */    
+    .p-3 { padding: 1em !important; }                                           /* header */
+    .my-3 { margin-top: 1em !important; margin-bottom: 1em !important; }        /* titulo */
+    .my-4 { margin-top: 1.25em !important; margin-bottom: 1.25em !important; }  /* Información de la empresa, equipo de trabajo */
+    .p-4 { padding: 1.25em !important; }                                        /* Información de la empresa */
+    .mr-4 { margin-right: 1.25em !important; }                                  /* Información de la empresa */
+    h2 { font-size: 2em; }                                                      /* Información de la empresa, equipo de trabajo */
+    h6 { font-size: 1em; }                                                      /* Información de la empresa, equipo de trabajo */
+    h5 { font-size: 1.25em; }                                                   /* Equipo de trabajo */
+    .py-3 { padding-top: 1em !important; padding-bottom: 1em !important; }      /* footer */
     
-    /* Menu de navegación */
-    header .nav .nav-item .nav-link { font-size: 1.25em !important; }
-    header .nav .nav-item .nav-link .iconNav { font-size: 1.5em !important; }
-    header .py-3 { padding: 1rem !important; }    
-    header h3 { font-size: 1.5em!important; }
-    .navbar-toggler { font-size: 1.75em !important; }
-    .ml-3 { margin-left: 1em! important; }
-    header .p-4 { padding: 1em !important; }
-               
-    /* Titulo */
-    .display-4 { font-size: 3.25em!important; }
-    .my-4 { margin-top: 1em!important; margin-bottom: 1em!important; }
+    /* Sección principal - titulo */
+    .display-4 { font-size: 3em !important; }
     
-    /* Sección principal */        
-    main h2 { font-size: 1.75em; }
-    main .my-4 { margin-top: 1.5em !important; margin-bottom: 1.5em !important; }
-    main .p-4 { padding: 1.5em !important; }    
-    main p { font-size: 1em; }    
-    .icono { width: 10%!important; }
-    main .card-deck .card { flex: 1 0 0%; }
-    main h5 { font-size: 1.25em; }
-    main h6 { font-size: 1em; } 
-    .card-footer small { font-size: 85%; }
-    .card-footer i { font-size: 0.75em; }
-    .col-xl-4 { max-width: 15%; }
+    /* Sección principal - galería de imágenes */
+    .m-3 { margin: 1em !important; }
+    .mb-3 { margin-bottom: 1em !important; }
+    
+    /* Sección principal - información de la empresa */
+    .icono { width: 5% !important; }
+    
+    /* Sección principal - equipo de trabajo */
+    .card { width: 15% !important; }
+    .card-body { padding: 1em !important; }
+    .card-footer { padding: 0.75em 1.25em !important; }
+    .card-footer i { font-size: 0.7em !important; }    
         
     /* Footer */
-    footer a, footer ul li, .copyright { font-size: 0.85em!important; }
-    .p-5 { padding: 2.5em!important; }
-    footer h5 { font-size: 1.25em!important; }
+    footer a, footer ul li, .copyright { font-size: 0.7em !important; }     
+    footer h5 { font-size: 1em !important; }
+    .p-5 { padding: 1em !important; }
+    footer .col-6 { padding-top: 1em !important; }
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1423.98px) {   
     
-    /* Encabezado */
+    /* Encabezado y menú de navegación */
     header .iconHeader { font-size: 1.5em; }
-    header p { font-size: 0.75em; }
-    .mr-3 { margin-right: 0.75em!important; }
-    header .py-4 { padding-top: 1.25em !important; padding-bottom: 1.25em !important; }
+    header p { font-size: 0.85em; }    
+    header h3 { font-size: 1.5em !important; }
+    header .w-50 { width: 40% !important; }
+    header .nav .nav-item .nav-link { font-size: 1em !important; padding: 0.75em 3em !important; } 
+    .navbar-toggler { font-size: 1.5em !important; padding: 0.5em !important; }
     
-    /* Menu de navegación */
-    header .nav .nav-item .nav-link { font-size: 1em !important; }
-    header .nav .nav-item .nav-link .iconNav { font-size: 1.5em !important; }
-    header .py-3 { padding: 0.75rem !important; }            
-    header h3 { font-size: 1.25em!important; }
-    .navbar-toggler { font-size: 1.5em !important; }
-    .ml-3 { margin-left: 1em! important; }
-    header .p-4 { padding: 1em !important; }
-                
-    /* Titulo */
-    .display-4 { font-size: 3em!important; }
-    .my-4 { margin-top: 1em!important; margin-bottom: 1em!important; }
+    /* Sección principal - estilos globales */
+    h3 { font-size: 1.5em; }                                                        /* header */
+    p { font-size: 0.85em; }                                                        /* header */
+    .mr-3 { margin-right: 0.75em !important; }                                      /* header */    
+    .p-3 { padding: 0.75em !important; }                                            /* header */
+    .my-3 { margin-top: 0.75em !important; margin-bottom: 0.75em !important; }      /* titulo */
+    .my-4 { margin-top: 1em !important; margin-bottom: 1em !important; }            /* Información de la empresa, equipo de trabajo */    
+    .p-4 { padding: 1em !important; }                                               /* Información de la empresa */
+    .mr-4 { margin-right: 1em !important; }                                         /* Información de la empresa */
+    h2 { font-size: 1.7em; }                                                        /* Información de la empresa, equipo de trabajo */
+    h6 { font-size: 1em; }                                                          /* Información de la empresa, equipo de trabajo */
+    h5 { font-size: 1em; }                                                          /* Equipo de trabajo */
+    .py-3 { padding-top: 0.75em !important; padding-bottom: 0.75em !important; }    /* footer */
+    
+    /* Sección principal - titulo */
+    .display-4 { font-size: 2.75em !important; }
+    
+    /* Sección principal - galería de imágenes */
+    .m-3 { margin: 0.75em !important; }
+    .mb-3 { margin-bottom: 0.75em !important; }
 
-    /* Sección principal */        
-    main h2 { font-size: 1.5em; }
-    main .my-4 { margin-top: 1.25em !important; margin-bottom: 1.25em !important; }
-    main .p-4 { padding: 1.25em !important; }
-    main p { font-size: 1em; }    
-    .icono { width: 10%!important; }
-    main .card-deck .card { flex: 1 0 30%; }  
-    main h5 { font-size: 1.25em; }
-    main h6 { font-size: 1em; } 
-    .card-footer small { font-size: 85%; }
-    .card-footer i { font-size: 0.75em; }
-    .col-xl-4 { max-width: 31%; }
-
+    /* Sección principal - información de la empresa */
+    .icono { width: 7% !important; }
+    
+    .card { width: 30% !important; }
+    .card-body { padding: 1em !important; }
+    .card-footer { padding: 0.5em 1em !important; }
+    .card-footer i { font-size: 0.7em !important; }
+    
     /* Footer */
-    footer a, footer ul li, .copyright { font-size: 0.75em!important; }
-    .p-5 { padding: 2em!important; }
-    footer h5 { font-size: 1.25em!important; }
+    footer a, footer ul li, .copyright { font-size: 0.7em !important; }     
+    footer h5 { font-size: 1em !important; }
+    .p-5 { padding: 1em !important; }
+    footer .col-6 { padding-top: 1em !important; }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
     
-    /* Encabezado */
+    /* Encabezado y menú de navegación */
     header .iconHeader { font-size: 1.5em; }
-    header p { font-size: 0.75em; }
-    .mr-3 { margin-right: 0.75em!important; }
-    header .py-4 { padding-top: 1.25em !important; padding-bottom: 1.25em !important; }
-                   
-    /* Menu de navegación */
-    header .nav .nav-item .nav-link { font-size: 0.75em !important; }
-    header .nav .nav-item .nav-link .iconNav { font-size: 1.5em !important; }
-    header .py-3 { padding: 0.75rem !important; }                     
-    header h3 { font-size: 1em!important; }
-    .navbar-toggler { font-size: 1.25em !important; }
-    .ml-3 { margin-left: 1em! important; }
-    header .p-4 { padding: 0.75em !important; }
-            
-    /* Titulo */
-    .display-4 { font-size: 2.75em!important; }
-    .my-4 { margin-top: 1em!important; margin-bottom: 1em!important; }
-
-    /* Sección principal */        
-    main h2 { font-size: 1.5em; }
-    main .my-4 { margin-top: 1.25em !important; margin-bottom: 1.25em !important; }
-    main .p-4 { padding: 1.25em !important; }    
-    main p { font-size: 0.85em; }    
-    .icono { width: 10%!important; }
-    main .card-deck .card { flex: 1 0 30%; }        
-    main h5 { font-size: 1.25em; }
-    main h6 { font-size: 1em; } 
-    .card-footer small { font-size: 75%; }
-    .card-footer i { font-size: 0.75em; }
-    .col-lg-4 { max-width: 31%; }
+    header p { font-size: 0.85em; }    
+    header h3 { font-size: 1.25em !important; }
+    header .w-50 { width: 40% !important; }
+    header .nav .nav-item .nav-link { font-size: 0.75em !important; padding: 0.75em 3em !important; } 
+    .navbar-toggler { font-size: 1.25em !important; padding: 0.5em !important; }
+    
+    /* Sección principal - estilos globales */
+    h3 { font-size: 1.5em; }                                                        /* header */
+    p { font-size: 0.8em; }                                                         /* header */
+    .mr-3 { margin-right: 0.75em !important; }                                      /* header */    
+    .p-3 { padding: 0.75em !important; }                                            /* header */
+    .my-3 { margin-top: 0.75em !important; margin-bottom: 0.75em !important; }      /* titulo */
+    .my-4 { margin-top: 1em !important; margin-bottom: 1em !important; }            /* Información de la empresa, equipo de trabajo */   
+    .p-4 { padding: 1em !important; }                                               /* Información de la empresa */
+    .mr-4 { margin-right: 1em !important; }                                         /* Información de la empresa */
+    h2 { font-size: 1.7em; }                                                        /* Información de la empresa, equipo de trabajo */
+    h6 { font-size: 1em; }                                                          /* Información de la empresa, equipo de trabajo */
+    h5 { font-size: 1em; }                                                          /* Equipo de trabajo */
+    .py-3 { padding-top: 0.75em !important; padding-bottom: 0.75em !important; }    /* footer */
+    
+    /* Sección principal - titulo */
+    .display-4 { font-size: 2.5em !important; }
+    
+    /* Sección principal - galería de imágenes */
+    .m-3 { margin: 0.75em !important; }
+    .mb-3 { margin-bottom: 0.75em !important; }
+    
+    /* Sección principal - información de la empresa */
+    .icono { width: 7% !important; }
+    
+    .card { width: 30% !important; }
+    .card-body { padding: 1em !important; }
+    .card-footer { padding: 0.5em 1em !important; }
+    .card-footer i { font-size: 0.7em !important; }            
                     
     /* Footer */
-    footer a, footer ul li, .copyright { font-size: 0.75em!important; }
-    .p-5 { padding: 1.5em!important; }
-    footer h5 { font-size: 1.15em!important; }
+    footer a, footer ul li, .copyright { font-size: 0.7em !important; }     
+    footer h5 { font-size: 1em !important; }
+    .p-5 { padding: 1em !important; }
+    footer .col-6 { padding-top: 1em !important; }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
     
-    /* Encabezado */
-    header .iconHeader { font-size: 1.25em; }
-    header p { font-size: 0.75em; }
-    .mr-3 { margin-right: 0.75em!important; }
-    header .py-4 { padding-top: 1em !important; padding-bottom: 1em !important; }            
-                
-    /* Menu de navegación */
-    header .nav .nav-item .nav-link { font-size: 0.75em !important; }
-    header .nav .nav-item .nav-link .iconNav { font-size: 1.25em !important; }
-    header .py-3 { padding: 0.5em !important; }              
-    header h3 { font-size: 1em!important; }
-    .navbar-toggler { font-size: 1em !important; }
-    .ml-3 { margin-left: 1em! important; }
-    header .p-4 { padding: 0.75em !important; }
+    /* Encabezado y menú de navegación */
+    header .iconHeader { font-size: 1em; }
+    header p { font-size: 0.7em; }    
+    header h3 { font-size: 1.25em !important; }
+    header .w-50 { width: 45% !important; }
+    header .nav .nav-item .nav-link { font-size: 0.75em !important; padding: 0.75em !important; } 
+    .navbar-toggler { font-size: 1.25em !important; padding: 0.25em !important; }
+    .menu { display: flex !important; flex-direction: column !important; justify-content: flex-start !important; }
+    
+    /* Sección principal - estilos globales */
+    h3 { font-size: 1.5em; }                                                        /* header */
+    p { font-size: 0.7em; }                                                         /* header */
+    .mr-3 { margin-right: 0.75em !important; }                                      /* header */    
+    .p-3 { padding: 0.75em !important; }                                            /* header */
+    .my-3 { margin-top: 0.75em !important; margin-bottom: 0.75em !important; }      /* titulo */
+    .my-4 { margin-top: 0.75em !important; margin-bottom: 0.75em !important; }      /* Información de la empresa, equipo de trabajo */
+    .p-4 { padding: 0.75em !important; }                                            /* Información de la empresa */
+    .mr-4 { margin-right: 0.75em !important; }                                      /* Información de la empresa */
+    h2 { font-size: 1.35em; }                                                       /* Información de la empresa, equipo de trabajo */
+    h6 { font-size: 0.75em; }                                                       /* Información de la empresa, equipo de trabajo */
+    h5 { font-size: 1em; }                                                          /* Equipo de trabajo */
+    .py-3 { padding-top: 0.75em !important; padding-bottom: 0.75em !important; }    /* footer */
         
-    /* Titulo */
-    .display-4 { font-size: 2.5em!important; }
-    .my-4 { margin-top: 0.75em!important; margin-bottom: 0.75em!important; }
+    /* Sección principal - titulo */
+    .display-4 { font-size: 2.25em !important; }
 
-    /* Sección principal */        
-    main h2 { font-size: 1.25em; }
-    main .my-4 { margin-top: 1em !important; margin-bottom: 1em !important; }
-    main .p-4 { padding: 1em !important; }    
-    main p { font-size: 0.85em; }    
-    .icono { width: 10%!important; }
-    main .card-deck .card { flex: 1 0 30%; }        
-    main h5 { font-size: 1.15em; }
-    main h6 { font-size: 0.85em; } 
-    .card-footer small { font-size: 75%; }
-    .card-footer i { font-size: 0.75em; }
-    .col-md-6 { max-width: 47%; }
+    /* Sección principal - galería de imágenes */
+    .m-3 { margin: 0.75em !important; }
+    .mb-3 { margin-bottom: 0.75em !important; }
+    
+    /* Sección principal - información de la empresa */
+    .icono { width: 7% !important; }
+    
+    .card { width: 45% !important; }
+    .card-body { padding: 0.75em !important; }
+    .card-footer { padding: 0.5em 0.75em !important; }
+    .card-footer i { font-size: 0.6em !important; }        
     
     /* Footer */
-    footer a, footer ul li, .copyright { font-size: 0.65em!important; }
-    .p-5 { padding: 1.5em!important; }
-    footer h5 { font-size: 1em!important; }
+    footer a, footer ul li, .copyright { font-size: 0.7em !important; }     
+    footer h5 { font-size: 1em !important; }
+    .p-5 { padding: 0.75em !important; }
+    footer .col-6 { padding-top: 1em !important; }
 }
 
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
     
-    /* Encabezado */
+    /* Encabezado y menú de navegación */
     header .iconHeader { font-size: 1em; }
-    header p { font-size: 0.5em; }
-    .mr-3 { margin-right: 0.5em!important; }
-    header .py-4 { padding-top: 0.75em !important; padding-bottom: 0.75em !important; }
-                                    
-    /* Menu de navegación */    
-    header .nav .nav-item .nav-link { font-size: 0.75em !important; padding: 0.75em !important; }
-    header .nav .nav-item .nav-link .iconNav { font-size: 1em !important; }    
-    header h3 { font-size: 0.75em!important; }
-    .navbar-toggler { font-size: 0.75em !important; }
-    .ml-3 { margin-left: 0.75em! important; }
-    header .p-4 { padding: 0.75em !important; }
-                    
-    /* Titulo */
-    .display-4 { font-size: 2.25em!important; }
-    .my-4 { margin-top: 0.75em!important; margin-bottom: 0.75em!important; }
+    header p { font-size: 0.6em; }    
+    header h3 { font-size: 1em !important; }
+    header .w-50 { width: 45% !important; }
+    header .nav .nav-item .nav-link { font-size: 0.7em !important; padding: 0.75em !important; } 
+    .navbar-toggler { font-size: 1em !important; padding: 0.25em !important; }
+    .menu { display: flex !important; flex-direction: column !important; justify-content: flex-start !important; }
+    
+    /* Sección principal - estilos globales */
+    h3 { font-size: 1.25em; }                                                     /* header */
+    p { font-size: 0.6em; }                                                       /* header */
+    .mr-3 { margin-right: 0.5em !important; }                                     /* header */    
+    .p-3 { padding: 0.5em !important; }                                           /* header */
+    .my-3 { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }      /* titulo */
+    .my-4 { margin-top: 0.75em !important; margin-bottom: 0.75em !important; }    /* Información de la empresa, equipo de trabajo */
+    .p-4 { padding: 0.75em !important; }                                          /* Información de la empresa */
+    .mr-4 { margin-right: 0.75em !important; }                                    /* Información de la empresa */
+    h2 { font-size: 1.35em; }                                                     /* Información de la empresa, equipo de trabajo */
+    h6 { font-size: 0.75em; }                                                     /* Información de la empresa, equipo de trabajo */
+    h5 { font-size: 0.75em; }                                                     /* Equipo de trabajo */
+    .py-3 { padding-top: 0.5em !important; padding-bottom: 0.5em !important; }    /* footer */
+    
+    /* Sección principal - titulo */
+    .display-4 { font-size: 2em !important; }
+    
+    /* Sección principal - galería de imágenes */
+    .m-3 { margin: 0.5em !important; }
+    .mb-3 { margin-bottom: 0.5em !important; }
 
-    /* Sección principal */        
-    main h2 { font-size: 1.5em; }
-    main .my-4 { margin-top: 1em !important; margin-bottom: 1em !important; }
-    main .p-4 { padding: 1em !important; }
-    main p { font-size: 0.75em; }
-    .icono { width: 10%!important; }
-    main .card-deck .card { flex: 1 0 30%; }
-    main h5 { font-size: 1em; }
-    main h6 { font-size: 0.75em; }                                       
-    .card-footer small { font-size: 70%; }
-    .card-footer i { font-size: 0.65em; }
-    .col-sm-6 { max-width: 46%; }
+    /* Sección principal - información de la empresa */
+    .icono { width: 10% !important; }
+    
+    .card { width: 45% !important; }
+    .card-body { padding: 0.75em !important; }    
+    .card-footer { padding: 0.25em 0.75em !important; }
+    .card-footer i { font-size: 0.6em !important; }        
 
     /* Footer */
-    footer a, footer ul li, .copyright { font-size: 0.65em!important; }     
-    footer h5 { font-size: 1em!important; }
-    .p-5 { padding: 1.5em!important; }
-    footer .col-sm-6 { padding-top: 1em!important; } 
+    footer a, footer ul li, .copyright { font-size: 0.6em !important; }     
+    footer h5 { font-size: 0.75em !important; }
+    .p-5 { padding: 0.75em !important; }
+    footer .col-6 { padding-top: 1em !important; }
 }
 
-@media screen and (max-width: 575.98px) {
+@media screen and (min-width: 481px) and (max-width: 575.98px) {
     
-    /* Encabezado */
+    /* Encabezado y menú de navegación */
     header .iconHeader { font-size: 1em; }
-    header p { font-size: 0.5em; }
-    header .mr-3 { margin-right: 0.5em!important; }
-    header .py-4 { padding-top: 0.75em !important; padding-bottom: 0.75em !important; }
+    header p { font-size: 0.5em; }    
+    header h3 { font-size: 1em !important; }
+    header .w-50 { width: 50% !important; }
+    header .nav .nav-item .nav-link { font-size: 0.65em !important; padding: 0.75em !important; } 
+    .navbar-toggler { font-size: 1em !important; padding: 0.25em !important; }
+    .menu { display: flex !important; flex-direction: column !important; justify-content: flex-start !important; }
     
-    /* Menu de navegación */    
-    header .nav .nav-item .nav-link { font-size: 0.75em !important; padding: 0.75em !important; }
-    header .nav .nav-item .nav-link .iconNav { font-size: 1em !important; }    
-    header h3 { font-size: 0.75em!important; }
-    .navbar-toggler { font-size: 0.75em !important; }
-    .ml-3 { margin-left: 0.75em! important; }              
-    .menu { display: flex; flex-direction: column; justify-content: flex-start ; }
-    .nav-fill .nav-item, .nav-fill>.nav-link { text-align: left; }
+    /* Sección principal - estilos globales */
+    h3 { font-size: 1.25em; }                                                     /* header */
+    p { font-size: 0.6em; }                                                       /* header */
+    .mr-3 { margin-right: 0.5em !important; }                                     /* header */    
+    .p-3 { padding: 0.5em !important; }                                           /* header */
+    .my-3 { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }      /* titulo */
+    .my-4 { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }      /* Información de la empresa, equipo de trabajo */
+    .p-4 { padding: 0.5em !important; }                                           /* Información de la empresa */
+    .mr-4 { margin-right: 0.5em !important; }                                     /* Información de la empresa */
+    h2 { font-size: 1em; }                                                        /* Información de la empresa, equipo de trabajo */
+    h6 { font-size: 0.75em; }                                                     /* Información de la empresa, equipo de trabajo */
+    h5 { font-size: 0.75em; }                                                     /* Equipo de trabajo */
+    .py-3 { padding-top: 0.5em !important; padding-bottom: 0.5em !important; }    /* footer */
+        
+    /* Sección principal - titulo */
+    .display-4 { font-size: 1.75em !important; }
     
-    /* Titulo */  
-    .display-4 { font-size: 1.75em!important; }
-    main .my-4 { margin-top: 0.75em!important; margin-bottom: 0.75em!important; }
+    /* Sección principal - galería de imágenes */
+    .m-3 { margin: 0.5em !important; }
+    .mb-3 { margin-bottom: 0.5em !important; }
             
-    /* Sección principal */  
-    .display-4 { font-size: 1.75em!important; }
-    main .my-4 { margin-top: 0.75em!important; margin-bottom: 0.75em!important; }
-    .galeria .col-6 { max-width: 50%; }
-    main h2 { font-size: 1.75em; }
-    .card-body h5 { font-size: 1em; }
-    .card-body h6 { font-size: 0.85em; }
-    .card-text { font-size: 0.75em !important; }       
-    .col-6 { max-width: 46%; }
+    /* Sección principal - información de la empresa */
+    .icono { width: 5% !important; }
+    
+    /* Sección principal - equipo de trabajo */
+    .card { width: 45% !important; }
+    .card-body { padding: 0.5em !important; }    
+    .card-footer { padding: 0.25em 0.5em !important; }
+    .card-footer i { font-size: 0.6em !important; }   
 
     /* Footer */
-    footer a, footer ul li, .copyright { font-size: 0.65em!important; }     
-    footer h5 { font-size: 0.75em!important; }
-    .p-5 { padding: 1.5em!important; }
-    footer .col-6 { padding-top: 1em!important; } 
+    footer a, footer ul li, .copyright { font-size: 0.6em !important; }     
+    footer h5 { font-size: 0.75em !important; }
+    .p-5 { padding: 0.5em !important; }
+    footer .col-6 { padding-top: 1em !important; }
+}
+
+@media screen and (max-width: 480.98px) {
+            
+    /* Encabezado y menú de navegación */
+    header .iconHeader { font-size: 1em; }
+    header p { font-size: 0.5em; }    
+    header h3 { font-size: 0.75em !important; }
+    header .w-50 { width: 50% !important; }
+    header .nav .nav-item .nav-link { font-size: 0.65em !important; padding: 0.75em !important; } 
+    .navbar-toggler { font-size: 0.75em !important; padding: 0.25em !important; }
+    .menu { display: flex !important; flex-direction: column !important; justify-content: flex-start !important; }
+    
+    /* Sección principal - estilos globales */
+    h3 { font-size: 1.25em; }                                                     /* header */
+    p { font-size: 0.6em; }                                                       /* header */
+    .mr-3 { margin-right: 0.5em !important; }                                     /* header */    
+    .p-3 { padding: 0.5em !important; }                                           /* header */
+    .my-3 { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }      /* titulo */
+    .my-4 { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }      /* Información de la empresa, equipo de trabajo */
+    .p-4 { padding: 0.5em !important; }                                           /* Información de la empresa */
+    .mr-4 { margin-right: 0.5em !important; }                                     /* Información de la empresa */
+    h2 { font-size: 1em; }                                                        /* Información de la empresa, equipo de trabajo */
+    h6 { font-size: 0.75em; }                                                     /* Información de la empresa, equipo de trabajo */
+    h5 { font-size: 0.75em; }                                                     /* Equipo de trabajo */
+    .py-3 { padding-top: 0.5em !important; padding-bottom: 0.5em !important; }    /* footer */
+    
+    /* Sección principal - titulo */
+    .display-4 { font-size: 1.5em !important; }
+    
+    /* Sección principal - galería de imágenes */
+    .m-3 { margin: 0.5em !important; }
+    .mb-3 { margin-bottom: 0.5em !important; }
+    
+    /* Sección principal - información de la empresa */
+    .icono { width: 5% !important; }
+    
+    /* Sección principal - equipo de trabajo */
+    .card { width: 45% !important; }
+    .card-body { padding: 0.5em !important; }    
+    .card-footer { padding: 0.25em 0.5em !important; }
+    .card-footer i { font-size: 0.6em !important; }
+        
+    /* Footer */
+    footer a, footer ul li, .copyright { font-size: 0.6em !important; }     
+    footer h5 { font-size: 0.75em !important; }
+    .p-5 { padding: 0.5em !important; }
+    footer .col-6 { padding-top: 1em !important; }
 }
