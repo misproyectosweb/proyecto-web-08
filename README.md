@@ -1,4 +1,5 @@
-# Proyecto Web 08
+# Proyecto Web 08: taller de servicio automotriz
+
 Sitio web que muestra y describe información de los servicios de un taller de servicio automotriz
 
 Sitio web creado con las siguientes herramientas a nivel de front-end y back-end:
